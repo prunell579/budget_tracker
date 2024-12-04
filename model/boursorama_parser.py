@@ -12,7 +12,7 @@ def csv_file_to_list_of_dicts(csv_filepath):
         return [row for row in reader]
 
 def european_number_string_to_float(european_number: str):
-    float(european_number.replace(" ", "").replace('.', '').replace(',', '.'))
+    return float(european_number.replace(" ", "").replace('.', '').replace(',', '.'))
 
 def normalize_dict_from_boursorama(boursorama_format_dict) -> dict:
     standard_format_dict = {
@@ -23,9 +23,7 @@ def normalize_dict_from_boursorama(boursorama_format_dict) -> dict:
                             }
     return standard_format_dict
 
-
-if __name__ == '__main__':
-
+def normalize_dicts_from_boursorama() -> list[dict]: 
     normalized_dicts = []
     for csv_filepath in get_list_of_csv_files():
         for dict_with_boursorama_data in csv_file_to_list_of_dicts(csv_filepath):
@@ -34,4 +32,7 @@ if __name__ == '__main__':
                 continue
 
             normalized_dicts.append(normalize_dict_from_boursorama(dict_with_boursorama_data))
+
+    return normalized_dicts
+
 
