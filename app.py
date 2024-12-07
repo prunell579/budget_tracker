@@ -6,9 +6,11 @@ import model.operations as ops
 
 app = Flask(__name__)
 
+# Global variable for the database
+user_db =  ops.OperationsDatabase.load_from_json()
+
 @app.route('/')
 def index():
-    user_db = ops.OperationsDatabase.load_from_json()
 
     # Calculate the total amounts per category
     categories = [
