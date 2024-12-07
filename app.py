@@ -17,11 +17,21 @@ def index():
                     ops.Operation.SupportedCategories('SAVINGS')
                 ]
     
+
     category_totals = {}
     for category in categories:
-        category_totals[category.value] = user_db.compute_amount_per_category(category)
-    
-    return render_template('index.html', category_totals=category_totals)
+        category_totals[category.value] = user_db.compute_amount_per_category(category, fabs=True)
+
+    # hardcoded values for budget
+    budgeted_amounts = {
+                        ops.Operation.SupportedCategories('LIVING').value: 900.00,
+                        ops.Operation.SupportedCategories('WANTS').value: 560.00,
+                        ops.Operation.SupportedCategories('SAVINGS').value: 750.00,
+                        }
+
+    return render_template('index.html', categories=[cat.value for cat in categories],
+                                        spent_amounts=category_totals,
+                                        budgeted_amounts=budgeted_amounts)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -89,8 +89,12 @@ class OperationsDatabase():
         self.operations[operation.id] = operation
         self.processed_operations_ids.add(operation.id)
 
-    def compute_amount_per_category(self, category: Operation.SupportedCategories, start_date=None, end_date=None):
-        return sum(op.amount for op in self.get_operations_by_category(category))
+    def compute_amount_per_category(self, category: Operation.SupportedCategories, fabs=False, start_date=None, end_date=None):
+        amount = sum(op.amount for op in self.get_operations_by_category(category))
+        if fabs:
+            amount = abs(amount)
+
+        return amount
 
     def jsonfy(self):
         operations_db_as_dict = dict.fromkeys(asdict(self).keys())

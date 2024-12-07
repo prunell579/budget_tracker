@@ -3,56 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operation Categories Summary</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-        table {
-            width: 50%;
-            margin: 20px auto;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 10px;
-            text-align: center;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .total {
-            font-weight: bold;
-        }
-    </style>
+    <title>Budget vs Spent</title>
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+    <h1>Budget vs Spent Per Category</h1>
 
-    <h1>Operations by Category</h1>
+    <!-- Create a canvas for the chart -->
+    <canvas id="myChart" width="400" height="200"></canvas>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Total Amount</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>LIVING</td>
-                <td>{{ category_totals['LIVING'] }}</td>
-            </tr>
-            <tr>
-                <td>WANTS</td>
-                <td>{{ category_totals['WANTS'] }}</td>
-            </tr>
-            <tr>
-                <td>SAVINGS</td>
-                <td>{{ category_totals['SAVINGS'] }}</td>
-            </tr>
-        </tbody>
-    </table>
+    <script>
+        // Data for the chart
+        const categories = {{ categories | tojson }};
+        const spentAmounts = {{ spent_amounts | tojson }};
+        const budgetedAmounts = {{ budgeted_amounts | tojson }};
 
+        // Create the bar chart using Chart.js
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar', // Bar chart type
+            data: {
+                labels: categories, // Categories on the X-axis
+                datasets: [
+                    {
+                        label: 'Amount Spent',
+                        data: spentAmounts, // Amounts spent on the Y-axis
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Budgeted Amount',
+                        data: budgetedAmounts, // Budgeted amounts on the Y-axis
+                        backgroundColor: 'rgba(255, 159, 64, 0.2)',
+                        borderColor: 'rgba(255, 159, 64, 1)',
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'top'
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 </html>
