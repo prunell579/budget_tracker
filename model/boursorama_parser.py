@@ -18,7 +18,7 @@ def normalize_dict_from_boursorama(boursorama_format_dict) -> dict:
     standard_format_dict = {
                             'date': datetime.fromisoformat(boursorama_format_dict['dateVal']),
                             'amount': european_number_string_to_float(boursorama_format_dict['amount']),
-                            'description': boursorama_format_dict['category'],
+                            'description': boursorama_format_dict['label'],
                             'account_label': 'boursorama',
                             }
     return standard_format_dict

@@ -1,357 +1,357 @@
 {
     "operations": {
-        "eb23072b77c17d97b396ad45e5af9c14cf86d863ec40bc5d6058cccc1ab657d9": {
+        "bafe671d4c3a78e2467d8b5b719d5ce472236bf981f8ecffa159d826f6fa4f20": {
             "date": "2024-12-02T00:00:00",
             "amount": -4.0,
-            "description": "Non catégorisé",
+            "description": "CARTE 28/11/24 ÑCUMUL CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "eb23072b77c17d97b396ad45e5af9c14cf86d863ec40bc5d6058cccc1ab657d9"
+            "id": "bafe671d4c3a78e2467d8b5b719d5ce472236bf981f8ecffa159d826f6fa4f20"
         },
-        "bb08f103a7d9af72bf77c0c2c606085dd470a653929b6b878b26352aacf0ae32": {
+        "93104a18348ba0625dfd85d9304af95d71b238c24f2cc984b0b8d49a51f4c0e3": {
             "date": "2024-12-02T00:00:00",
             "amount": -747.47,
-            "description": "Virements émis de comptes à comptes",
+            "description": "VIR apport compte joint - Mario",
             "account_label": "boursorama",
             "category": null,
-            "id": "bb08f103a7d9af72bf77c0c2c606085dd470a653929b6b878b26352aacf0ae32"
+            "id": "93104a18348ba0625dfd85d9304af95d71b238c24f2cc984b0b8d49a51f4c0e3"
         },
-        "91bacb2e44eb0a571ba1981dcddd01f83eb0631a8da398c7e03872d67612c16a": {
+        "31420fe9e79f75ee553ec536205bf56fb50800fbd9db1c713283d2dfe77f09da": {
             "date": "2024-11-27T00:00:00",
             "amount": -4.0,
-            "description": "Non catégorisé",
+            "description": "CARTE 25/11/24 ÑCUMUL CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "91bacb2e44eb0a571ba1981dcddd01f83eb0631a8da398c7e03872d67612c16a"
+            "id": "31420fe9e79f75ee553ec536205bf56fb50800fbd9db1c713283d2dfe77f09da"
         },
-        "e34df255b90cc8510e4e8c6708ae050ff24aaa329221a264364e90da2c225795": {
+        "36d02ed9b4b6885dffeeed2f455b1bc387461e27cb7de23df147ff808c6dd927": {
             "date": "2024-11-27T00:00:00",
             "amount": 2593.48,
-            "description": "Virements reçus",
+            "description": "VIR SEPA SIEMENS INDUSTRY SOFTWARE SAS",
             "account_label": "boursorama",
             "category": null,
-            "id": "e34df255b90cc8510e4e8c6708ae050ff24aaa329221a264364e90da2c225795"
+            "id": "36d02ed9b4b6885dffeeed2f455b1bc387461e27cb7de23df147ff808c6dd927"
         },
-        "c0e1d974cf6953cd8c27c7de0c77cf3814cceb16c6a26fd3780f72d7b0893bf9": {
+        "c67a7d12449b1153f6b7d13dfe5906afe6904beee44eaf1e7a954a2356cbebd9": {
             "date": "2024-11-26T00:00:00",
             "amount": -3.79,
-            "description": "Vie Quotidienne - Autres",
+            "description": "CARTE 25/11/24 LA POSTE.FR CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "c0e1d974cf6953cd8c27c7de0c77cf3814cceb16c6a26fd3780f72d7b0893bf9"
+            "id": "c67a7d12449b1153f6b7d13dfe5906afe6904beee44eaf1e7a954a2356cbebd9"
         },
-        "c48ba40017c81e738fa0dbc2f25fecee5b3eafb51a5be3de67a8193186ae0f0c": {
+        "38100af5048085e7f0e920e0f12d129770762d175cca4ad3d19d57044588e4d1": {
             "date": "2024-11-25T00:00:00",
             "amount": -696.0,
-            "description": "Virements émis",
+            "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
             "category": null,
-            "id": "c48ba40017c81e738fa0dbc2f25fecee5b3eafb51a5be3de67a8193186ae0f0c"
+            "id": "38100af5048085e7f0e920e0f12d129770762d175cca4ad3d19d57044588e4d1"
         },
-        "681078c8a58dbe568559a17f7908e69dcbc947921cebf38e3629a9136916b861": {
+        "3b05bd29801e6e803c0d0f3692b4b860d10ac4c69db4b53bcf22171c7e2fa94d": {
             "date": "2024-11-25T00:00:00",
             "amount": 696.0,
-            "description": "Virements reçus de comptes à comptes",
+            "description": "VIR SELF LOAN mexico",
             "account_label": "boursorama",
             "category": null,
-            "id": "681078c8a58dbe568559a17f7908e69dcbc947921cebf38e3629a9136916b861"
+            "id": "3b05bd29801e6e803c0d0f3692b4b860d10ac4c69db4b53bcf22171c7e2fa94d"
         },
-        "5d2710a0bca859fe3a4c4b9c588a0ab0af329a85b9e347584b80d54fdf7929cf": {
+        "eaf97edc69122b0b2b1e0fec9fef811510296e83ad376a5b2a7a5fbcc54ad96f": {
             "date": "2024-11-25T00:00:00",
             "amount": -91.76,
-            "description": "Virements émis",
+            "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
             "category": null,
-            "id": "5d2710a0bca859fe3a4c4b9c588a0ab0af329a85b9e347584b80d54fdf7929cf"
+            "id": "eaf97edc69122b0b2b1e0fec9fef811510296e83ad376a5b2a7a5fbcc54ad96f"
         },
-        "50d85b1d74b1f7ae5fc3b944cffd4ba55d9f0a609fa9b0268875c88349295ece": {
+        "c025c8b547f3fb9e208f775b027efe9cb7981ef2585878bf76e9c34e3a469628": {
             "date": "2024-11-25T00:00:00",
             "amount": 91.76,
-            "description": "Remboursements",
+            "description": "VIR INTERNAL regularisation cc oct",
             "account_label": "boursorama",
             "category": null,
-            "id": "50d85b1d74b1f7ae5fc3b944cffd4ba55d9f0a609fa9b0268875c88349295ece"
+            "id": "c025c8b547f3fb9e208f775b027efe9cb7981ef2585878bf76e9c34e3a469628"
         },
-        "35eda4ccda1c784732a91e14a98ef2be96db4ccb975e283c713af859ee030e26": {
+        "f8284a02543e66ada194f8220c460c8da6c3c0ace287bf214e535fae913aa495": {
             "date": "2024-11-25T00:00:00",
             "amount": -279.45,
-            "description": "Virements émis",
+            "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
             "category": null,
-            "id": "35eda4ccda1c784732a91e14a98ef2be96db4ccb975e283c713af859ee030e26"
+            "id": "f8284a02543e66ada194f8220c460c8da6c3c0ace287bf214e535fae913aa495"
         },
-        "d42cecd250abd990765e94efd49f6caf000d1cc24b2c440be24e3482f2702dc7": {
+        "28418d4f589037e65a84a1d7092cad24e12627e04e19383ddef893fce81ac07d": {
             "date": "2024-11-25T00:00:00",
             "amount": -20.0,
-            "description": "Retraits cash",
+            "description": "RETRAIT DAB 24/11/24 LYON PERRAC CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "d42cecd250abd990765e94efd49f6caf000d1cc24b2c440be24e3482f2702dc7"
+            "id": "28418d4f589037e65a84a1d7092cad24e12627e04e19383ddef893fce81ac07d"
         },
-        "d7948ebf07ed701ddc57591007e4da88fc6843d5a1859a4e3718bdf8a8f407d6": {
+        "4820f58bca8d68325b4a5d2f401b8a7ba40a50042ab01183ef3b8389977d5787": {
             "date": "2024-11-22T00:00:00",
             "amount": -2.07,
-            "description": "Alimentation",
+            "description": "CARTE 21/11/24 CAREREFOUR CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "d7948ebf07ed701ddc57591007e4da88fc6843d5a1859a4e3718bdf8a8f407d6"
+            "id": "4820f58bca8d68325b4a5d2f401b8a7ba40a50042ab01183ef3b8389977d5787"
         },
-        "1fe8e0a2c697bfa43078be80b1b99f06c0cb7089623705681b752e2e336ec947": {
+        "24d8169482bd52855efce2440fcf1154374b5c5b70cbea30310f0ed75af7fdb5": {
             "date": "2024-11-22T00:00:00",
             "amount": -2.0,
-            "description": "Non catégorisé",
+            "description": "CARTE 20/11/24 ÑCUMUL CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "1fe8e0a2c697bfa43078be80b1b99f06c0cb7089623705681b752e2e336ec947"
+            "id": "24d8169482bd52855efce2440fcf1154374b5c5b70cbea30310f0ed75af7fdb5"
         },
-        "6e1209a9e5e431549f0f46ceee14ee6668103634e56548913cbdc0bd432d0ea5": {
+        "6bf9b2c901753cf967eaf72e30d3d7531ae2a06de3688cdbdccd076abb3ff217": {
             "date": "2024-11-20T00:00:00",
             "amount": -92.0,
-            "description": "Virements émis",
+            "description": "VIR billet Mario",
             "account_label": "boursorama",
             "category": null,
-            "id": "6e1209a9e5e431549f0f46ceee14ee6668103634e56548913cbdc0bd432d0ea5"
+            "id": "6bf9b2c901753cf967eaf72e30d3d7531ae2a06de3688cdbdccd076abb3ff217"
         },
-        "cc73d376fba8b1ba01e7de6c4d687b5cd55e62f8075aea1d10d860fa9daca69e": {
+        "107bf3a8af1e4b09a1628c881cc78a78cc7b350878454e057e6bd993c7c64c0d": {
             "date": "2024-11-20T00:00:00",
             "amount": -148.2,
-            "description": "Virements émis",
+            "description": "VIR Dyson Mario",
             "account_label": "boursorama",
             "category": null,
-            "id": "cc73d376fba8b1ba01e7de6c4d687b5cd55e62f8075aea1d10d860fa9daca69e"
+            "id": "107bf3a8af1e4b09a1628c881cc78a78cc7b350878454e057e6bd993c7c64c0d"
         },
-        "4a2d898fc2b046a8561fe28681842a3476003c02544fe5d7f0341d533182754f": {
+        "e3f1848e497b98de51f9d107ea5e194b99b8ddee563f8d5969d70d8f1650efae": {
             "date": "2024-11-20T00:00:00",
             "amount": 148.2,
-            "description": "Virements reçus de comptes à comptes",
+            "description": "VIR Dyson",
             "account_label": "boursorama",
             "category": null,
-            "id": "4a2d898fc2b046a8561fe28681842a3476003c02544fe5d7f0341d533182754f"
+            "id": "e3f1848e497b98de51f9d107ea5e194b99b8ddee563f8d5969d70d8f1650efae"
         },
-        "9536f12d0f5ba6a24420c3d5759e9fe01d906f1bac55bb7a3ba383e5fa44a23a": {
+        "cd185d0e2db63a98e30ad6fc099902ec01bfbcecced48bfdd4c27bd048fd371d": {
             "date": "2024-11-19T00:00:00",
             "amount": -3.62,
-            "description": "Alimentation",
+            "description": "CARTE 18/11/24 CARREFOUR CITY CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "9536f12d0f5ba6a24420c3d5759e9fe01d906f1bac55bb7a3ba383e5fa44a23a"
+            "id": "cd185d0e2db63a98e30ad6fc099902ec01bfbcecced48bfdd4c27bd048fd371d"
         },
-        "b2c03e65ee918084416a24d23b7781de0cbb5ebc73c8a1977a8c0a6cec8d863d": {
+        "fee2dbc0baf3421bb60f6d0f8ab85868fe09a7037610b6c1870ec6bdaccbe820": {
             "date": "2024-11-18T00:00:00",
             "amount": -300.0,
-            "description": "Retraits cash",
+            "description": "RETRAIT DAB 15/11/24 LYON CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "b2c03e65ee918084416a24d23b7781de0cbb5ebc73c8a1977a8c0a6cec8d863d"
+            "id": "fee2dbc0baf3421bb60f6d0f8ab85868fe09a7037610b6c1870ec6bdaccbe820"
         },
-        "8b6451fe1ecfe71c3e8785dc52b8eab7bed2615dfbd8e85943f5eea7e4262db1": {
+        "239430f4dfa301052f0059730650db1ec8881503c5c795f2fcc641711d63753f": {
             "date": "2024-11-18T00:00:00",
             "amount": -400.0,
-            "description": "Retraits cash",
+            "description": "RETRAIT DAB 15/11/24 LYON CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "8b6451fe1ecfe71c3e8785dc52b8eab7bed2615dfbd8e85943f5eea7e4262db1"
+            "id": "239430f4dfa301052f0059730650db1ec8881503c5c795f2fcc641711d63753f"
         },
-        "7971c8c86b222fa37c4e6b553eec9a8406e0c9d26ac3fe0817ad6620507ad45e": {
+        "d6432b9a8d8d4d41ad70067f0f3b406231e6b648cd3880477f3cc3e987704588": {
             "date": "2024-11-18T00:00:00",
             "amount": -10.69,
-            "description": "Restaurants, bars, discothèques…",
+            "description": "CARTE 15/11/24 DELIVEROO CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "7971c8c86b222fa37c4e6b553eec9a8406e0c9d26ac3fe0817ad6620507ad45e"
+            "id": "d6432b9a8d8d4d41ad70067f0f3b406231e6b648cd3880477f3cc3e987704588"
         },
-        "bd1f7f70e49f83d526b9a29828dde792db4821b0e8a65876bb21dc13ce87c255": {
+        "3a860afba503a5ca77924971b1155adb65d56245755b02bfe3c7e3a41fe8e1a5": {
             "date": "2024-11-18T00:00:00",
             "amount": -2.0,
-            "description": "Non catégorisé",
+            "description": "CARTE 16/11/24 ÑCUMUL CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "bd1f7f70e49f83d526b9a29828dde792db4821b0e8a65876bb21dc13ce87c255"
+            "id": "3a860afba503a5ca77924971b1155adb65d56245755b02bfe3c7e3a41fe8e1a5"
         },
-        "38acefc54b3ef141ef4e4f19e1d67214c24a3d2b3285c2ca7d38f80806172ccd": {
+        "402ebd3f6a77408363c6ca90603035fa2519d1b7455afafb6d5edfc254bd81a0": {
             "date": "2024-11-15T00:00:00",
             "amount": 1100.0,
-            "description": "Virements reçus de comptes à comptes",
+            "description": "VIR Bike purchase",
             "account_label": "boursorama",
             "category": null,
-            "id": "38acefc54b3ef141ef4e4f19e1d67214c24a3d2b3285c2ca7d38f80806172ccd"
+            "id": "402ebd3f6a77408363c6ca90603035fa2519d1b7455afafb6d5edfc254bd81a0"
         },
-        "fc3e8e4e074b7d61de69ec6a31b2bc990514a9e12011d21321edabfa89a9d329": {
+        "967dd31f57d1910da77c6483f0aa0e71dd4ad707a53c5fc88fe51879ff4147b6": {
             "date": "2024-11-15T00:00:00",
             "amount": -1778.0,
-            "description": "Virements émis de comptes à comptes",
+            "description": "VIR ROLLOVER",
             "account_label": "boursorama",
             "category": null,
-            "id": "fc3e8e4e074b7d61de69ec6a31b2bc990514a9e12011d21321edabfa89a9d329"
+            "id": "967dd31f57d1910da77c6483f0aa0e71dd4ad707a53c5fc88fe51879ff4147b6"
         },
-        "f3ff5ae3028a85cb5cd44b9e033d275577e9633f1f99683f0c9617a9ca9544b3": {
+        "f4034d0e78b31e648de271d8960bfbb4b38a7f6a7f68a17bfcdef67bb42e621c": {
             "date": "2024-11-15T00:00:00",
             "amount": -1778.35,
-            "description": "Virements émis de comptes à comptes",
+            "description": "VIR ROLLOVER UNDO",
             "account_label": "boursorama",
             "category": null,
-            "id": "f3ff5ae3028a85cb5cd44b9e033d275577e9633f1f99683f0c9617a9ca9544b3"
+            "id": "f4034d0e78b31e648de271d8960bfbb4b38a7f6a7f68a17bfcdef67bb42e621c"
         },
-        "a92ba5aa2352c0d3f5773d972329404eb577668e7101360da5ea443f5e166f47": {
+        "feaecb910fda129a8c861ee4ae0f3ff0ffa4c8ea5ffb7730e8aa35f938045797": {
             "date": "2024-11-15T00:00:00",
             "amount": 1778.35,
-            "description": "Virements reçus de comptes à comptes",
+            "description": "VIR Rollover",
             "account_label": "boursorama",
             "category": null,
-            "id": "a92ba5aa2352c0d3f5773d972329404eb577668e7101360da5ea443f5e166f47"
+            "id": "feaecb910fda129a8c861ee4ae0f3ff0ffa4c8ea5ffb7730e8aa35f938045797"
         },
-        "cef8b2358d4ef4581500b281004c0cc039714a2126bdb8fa643c4c86884e46c3": {
+        "cd1d11026c54e2afb8f155f5ce7b830653275c5224fd4ed1e9fe3ca25e84d88e": {
             "date": "2024-11-15T00:00:00",
             "amount": -305.0,
-            "description": "Virements émis de comptes à comptes",
+            "description": "VIR Remaining savings nov 24",
             "account_label": "boursorama",
             "category": null,
-            "id": "cef8b2358d4ef4581500b281004c0cc039714a2126bdb8fa643c4c86884e46c3"
+            "id": "cd1d11026c54e2afb8f155f5ce7b830653275c5224fd4ed1e9fe3ca25e84d88e"
         },
-        "02410611e1a9da14292d0152b9c27f76831c8da2d5eea83a7856fd27e57ecbcc": {
+        "10de6a7d942b9151785df9cdeba5b615ef4f4ec6d6f43355ce74a590d0c02878": {
             "date": "2024-11-15T00:00:00",
             "amount": -22.0,
-            "description": "Virements émis",
+            "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
             "category": null,
-            "id": "02410611e1a9da14292d0152b9c27f76831c8da2d5eea83a7856fd27e57ecbcc"
+            "id": "10de6a7d942b9151785df9cdeba5b615ef4f4ec6d6f43355ce74a590d0c02878"
         },
-        "f3be74ae45ae95a156a2899ebc42b0257a5cfea61ca8a0f132e31ef9cf81ab4e": {
+        "af5e6a326cfe1a4945dda13e9ba7690afe9b3443a268b06cda62a388e24df1c3": {
             "date": "2024-11-15T00:00:00",
             "amount": -696.0,
-            "description": "Virements émis",
+            "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
             "category": null,
-            "id": "f3be74ae45ae95a156a2899ebc42b0257a5cfea61ca8a0f132e31ef9cf81ab4e"
+            "id": "af5e6a326cfe1a4945dda13e9ba7690afe9b3443a268b06cda62a388e24df1c3"
         },
-        "2bfc9f10723478a14be6c5db5a5b98d613243cb1364976157c0369b8beca390b": {
+        "3ca40c349b287650112340f36d14f35f92d2743d2d9839004e55f9eade61b2ea": {
             "date": "2024-11-14T00:00:00",
             "amount": 22.0,
-            "description": "Virements reçus",
+            "description": "VIR Virement de Chloe VANDEBEULQUE",
             "account_label": "boursorama",
             "category": null,
-            "id": "2bfc9f10723478a14be6c5db5a5b98d613243cb1364976157c0369b8beca390b"
+            "id": "3ca40c349b287650112340f36d14f35f92d2743d2d9839004e55f9eade61b2ea"
         },
-        "b0c3160d5bab2aa9d953ff6e5efcd4e9d9a20cf15b773755dfbf2ff9142af575": {
+        "74d45c65eb5a4ef4974c2b0d68ee114c44608f77bfe612423450fdfd043bd097": {
             "date": "2024-11-12T00:00:00",
             "amount": -18.89,
-            "description": "Restaurants, bars, discothèques…",
+            "description": "CARTE 09/11/24 DELIVEROO CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "b0c3160d5bab2aa9d953ff6e5efcd4e9d9a20cf15b773755dfbf2ff9142af575"
+            "id": "74d45c65eb5a4ef4974c2b0d68ee114c44608f77bfe612423450fdfd043bd097"
         },
-        "eb2b7eaedf83d440397fc625c4f93045f8a90883af97c495b79308b99a701050": {
+        "5379405d12fd7f80b3a7cd33c3949931518acadad05a557c5ce4bec11819fe28": {
             "date": "2024-11-12T00:00:00",
             "amount": -0.99,
-            "description": "Vie quotidienne",
+            "description": "CARTE 08/11/24 APPLE.COM/BILL CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "eb2b7eaedf83d440397fc625c4f93045f8a90883af97c495b79308b99a701050"
+            "id": "5379405d12fd7f80b3a7cd33c3949931518acadad05a557c5ce4bec11819fe28"
         },
-        "4ca1165613a093debf2ea9e59b5b570ff78c3fa890b4659911c5cb7fddb58fcd": {
+        "703f3ff95999f610f807e91aed64c1f2ebc4ac9a283accd8cf4ecf4d24491991": {
             "date": "2024-11-11T00:00:00",
             "amount": 696.0,
-            "description": "Virements reçus",
+            "description": "VIR VIVA MEXICO",
             "account_label": "boursorama",
             "category": null,
-            "id": "4ca1165613a093debf2ea9e59b5b570ff78c3fa890b4659911c5cb7fddb58fcd"
+            "id": "703f3ff95999f610f807e91aed64c1f2ebc4ac9a283accd8cf4ecf4d24491991"
         },
-        "6714c63cf23e468fac22d5dde88fc3c47588536fae1595a9ec175b928fb3d077": {
+        "ba0d8291e419abf714c9e3b36336ee30c24ed46c0023e4b7d2d9bd6fe8c1197f": {
             "date": "2024-11-08T00:00:00",
             "amount": -20.99,
-            "description": "Club / association (sport, hobby, art…)",
+            "description": "PRLV SEPA BASIC FIT FRANCE",
             "account_label": "boursorama",
             "category": null,
-            "id": "6714c63cf23e468fac22d5dde88fc3c47588536fae1595a9ec175b928fb3d077"
+            "id": "ba0d8291e419abf714c9e3b36336ee30c24ed46c0023e4b7d2d9bd6fe8c1197f"
         },
-        "91ff2c4fa09e701cb2c704279fc0b46d99da121ee6ceb4f56d5e3025f8d1966c": {
+        "19910ccf88c409fc0016832a6d7d25af79fa8d089059cb3bd42951295c93e356": {
             "date": "2024-11-07T00:00:00",
             "amount": 48.1,
-            "description": "Energie (électricité, gaz, fuel, chauffage…)",
+            "description": "VIR SEPA TOTALENERGIES ELECTRICITE",
             "account_label": "boursorama",
             "category": null,
-            "id": "91ff2c4fa09e701cb2c704279fc0b46d99da121ee6ceb4f56d5e3025f8d1966c"
+            "id": "19910ccf88c409fc0016832a6d7d25af79fa8d089059cb3bd42951295c93e356"
         },
-        "05e05634f6f8d217237d65cf2ee4b5d20cc3569e9b9909d9566801ea9300d7cc": {
+        "26bce6454570d95796f17f77bf3f7f5add2af3aa5f466216b6f7ef35d59c931a": {
             "date": "2024-11-07T00:00:00",
             "amount": -0.99,
-            "description": "Frais bancaires et de gestion (dont agios)",
+            "description": "*FRAIS BOURSO PROTECT MONO",
             "account_label": "boursorama",
             "category": null,
-            "id": "05e05634f6f8d217237d65cf2ee4b5d20cc3569e9b9909d9566801ea9300d7cc"
+            "id": "26bce6454570d95796f17f77bf3f7f5add2af3aa5f466216b6f7ef35d59c931a"
         },
-        "8367eaef9b3361784c8aa037f75379984fbcd7596f21ef41b52537f0518c0f2d": {
+        "87b878d688bd52320fdb4897efd4a846808fc61018fd7f191579981595c41cce": {
             "date": "2024-11-07T00:00:00",
             "amount": -19.99,
-            "description": "Téléphonie (fixe et mobile)",
+            "description": "PRLV SEPA FREE MOBILE",
             "account_label": "boursorama",
             "category": null,
-            "id": "8367eaef9b3361784c8aa037f75379984fbcd7596f21ef41b52537f0518c0f2d"
+            "id": "87b878d688bd52320fdb4897efd4a846808fc61018fd7f191579981595c41cce"
         },
-        "1a7469c249f7e6636a85b5a9f2369cc3812f8dc2008d9f983593b0b60bf154ac": {
+        "50d285f682a9a5601c96c00f7d1fc9f80f90dbcb73cbbb0e78e1b9274dc1dbb2": {
             "date": "2024-11-06T00:00:00",
             "amount": -0.65,
-            "description": "Alimentation",
+            "description": "CARTE 05/11/24 CAREREFOUR CB*1927",
             "account_label": "boursorama",
             "category": null,
-            "id": "1a7469c249f7e6636a85b5a9f2369cc3812f8dc2008d9f983593b0b60bf154ac"
+            "id": "50d285f682a9a5601c96c00f7d1fc9f80f90dbcb73cbbb0e78e1b9274dc1dbb2"
         },
-        "0203030e6d5ba189789e6ab9c65cdcc151c5e86f1210933f170b724ae14820dc": {
+        "e731f67aca2807da2a11ccca7d5d36e243689c852a7b1aa66f9de532d041ffc5": {
             "date": "2024-11-04T00:00:00",
             "amount": -750.0,
-            "description": "Virements émis",
+            "description": "VIR SEPA CASTILLO URIAS Mario",
             "account_label": "boursorama",
             "category": null,
-            "id": "0203030e6d5ba189789e6ab9c65cdcc151c5e86f1210933f170b724ae14820dc"
+            "id": "e731f67aca2807da2a11ccca7d5d36e243689c852a7b1aa66f9de532d041ffc5"
         },
-        "6f8abc936155b96a3bb89eced1fb537d66788b7f52dddd91c7da30bd676c3db7": {
+        "1325144eeb79856aac34c4343ba80ba3a0f7b4822085c4c3d9c8f8c926d1a5ce": {
             "date": "2024-11-04T00:00:00",
             "amount": -747.47,
-            "description": "Virements émis de comptes à comptes",
+            "description": "VIR apport compte joint - Mario",
             "account_label": "boursorama",
             "category": null,
-            "id": "6f8abc936155b96a3bb89eced1fb537d66788b7f52dddd91c7da30bd676c3db7"
+            "id": "1325144eeb79856aac34c4343ba80ba3a0f7b4822085c4c3d9c8f8c926d1a5ce"
         }
     },
     "processed_operations_ids": [
-        "4ca1165613a093debf2ea9e59b5b570ff78c3fa890b4659911c5cb7fddb58fcd",
-        "6f8abc936155b96a3bb89eced1fb537d66788b7f52dddd91c7da30bd676c3db7",
-        "1fe8e0a2c697bfa43078be80b1b99f06c0cb7089623705681b752e2e336ec947",
-        "6714c63cf23e468fac22d5dde88fc3c47588536fae1595a9ec175b928fb3d077",
-        "eb23072b77c17d97b396ad45e5af9c14cf86d863ec40bc5d6058cccc1ab657d9",
-        "cc73d376fba8b1ba01e7de6c4d687b5cd55e62f8075aea1d10d860fa9daca69e",
-        "91ff2c4fa09e701cb2c704279fc0b46d99da121ee6ceb4f56d5e3025f8d1966c",
-        "c48ba40017c81e738fa0dbc2f25fecee5b3eafb51a5be3de67a8193186ae0f0c",
-        "bb08f103a7d9af72bf77c0c2c606085dd470a653929b6b878b26352aacf0ae32",
-        "8b6451fe1ecfe71c3e8785dc52b8eab7bed2615dfbd8e85943f5eea7e4262db1",
-        "5d2710a0bca859fe3a4c4b9c588a0ab0af329a85b9e347584b80d54fdf7929cf",
-        "7971c8c86b222fa37c4e6b553eec9a8406e0c9d26ac3fe0817ad6620507ad45e",
-        "bd1f7f70e49f83d526b9a29828dde792db4821b0e8a65876bb21dc13ce87c255",
-        "91bacb2e44eb0a571ba1981dcddd01f83eb0631a8da398c7e03872d67612c16a",
-        "02410611e1a9da14292d0152b9c27f76831c8da2d5eea83a7856fd27e57ecbcc",
-        "38acefc54b3ef141ef4e4f19e1d67214c24a3d2b3285c2ca7d38f80806172ccd",
-        "e34df255b90cc8510e4e8c6708ae050ff24aaa329221a264364e90da2c225795",
-        "1a7469c249f7e6636a85b5a9f2369cc3812f8dc2008d9f983593b0b60bf154ac",
-        "cef8b2358d4ef4581500b281004c0cc039714a2126bdb8fa643c4c86884e46c3",
-        "9536f12d0f5ba6a24420c3d5759e9fe01d906f1bac55bb7a3ba383e5fa44a23a",
-        "0203030e6d5ba189789e6ab9c65cdcc151c5e86f1210933f170b724ae14820dc",
-        "c0e1d974cf6953cd8c27c7de0c77cf3814cceb16c6a26fd3780f72d7b0893bf9",
-        "6e1209a9e5e431549f0f46ceee14ee6668103634e56548913cbdc0bd432d0ea5",
-        "2bfc9f10723478a14be6c5db5a5b98d613243cb1364976157c0369b8beca390b",
-        "05e05634f6f8d217237d65cf2ee4b5d20cc3569e9b9909d9566801ea9300d7cc",
-        "b2c03e65ee918084416a24d23b7781de0cbb5ebc73c8a1977a8c0a6cec8d863d",
-        "eb2b7eaedf83d440397fc625c4f93045f8a90883af97c495b79308b99a701050",
-        "d7948ebf07ed701ddc57591007e4da88fc6843d5a1859a4e3718bdf8a8f407d6",
-        "a92ba5aa2352c0d3f5773d972329404eb577668e7101360da5ea443f5e166f47",
-        "f3ff5ae3028a85cb5cd44b9e033d275577e9633f1f99683f0c9617a9ca9544b3",
-        "d42cecd250abd990765e94efd49f6caf000d1cc24b2c440be24e3482f2702dc7",
-        "f3be74ae45ae95a156a2899ebc42b0257a5cfea61ca8a0f132e31ef9cf81ab4e",
-        "4a2d898fc2b046a8561fe28681842a3476003c02544fe5d7f0341d533182754f",
-        "35eda4ccda1c784732a91e14a98ef2be96db4ccb975e283c713af859ee030e26",
-        "50d85b1d74b1f7ae5fc3b944cffd4ba55d9f0a609fa9b0268875c88349295ece",
-        "8367eaef9b3361784c8aa037f75379984fbcd7596f21ef41b52537f0518c0f2d",
-        "b0c3160d5bab2aa9d953ff6e5efcd4e9d9a20cf15b773755dfbf2ff9142af575",
-        "681078c8a58dbe568559a17f7908e69dcbc947921cebf38e3629a9136916b861",
-        "fc3e8e4e074b7d61de69ec6a31b2bc990514a9e12011d21321edabfa89a9d329"
+        "87b878d688bd52320fdb4897efd4a846808fc61018fd7f191579981595c41cce",
+        "3ca40c349b287650112340f36d14f35f92d2743d2d9839004e55f9eade61b2ea",
+        "107bf3a8af1e4b09a1628c881cc78a78cc7b350878454e057e6bd993c7c64c0d",
+        "d6432b9a8d8d4d41ad70067f0f3b406231e6b648cd3880477f3cc3e987704588",
+        "feaecb910fda129a8c861ee4ae0f3ff0ffa4c8ea5ffb7730e8aa35f938045797",
+        "af5e6a326cfe1a4945dda13e9ba7690afe9b3443a268b06cda62a388e24df1c3",
+        "24d8169482bd52855efce2440fcf1154374b5c5b70cbea30310f0ed75af7fdb5",
+        "50d285f682a9a5601c96c00f7d1fc9f80f90dbcb73cbbb0e78e1b9274dc1dbb2",
+        "f4034d0e78b31e648de271d8960bfbb4b38a7f6a7f68a17bfcdef67bb42e621c",
+        "239430f4dfa301052f0059730650db1ec8881503c5c795f2fcc641711d63753f",
+        "5379405d12fd7f80b3a7cd33c3949931518acadad05a557c5ce4bec11819fe28",
+        "28418d4f589037e65a84a1d7092cad24e12627e04e19383ddef893fce81ac07d",
+        "26bce6454570d95796f17f77bf3f7f5add2af3aa5f466216b6f7ef35d59c931a",
+        "967dd31f57d1910da77c6483f0aa0e71dd4ad707a53c5fc88fe51879ff4147b6",
+        "402ebd3f6a77408363c6ca90603035fa2519d1b7455afafb6d5edfc254bd81a0",
+        "c67a7d12449b1153f6b7d13dfe5906afe6904beee44eaf1e7a954a2356cbebd9",
+        "e3f1848e497b98de51f9d107ea5e194b99b8ddee563f8d5969d70d8f1650efae",
+        "eaf97edc69122b0b2b1e0fec9fef811510296e83ad376a5b2a7a5fbcc54ad96f",
+        "31420fe9e79f75ee553ec536205bf56fb50800fbd9db1c713283d2dfe77f09da",
+        "3b05bd29801e6e803c0d0f3692b4b860d10ac4c69db4b53bcf22171c7e2fa94d",
+        "3a860afba503a5ca77924971b1155adb65d56245755b02bfe3c7e3a41fe8e1a5",
+        "36d02ed9b4b6885dffeeed2f455b1bc387461e27cb7de23df147ff808c6dd927",
+        "6bf9b2c901753cf967eaf72e30d3d7531ae2a06de3688cdbdccd076abb3ff217",
+        "93104a18348ba0625dfd85d9304af95d71b238c24f2cc984b0b8d49a51f4c0e3",
+        "4820f58bca8d68325b4a5d2f401b8a7ba40a50042ab01183ef3b8389977d5787",
+        "38100af5048085e7f0e920e0f12d129770762d175cca4ad3d19d57044588e4d1",
+        "74d45c65eb5a4ef4974c2b0d68ee114c44608f77bfe612423450fdfd043bd097",
+        "fee2dbc0baf3421bb60f6d0f8ab85868fe09a7037610b6c1870ec6bdaccbe820",
+        "19910ccf88c409fc0016832a6d7d25af79fa8d089059cb3bd42951295c93e356",
+        "1325144eeb79856aac34c4343ba80ba3a0f7b4822085c4c3d9c8f8c926d1a5ce",
+        "ba0d8291e419abf714c9e3b36336ee30c24ed46c0023e4b7d2d9bd6fe8c1197f",
+        "f8284a02543e66ada194f8220c460c8da6c3c0ace287bf214e535fae913aa495",
+        "10de6a7d942b9151785df9cdeba5b615ef4f4ec6d6f43355ce74a590d0c02878",
+        "c025c8b547f3fb9e208f775b027efe9cb7981ef2585878bf76e9c34e3a469628",
+        "cd185d0e2db63a98e30ad6fc099902ec01bfbcecced48bfdd4c27bd048fd371d",
+        "cd1d11026c54e2afb8f155f5ce7b830653275c5224fd4ed1e9fe3ca25e84d88e",
+        "bafe671d4c3a78e2467d8b5b719d5ce472236bf981f8ecffa159d826f6fa4f20",
+        "e731f67aca2807da2a11ccca7d5d36e243689c852a7b1aa66f9de532d041ffc5",
+        "703f3ff95999f610f807e91aed64c1f2ebc4ac9a283accd8cf4ecf4d24491991"
     ]
 }

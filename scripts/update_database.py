@@ -21,7 +21,10 @@ if __name__ == '__main__':
     for normal_dict in normalized_dicts:
         operations_list.append(ops.Operation.from_normal_dict(normal_dict))
 
-    user_db = ops.OperationsDatabase.load_from_json()
+    try:
+        user_db = ops.OperationsDatabase.load_from_json()
+    except FileNotFoundError:
+        user_db = ops.OperationsDatabase({}, set())
 
     new_op_detected = False
     for op in operations_list:
