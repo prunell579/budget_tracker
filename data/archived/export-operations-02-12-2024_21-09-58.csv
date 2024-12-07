@@ -1,0 +1,42 @@
+﻿dateOp;dateVal;label;category;categoryParent;amount;comment;accountNum;accountLabel;accountbalance
+2024-12-02;2024-12-02;"CARTE 28/11/24 ÑCUMUL CB*1927";"Non catégorisé";"Non catégorisé";-4,00;;00040815591;BoursoBank;2016.74
+2024-12-02;2024-12-02;"VIR apport compte joint - Mario";"Virements émis de comptes à comptes";"Mouvements internes débiteurs";-747,47;;00040815591;BoursoBank;2016.74
+2024-11-29;;"KEOLIS LYON LYON FR";"Autorisation paiement / retrait en cours";"Non catégorisé";-4,00;;00040815591;BoursoBank;
+2024-11-27;2024-11-27;"CARTE 25/11/24 ÑCUMUL CB*1927";"Non catégorisé";"Non catégorisé";-4,00;;00040815591;BoursoBank;2768.21
+2024-11-27;2024-11-27;"VIR SEPA SIEMENS INDUSTRY SOFTWARE SAS";"Virements reçus";"Virements reçus";"2 593,48";;00040815591;BoursoBank;2768.21
+2024-11-26;2024-11-26;"CARTE 25/11/24 LA POSTE.FR CB*1927";"Vie Quotidienne - Autres";"Vie quotidienne";-3,79;;00040815591;BoursoBank;178.73
+2024-11-25;2024-11-25;"VIR INST CASTILLO URIAS MARIO";"Virements émis";"Virements émis";-696,00;;00040815591;BoursoBank;182.52
+2024-11-25;2024-11-25;"VIR SELF LOAN mexico";"Virements reçus de comptes à comptes";"Mouvements internes créditeurs";696,00;;00040815591;BoursoBank;182.52
+2024-11-25;2024-11-25;"VIR INST CASTILLO URIAS MARIO";"Virements émis";"Virements émis";-91,76;;00040815591;BoursoBank;182.52
+2024-11-25;2024-11-25;"VIR INTERNAL regularisation cc oct";Remboursements;Remboursements;91,76;;00040815591;BoursoBank;182.52
+2024-11-25;2024-11-25;"VIR INST CASTILLO URIAS MARIO";"Virements émis";"Virements émis";-279,45;;00040815591;BoursoBank;182.52
+2024-11-25;2024-11-25;"RETRAIT DAB 24/11/24 LYON PERRAC CB*1927";"Retraits cash";"Retraits cash";-20,00;;00040815591;BoursoBank;182.52
+2024-11-22;2024-11-22;"CARTE 21/11/24 CAREREFOUR CB*1927";Alimentation;"Vie quotidienne";-2,07;;00040815591;BoursoBank;481.97
+2024-11-22;2024-11-22;"CARTE 20/11/24 ÑCUMUL CB*1927";"Non catégorisé";"Non catégorisé";-2,00;;00040815591;BoursoBank;481.97
+2024-11-20;2024-11-20;"VIR billet Mario";"Virements émis";"Virements émis";-92,00;;00040815591;BoursoBank;486.04
+2024-11-20;2024-11-20;"VIR Dyson Mario";"Virements émis";"Virements émis";-148,20;;00040815591;BoursoBank;486.04
+2024-11-20;2024-11-20;"VIR Dyson";"Virements reçus de comptes à comptes";"Mouvements internes créditeurs";148,20;;00040815591;BoursoBank;486.04
+2024-11-19;2024-11-19;"CARTE 18/11/24 CARREFOUR CITY CB*1927";Alimentation;"Vie quotidienne";-3,62;;00040815591;BoursoBank;578.04
+2024-11-18;2024-11-18;"RETRAIT DAB 15/11/24 LYON CB*1927";"Retraits cash";"Retraits cash";-300,00;;00040815591;BoursoBank;581.66
+2024-11-18;2024-11-18;"RETRAIT DAB 15/11/24 LYON CB*1927";"Retraits cash";"Retraits cash";-400,00;;00040815591;BoursoBank;581.66
+2024-11-18;2024-11-18;"RETRAIT DAB 15/11/24 LYON CB*1927";"Retraits cash";"Retraits cash";-400,00;;00040815591;BoursoBank;581.66
+2024-11-18;2024-11-18;"CARTE 15/11/24 DELIVEROO CB*1927";"Restaurants, bars, discothèques…";"Loisirs et sorties";-10,69;;00040815591;BoursoBank;581.66
+2024-11-18;2024-11-18;"CARTE 16/11/24 ÑCUMUL CB*1927";"Non catégorisé";"Non catégorisé";-2,00;;00040815591;BoursoBank;581.66
+2024-11-15;2024-11-15;"VIR Bike purchase";"Virements reçus de comptes à comptes";"Mouvements internes créditeurs";"1 100,00";;00040815591;BoursoBank;1694.35
+2024-11-15;2024-11-15;"VIR ROLLOVER";"Virements émis de comptes à comptes";"Mouvements internes débiteurs";"-1 778,00";;00040815591;BoursoBank;1694.35
+2024-11-15;2024-11-15;"VIR ROLLOVER UNDO";"Virements émis de comptes à comptes";"Mouvements internes débiteurs";"-1 778,35";;00040815591;BoursoBank;1694.35
+2024-11-15;2024-11-15;"VIR Rollover";"Virements reçus de comptes à comptes";"Mouvements internes créditeurs";"1 778,35";;00040815591;BoursoBank;1694.35
+2024-11-15;2024-11-15;"VIR Remaining savings nov 24";"Virements émis de comptes à comptes";"Mouvements internes débiteurs";-305,00;;00040815591;BoursoBank;1694.35
+2024-11-15;2024-11-15;"VIR INST CASTILLO URIAS MARIO";"Virements émis";"Virements émis";-22,00;;00040815591;BoursoBank;1694.35
+2024-11-15;2024-11-15;"VIR INST CASTILLO URIAS MARIO";"Virements émis";"Virements émis";-696,00;;00040815591;BoursoBank;1694.35
+2024-11-14;2024-11-14;"VIR Virement de Chloe VANDEBEULQUE";"Virements reçus";"Virements reçus";22,00;;00040815591;BoursoBank;3395.35
+2024-11-12;2024-11-12;"CARTE 09/11/24 DELIVEROO CB*1927";"Restaurants, bars, discothèques…";"Loisirs et sorties";-18,89;;00040815591;BoursoBank;3373.35
+2024-11-12;2024-11-12;"CARTE 08/11/24 APPLE.COM/BILL CB*1927";"Vie quotidienne";"Vie quotidienne";-0,99;;00040815591;BoursoBank;3373.35
+2024-11-11;2024-11-11;"VIR VIVA MEXICO";"Virements reçus";"Virements reçus";696,00;;00040815591;BoursoBank;3393.23
+2024-11-08;2024-11-08;"PRLV SEPA BASIC FIT FRANCE";"Club / association (sport, hobby, art…)";"Loisirs et sorties";-20,99;;00040815591;BoursoBank;2697.23
+2024-11-07;2024-11-07;"VIR SEPA TOTALENERGIES ELECTRICITE";"Energie (électricité, gaz, fuel, chauffage…)";Logement;48,10;;00040815591;BoursoBank;2718.22
+2024-11-07;2024-11-07;"*FRAIS BOURSO PROTECT MONO";"Frais bancaires et de gestion (dont agios)";"Services financiers & professionnels";-0,99;;00040815591;BoursoBank;2718.22
+2024-11-07;2024-11-07;"PRLV SEPA FREE MOBILE";"Téléphonie (fixe et mobile)";"Abonnements & téléphonie";-19,99;;00040815591;BoursoBank;2718.22
+2024-11-06;2024-11-06;"CARTE 05/11/24 CAREREFOUR CB*1927";Alimentation;"Vie quotidienne";-0,65;;00040815591;BoursoBank;2691.1
+2024-11-04;2024-11-04;"VIR SEPA CASTILLO URIAS Mario";"Virements émis";"Virements émis";-750,00;;00040815591;BoursoBank;2691.75
+2024-11-04;2024-11-04;"VIR apport compte joint - Mario";"Virements émis de comptes à comptes";"Mouvements internes débiteurs";-747,47;;00040815591;BoursoBank;2691.75

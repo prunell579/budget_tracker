@@ -1,5 +1,6 @@
 
 import sys
+import os
 sys.path.append('.')
 
 import model.boursorama_parser as bourso_parser
@@ -35,3 +36,7 @@ if __name__ == '__main__':
         print('Nothing to do')
 
     # move processed files
+    archived_folder = os.path.join(os.path.abspath('data'), 'archived')
+    for processed_file in csv_filepaths:
+        os.rename(processed_file, os.path.join(archived_folder, os.path.basename(processed_file)))
+
