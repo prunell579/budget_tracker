@@ -1,7 +1,7 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, asdict
 from datetime import datetime
 import hashlib
-import typing
+import json
 
 @dataclass
 class Operation():
@@ -25,6 +25,11 @@ class Operation():
                             account_label=normal_dict['account_label']
                         )
 
+    def jsonfy(self):
+        raw_dict = asdict(self)
+        raw_dict['date'] = raw_dict['date'].isoformat()
+        return raw_dict
+
 @dataclass
 class OperationsDatabase():
     operations: dict[int, Operation]
@@ -42,4 +47,17 @@ class OperationsDatabase():
         self.operations[operation.id] = operation
         self.processed_operations_ids.add(operation.id)
 
+    def jsonfy(self):
+        operations_db_as_dict = dict.fromkeys(asdict(self).keys())
+        operations_db_as_dict['processed_operations_ids'] = list(self.processed_operations_ids.copy())
+
+        for sha_id, operation_obj in self.operations.items():
+            operations_db_as_dict[sha_id] = operation_obj.jsonfy()
+
+        return operations_db_as_dict
+    
+    def write_to_file(self):
+        json_string =  json.dumps(self.jsonfy(), indent=4, ensure_ascii=False)
+        with open('operations_database.js','w', encoding='utf-8') as f:
+            f.write(json_string)
 
