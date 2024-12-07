@@ -2,8 +2,8 @@ import csv
 import os
 from datetime import datetime
 
-def get_list_of_csv_files():
-    return [os.path.join(os.getcwd(), 'data', file) for file in os.listdir('data/') if file.endswith(".csv")]
+def get_list_of_csv_files(data_folder):
+    return [os.path.join(os.getcwd(), data_folder, file) for file in os.listdir(data_folder + '/') if file.endswith(".csv")]
 
 def csv_file_to_list_of_dicts(csv_filepath):
     with open(csv_filepath, 'r') as csv_f:
@@ -23,9 +23,9 @@ def normalize_dict_from_boursorama(boursorama_format_dict) -> dict:
                             }
     return standard_format_dict
 
-def normalize_dicts_from_boursorama() -> list[dict]: 
+def normalize_dicts_from_boursorama(bourso_csv_filepaths: list) -> list[dict]: 
     normalized_dicts = []
-    for csv_filepath in get_list_of_csv_files():
+    for csv_filepath in bourso_csv_filepaths:
         for dict_with_boursorama_data in csv_file_to_list_of_dicts(csv_filepath):
             # skip on-hold operations
             if "Autorisation paiement / retrait en cours" == dict_with_boursorama_data["category"]:

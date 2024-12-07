@@ -17,7 +17,7 @@ class Operation():
         self.id = hashlib.sha256(id.encode()).hexdigest()
 
     @classmethod
-    def from_normal_dict(cls, normal_dict: list) -> "Operation":
+    def from_normal_dict(cls, normal_dict: dict) -> "Operation":
         return cls(
                             date=normal_dict['date'],
                             amount=normal_dict['amount'],
@@ -40,6 +40,19 @@ class OperationsDatabase():
         db = cls({}, set())
         for normal_dict in normal_dicts:
             db.add_operation(Operation.from_normal_dict(normal_dict))
+
+        return db
+    
+    @classmethod
+    def load_from_json(cls, json_filepath='operations_database.json'):
+        with open(json_filepath, 'r', encoding='utf-8') as f:
+            loaded_dict = json.load(f)
+
+        # only thing missing from the dict to be normal: type of the date attribute
+        db = cls({}, set())
+        for _, operation_dict in loaded_dict['operations'].items():
+            operation_dict['date'] = datetime.fromisoformat(operation_dict['date'])
+            db.add_operation(Operation.from_normal_dict(operation_dict))
 
         return db
 

@@ -14,6 +14,24 @@ import model.operations as ops
 
 if __name__ == '__main__':
 
-    normalized_dicts = bourso_parser.normalize_dicts_from_boursorama()
-    db = ops.OperationsDatabase.from_normal_dicts(normalized_dicts)
-    db.write_to_file()
+    csv_filepaths = bourso_parser.get_list_of_csv_files('data')
+    normalized_dicts = bourso_parser.normalize_dicts_from_boursorama(csv_filepaths)
+    operations_list = []
+    for normal_dict in normalized_dicts:
+        operations_list.append(ops.Operation.from_normal_dict(normal_dict))
+
+    user_db = ops.OperationsDatabase.load_from_json()
+
+    new_op_detected = False
+    for op in operations_list:
+        if op.id not in user_db.processed_operations_ids:
+            new_op_detected = True
+            print('New operation detected')
+            user_db.add_operation(op)
+
+    if new_op_detected:
+        user_db.write_to_file()
+    else:
+        print('Nothing to do')
+
+    # move processed files
