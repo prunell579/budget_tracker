@@ -20,6 +20,7 @@ def normalize_dict_from_boursorama(boursorama_format_dict) -> dict:
                             'amount': european_number_string_to_float(boursorama_format_dict['amount']),
                             'description': boursorama_format_dict['label'],
                             'account_label': 'boursorama',
+                            'category': None
                             }
     return standard_format_dict
 

@@ -2,9 +2,21 @@ from dataclasses import dataclass, field, asdict
 from datetime import datetime
 import hashlib
 import json
+from enum import Enum
 
 @dataclass
 class Operation():
+
+    # for further interactiviy with user, this can be converted to a mutable class
+    class SupportedCategories(Enum):
+        LIVING = 'LIVING'
+        WANTS = 'WANTS'
+        SAVINGS = 'SAVINGS'
+        INTERNAL_TRANSFER = 'INTERNAL_TRANSFER'
+        SELF_LOAN = 'SELF_LOAN'
+        INCOME = 'INCOME'
+        UNKNOWN = 'UNKNOWN'
+
     date: datetime
     amount: float
     description: str
@@ -22,12 +34,25 @@ class Operation():
                             date=normal_dict['date'],
                             amount=normal_dict['amount'],
                             description=normal_dict['description'],
-                            account_label=normal_dict['account_label']
+                            account_label=normal_dict['account_label'],
+                            category=normal_dict['category']
                         )
+
+    def summary(self):
+        print(f"Date: {self.date.strftime('%Y-%m-%d')} | "
+            f"Amount: {self.amount:.2f} | "
+            f"Description: {self.description} | "
+            f"Account Label: {self.account_label} | "
+            f"Category: {self.category if self.category else 'N/A'}")
 
     def jsonfy(self):
         raw_dict = asdict(self)
         raw_dict['date'] = raw_dict['date'].isoformat()
+        try:
+            raw_dict['category'] = raw_dict['category'].value
+        except AttributeError:
+            pass
+
         return raw_dict
 
 @dataclass
@@ -52,6 +77,10 @@ class OperationsDatabase():
         db = cls({}, set())
         for _, operation_dict in loaded_dict['operations'].items():
             operation_dict['date'] = datetime.fromisoformat(operation_dict['date'])
+            try:
+                operation_dict['category'] = Operation.SupportedCategories(operation_dict['category'])
+            except ValueError:
+                pass
             db.add_operation(Operation.from_normal_dict(operation_dict))
 
         return db
@@ -62,7 +91,7 @@ class OperationsDatabase():
 
     def jsonfy(self):
         operations_db_as_dict = dict.fromkeys(asdict(self).keys())
-        operations_db_as_dict['processed_operations_ids'] = list(self.processed_operations_ids.copy())
+        operations_db_as_dict['processed_operations_ids'] = sorted(self.processed_operations_ids.copy())
 
         operations_db_as_dict['operations'] = {}
         for sha_id, operation_obj in self.operations.items():
@@ -74,4 +103,7 @@ class OperationsDatabase():
         json_string =  json.dumps(self.jsonfy(), indent=4, ensure_ascii=False)
         with open('operations_database.json','w', encoding='utf-8') as f:
             f.write(json_string)
+
+    def get_operations(self) -> list[Operation]:
+        return self.operations.values()
 
