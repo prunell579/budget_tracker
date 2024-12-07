@@ -51,8 +51,9 @@ class OperationsDatabase():
         operations_db_as_dict = dict.fromkeys(asdict(self).keys())
         operations_db_as_dict['processed_operations_ids'] = list(self.processed_operations_ids.copy())
 
+        operations_db_as_dict['operations'] = {}
         for sha_id, operation_obj in self.operations.items():
-            operations_db_as_dict[sha_id] = operation_obj.jsonfy()
+            operations_db_as_dict['operations'][sha_id] = operation_obj.jsonfy()
 
         return operations_db_as_dict
     
