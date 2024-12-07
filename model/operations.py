@@ -58,6 +58,6 @@ class OperationsDatabase():
     
     def write_to_file(self):
         json_string =  json.dumps(self.jsonfy(), indent=4, ensure_ascii=False)
-        with open('operations_database.js','w', encoding='utf-8') as f:
+        with open('operations_database.json','w', encoding='utf-8') as f:
             f.write(json_string)
 
