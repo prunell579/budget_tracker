@@ -1,7 +1,6 @@
 import sys
 
 sys.path.append('.')
-import model.boursorama_parser as bourso_parser
 import model.operations as ops
 
 if __name__ == '__main__':
