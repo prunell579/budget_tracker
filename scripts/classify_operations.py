@@ -20,7 +20,6 @@ if __name__ == '__main__':
             op.summary()
             category_choice = input(category_options_output_string)
             op.category = ops.Operation.SupportedCategories(opt_to_category[int(category_choice)])
-        break
 
     # update db with category info
     user_db.write_to_file()

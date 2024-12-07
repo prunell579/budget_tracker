@@ -13,7 +13,7 @@
             "amount": -747.47,
             "description": "VIR apport compte joint - Mario",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "93104a18348ba0625dfd85d9304af95d71b238c24f2cc984b0b8d49a51f4c0e3"
         },
         "31420fe9e79f75ee553ec536205bf56fb50800fbd9db1c713283d2dfe77f09da": {
@@ -21,7 +21,7 @@
             "amount": -4.0,
             "description": "CARTE 25/11/24 ÑCUMUL CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "31420fe9e79f75ee553ec536205bf56fb50800fbd9db1c713283d2dfe77f09da"
         },
         "36d02ed9b4b6885dffeeed2f455b1bc387461e27cb7de23df147ff808c6dd927": {
@@ -29,7 +29,7 @@
             "amount": 2593.48,
             "description": "VIR SEPA SIEMENS INDUSTRY SOFTWARE SAS",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INCOME",
             "id": "36d02ed9b4b6885dffeeed2f455b1bc387461e27cb7de23df147ff808c6dd927"
         },
         "c67a7d12449b1153f6b7d13dfe5906afe6904beee44eaf1e7a954a2356cbebd9": {
@@ -37,7 +37,7 @@
             "amount": -3.79,
             "description": "CARTE 25/11/24 LA POSTE.FR CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "c67a7d12449b1153f6b7d13dfe5906afe6904beee44eaf1e7a954a2356cbebd9"
         },
         "38100af5048085e7f0e920e0f12d129770762d175cca4ad3d19d57044588e4d1": {
@@ -45,7 +45,7 @@
             "amount": -696.0,
             "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INTERNAL_TRANSFER",
             "id": "38100af5048085e7f0e920e0f12d129770762d175cca4ad3d19d57044588e4d1"
         },
         "3b05bd29801e6e803c0d0f3692b4b860d10ac4c69db4b53bcf22171c7e2fa94d": {
@@ -53,7 +53,7 @@
             "amount": 696.0,
             "description": "VIR SELF LOAN mexico",
             "account_label": "boursorama",
-            "category": null,
+            "category": "SELF_LOAN",
             "id": "3b05bd29801e6e803c0d0f3692b4b860d10ac4c69db4b53bcf22171c7e2fa94d"
         },
         "eaf97edc69122b0b2b1e0fec9fef811510296e83ad376a5b2a7a5fbcc54ad96f": {
@@ -61,7 +61,7 @@
             "amount": -91.76,
             "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INTERNAL_TRANSFER",
             "id": "eaf97edc69122b0b2b1e0fec9fef811510296e83ad376a5b2a7a5fbcc54ad96f"
         },
         "c025c8b547f3fb9e208f775b027efe9cb7981ef2585878bf76e9c34e3a469628": {
@@ -69,7 +69,7 @@
             "amount": 91.76,
             "description": "VIR INTERNAL regularisation cc oct",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INTERNAL_TRANSFER",
             "id": "c025c8b547f3fb9e208f775b027efe9cb7981ef2585878bf76e9c34e3a469628"
         },
         "f8284a02543e66ada194f8220c460c8da6c3c0ace287bf214e535fae913aa495": {
@@ -77,7 +77,7 @@
             "amount": -279.45,
             "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INTERNAL_TRANSFER",
             "id": "f8284a02543e66ada194f8220c460c8da6c3c0ace287bf214e535fae913aa495"
         },
         "28418d4f589037e65a84a1d7092cad24e12627e04e19383ddef893fce81ac07d": {
@@ -85,7 +85,7 @@
             "amount": -20.0,
             "description": "RETRAIT DAB 24/11/24 LYON PERRAC CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "28418d4f589037e65a84a1d7092cad24e12627e04e19383ddef893fce81ac07d"
         },
         "4820f58bca8d68325b4a5d2f401b8a7ba40a50042ab01183ef3b8389977d5787": {
@@ -93,7 +93,7 @@
             "amount": -2.07,
             "description": "CARTE 21/11/24 CAREREFOUR CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "4820f58bca8d68325b4a5d2f401b8a7ba40a50042ab01183ef3b8389977d5787"
         },
         "24d8169482bd52855efce2440fcf1154374b5c5b70cbea30310f0ed75af7fdb5": {
@@ -101,7 +101,7 @@
             "amount": -2.0,
             "description": "CARTE 20/11/24 ÑCUMUL CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "24d8169482bd52855efce2440fcf1154374b5c5b70cbea30310f0ed75af7fdb5"
         },
         "6bf9b2c901753cf967eaf72e30d3d7531ae2a06de3688cdbdccd076abb3ff217": {
@@ -109,7 +109,7 @@
             "amount": -92.0,
             "description": "VIR billet Mario",
             "account_label": "boursorama",
-            "category": null,
+            "category": "WANTS",
             "id": "6bf9b2c901753cf967eaf72e30d3d7531ae2a06de3688cdbdccd076abb3ff217"
         },
         "107bf3a8af1e4b09a1628c881cc78a78cc7b350878454e057e6bd993c7c64c0d": {
@@ -117,7 +117,7 @@
             "amount": -148.2,
             "description": "VIR Dyson Mario",
             "account_label": "boursorama",
-            "category": null,
+            "category": "WANTS",
             "id": "107bf3a8af1e4b09a1628c881cc78a78cc7b350878454e057e6bd993c7c64c0d"
         },
         "e3f1848e497b98de51f9d107ea5e194b99b8ddee563f8d5969d70d8f1650efae": {
@@ -125,7 +125,7 @@
             "amount": 148.2,
             "description": "VIR Dyson",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INTERNAL_TRANSFER",
             "id": "e3f1848e497b98de51f9d107ea5e194b99b8ddee563f8d5969d70d8f1650efae"
         },
         "cd185d0e2db63a98e30ad6fc099902ec01bfbcecced48bfdd4c27bd048fd371d": {
@@ -133,7 +133,7 @@
             "amount": -3.62,
             "description": "CARTE 18/11/24 CARREFOUR CITY CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "cd185d0e2db63a98e30ad6fc099902ec01bfbcecced48bfdd4c27bd048fd371d"
         },
         "fee2dbc0baf3421bb60f6d0f8ab85868fe09a7037610b6c1870ec6bdaccbe820": {
@@ -141,7 +141,7 @@
             "amount": -300.0,
             "description": "RETRAIT DAB 15/11/24 LYON CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "SELF_LOAN",
             "id": "fee2dbc0baf3421bb60f6d0f8ab85868fe09a7037610b6c1870ec6bdaccbe820"
         },
         "239430f4dfa301052f0059730650db1ec8881503c5c795f2fcc641711d63753f": {
@@ -149,7 +149,7 @@
             "amount": -400.0,
             "description": "RETRAIT DAB 15/11/24 LYON CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "SELF_LOAN",
             "id": "239430f4dfa301052f0059730650db1ec8881503c5c795f2fcc641711d63753f"
         },
         "d6432b9a8d8d4d41ad70067f0f3b406231e6b648cd3880477f3cc3e987704588": {
@@ -157,7 +157,7 @@
             "amount": -10.69,
             "description": "CARTE 15/11/24 DELIVEROO CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "WANTS",
             "id": "d6432b9a8d8d4d41ad70067f0f3b406231e6b648cd3880477f3cc3e987704588"
         },
         "3a860afba503a5ca77924971b1155adb65d56245755b02bfe3c7e3a41fe8e1a5": {
@@ -165,7 +165,7 @@
             "amount": -2.0,
             "description": "CARTE 16/11/24 ÑCUMUL CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "3a860afba503a5ca77924971b1155adb65d56245755b02bfe3c7e3a41fe8e1a5"
         },
         "402ebd3f6a77408363c6ca90603035fa2519d1b7455afafb6d5edfc254bd81a0": {
@@ -173,7 +173,7 @@
             "amount": 1100.0,
             "description": "VIR Bike purchase",
             "account_label": "boursorama",
-            "category": null,
+            "category": "SELF_LOAN",
             "id": "402ebd3f6a77408363c6ca90603035fa2519d1b7455afafb6d5edfc254bd81a0"
         },
         "967dd31f57d1910da77c6483f0aa0e71dd4ad707a53c5fc88fe51879ff4147b6": {
@@ -181,7 +181,7 @@
             "amount": -1778.0,
             "description": "VIR ROLLOVER",
             "account_label": "boursorama",
-            "category": null,
+            "category": "SAVINGS",
             "id": "967dd31f57d1910da77c6483f0aa0e71dd4ad707a53c5fc88fe51879ff4147b6"
         },
         "f4034d0e78b31e648de271d8960bfbb4b38a7f6a7f68a17bfcdef67bb42e621c": {
@@ -189,7 +189,7 @@
             "amount": -1778.35,
             "description": "VIR ROLLOVER UNDO",
             "account_label": "boursorama",
-            "category": null,
+            "category": "SAVINGS",
             "id": "f4034d0e78b31e648de271d8960bfbb4b38a7f6a7f68a17bfcdef67bb42e621c"
         },
         "feaecb910fda129a8c861ee4ae0f3ff0ffa4c8ea5ffb7730e8aa35f938045797": {
@@ -197,7 +197,7 @@
             "amount": 1778.35,
             "description": "VIR Rollover",
             "account_label": "boursorama",
-            "category": null,
+            "category": "SAVINGS",
             "id": "feaecb910fda129a8c861ee4ae0f3ff0ffa4c8ea5ffb7730e8aa35f938045797"
         },
         "cd1d11026c54e2afb8f155f5ce7b830653275c5224fd4ed1e9fe3ca25e84d88e": {
@@ -205,7 +205,7 @@
             "amount": -305.0,
             "description": "VIR Remaining savings nov 24",
             "account_label": "boursorama",
-            "category": null,
+            "category": "SAVINGS",
             "id": "cd1d11026c54e2afb8f155f5ce7b830653275c5224fd4ed1e9fe3ca25e84d88e"
         },
         "10de6a7d942b9151785df9cdeba5b615ef4f4ec6d6f43355ce74a590d0c02878": {
@@ -213,7 +213,7 @@
             "amount": -22.0,
             "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INTERNAL_TRANSFER",
             "id": "10de6a7d942b9151785df9cdeba5b615ef4f4ec6d6f43355ce74a590d0c02878"
         },
         "af5e6a326cfe1a4945dda13e9ba7690afe9b3443a268b06cda62a388e24df1c3": {
@@ -221,7 +221,7 @@
             "amount": -696.0,
             "description": "VIR INST CASTILLO URIAS MARIO",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INTERNAL_TRANSFER",
             "id": "af5e6a326cfe1a4945dda13e9ba7690afe9b3443a268b06cda62a388e24df1c3"
         },
         "3ca40c349b287650112340f36d14f35f92d2743d2d9839004e55f9eade61b2ea": {
@@ -229,7 +229,7 @@
             "amount": 22.0,
             "description": "VIR Virement de Chloe VANDEBEULQUE",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INTERNAL_TRANSFER",
             "id": "3ca40c349b287650112340f36d14f35f92d2743d2d9839004e55f9eade61b2ea"
         },
         "74d45c65eb5a4ef4974c2b0d68ee114c44608f77bfe612423450fdfd043bd097": {
@@ -237,7 +237,7 @@
             "amount": -18.89,
             "description": "CARTE 09/11/24 DELIVEROO CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "74d45c65eb5a4ef4974c2b0d68ee114c44608f77bfe612423450fdfd043bd097"
         },
         "5379405d12fd7f80b3a7cd33c3949931518acadad05a557c5ce4bec11819fe28": {
@@ -245,7 +245,7 @@
             "amount": -0.99,
             "description": "CARTE 08/11/24 APPLE.COM/BILL CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "WANTS",
             "id": "5379405d12fd7f80b3a7cd33c3949931518acadad05a557c5ce4bec11819fe28"
         },
         "703f3ff95999f610f807e91aed64c1f2ebc4ac9a283accd8cf4ecf4d24491991": {
@@ -253,7 +253,7 @@
             "amount": 696.0,
             "description": "VIR VIVA MEXICO",
             "account_label": "boursorama",
-            "category": null,
+            "category": "INTERNAL_TRANSFER",
             "id": "703f3ff95999f610f807e91aed64c1f2ebc4ac9a283accd8cf4ecf4d24491991"
         },
         "ba0d8291e419abf714c9e3b36336ee30c24ed46c0023e4b7d2d9bd6fe8c1197f": {
@@ -261,7 +261,7 @@
             "amount": -20.99,
             "description": "PRLV SEPA BASIC FIT FRANCE",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "ba0d8291e419abf714c9e3b36336ee30c24ed46c0023e4b7d2d9bd6fe8c1197f"
         },
         "19910ccf88c409fc0016832a6d7d25af79fa8d089059cb3bd42951295c93e356": {
@@ -269,7 +269,7 @@
             "amount": 48.1,
             "description": "VIR SEPA TOTALENERGIES ELECTRICITE",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "19910ccf88c409fc0016832a6d7d25af79fa8d089059cb3bd42951295c93e356"
         },
         "26bce6454570d95796f17f77bf3f7f5add2af3aa5f466216b6f7ef35d59c931a": {
@@ -277,7 +277,7 @@
             "amount": -0.99,
             "description": "*FRAIS BOURSO PROTECT MONO",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "26bce6454570d95796f17f77bf3f7f5add2af3aa5f466216b6f7ef35d59c931a"
         },
         "87b878d688bd52320fdb4897efd4a846808fc61018fd7f191579981595c41cce": {
@@ -285,7 +285,7 @@
             "amount": -19.99,
             "description": "PRLV SEPA FREE MOBILE",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "87b878d688bd52320fdb4897efd4a846808fc61018fd7f191579981595c41cce"
         },
         "50d285f682a9a5601c96c00f7d1fc9f80f90dbcb73cbbb0e78e1b9274dc1dbb2": {
@@ -293,7 +293,7 @@
             "amount": -0.65,
             "description": "CARTE 05/11/24 CAREREFOUR CB*1927",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "50d285f682a9a5601c96c00f7d1fc9f80f90dbcb73cbbb0e78e1b9274dc1dbb2"
         },
         "e731f67aca2807da2a11ccca7d5d36e243689c852a7b1aa66f9de532d041ffc5": {
@@ -301,7 +301,7 @@
             "amount": -750.0,
             "description": "VIR SEPA CASTILLO URIAS Mario",
             "account_label": "boursorama",
-            "category": null,
+            "category": "SAVINGS",
             "id": "e731f67aca2807da2a11ccca7d5d36e243689c852a7b1aa66f9de532d041ffc5"
         },
         "1325144eeb79856aac34c4343ba80ba3a0f7b4822085c4c3d9c8f8c926d1a5ce": {
@@ -309,7 +309,7 @@
             "amount": -747.47,
             "description": "VIR apport compte joint - Mario",
             "account_label": "boursorama",
-            "category": null,
+            "category": "LIVING",
             "id": "1325144eeb79856aac34c4343ba80ba3a0f7b4822085c4c3d9c8f8c926d1a5ce"
         }
     },
