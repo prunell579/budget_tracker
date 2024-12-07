@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation Categories Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .total {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Operations by Category</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Total Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>LIVING</td>
+                <td>{{ category_totals['LIVING'] }}</td>
+            </tr>
+            <tr>
+                <td>WANTS</td>
+                <td>{{ category_totals['WANTS'] }}</td>
+            </tr>
+            <tr>
+                <td>SAVINGS</td>
+                <td>{{ category_totals['SAVINGS'] }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
