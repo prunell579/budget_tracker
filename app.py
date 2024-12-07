@@ -31,7 +31,8 @@ def index():
 
     return render_template('index.html', categories=[cat.value for cat in categories],
                                         spent_amounts=category_totals,
-                                        budgeted_amounts=budgeted_amounts)
+                                        budgeted_amounts=budgeted_amounts,
+                                        operation_list=user_db.operations)
 
 if __name__ == '__main__':
     app.run(debug=True)
