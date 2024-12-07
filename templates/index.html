@@ -59,7 +59,18 @@
                     <td>{{ '{:.2f}'.format(operation.amount) }}</td>
                     <td>{{ operation.description }}</td>
                     <td>{{ operation.account_label }}</td>
-                    <td>{{ operation.category.value }}</td>
+                    <td>
+                        <select 
+                            class="category-select" 
+                            data-operation-id="{{ op_id }}" 
+                            onchange="updateCategory(this)">
+                            {% for supported_category in operation.SupportedCategories %}
+                            <option value="{{ supported_category.value }}" {% if operation.category.value == supported_category.value %}selected{% endif %}>
+                                {{ supported_category.value }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </td>
                 </tr>
                 {% endfor %}
             </tbody>
@@ -111,5 +122,37 @@
             }
         });
     </script>
+
+    <script>
+        function updateCategory(selectElement) {
+            const operationId = selectElement.getAttribute('data-operation-id');
+            const newCategory = selectElement.value;
+        
+            // Send the updated category to the backend
+            fetch('/update-category', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    operation_id: operationId,
+                    new_category: newCategory
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    alert('Failed to update category.');
+                } else {
+                    response.json().then(data => {
+                        console.log('Update successful:', data);
+                        // Optionally update the chart here
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+        </script>
 </body>
 </html>
