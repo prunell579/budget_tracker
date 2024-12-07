@@ -10,8 +10,18 @@
 <body>
     <h1>Budget vs Spent Per Category</h1>
 
-    <!-- Create a canvas for the chart -->
-    <canvas id="myChart" width="400" height="200"></canvas>
+    <style>
+        #chart-container {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            height: 100vh;          /* Full viewport height */
+        }
+    </style>
+
+
+    <div id="chart-container">
+        <canvas id="myChart" width="600" height="500"></canvas>
+    </div>
 
     <script>
         // Data for the chart
@@ -43,6 +53,8 @@
                 ]
             },
             options: {
+                responsive: false, // Disable automatic resizing
+                maintainAspectRatio: false, // Allow the chart to stretch
                 scales: {
                     y: {
                         beginAtZero: true
