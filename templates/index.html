@@ -145,6 +145,7 @@
                 } else {
                     response.json().then(data => {
                         console.log('Update successful:', data);
+                        refreshChart()
                         // Optionally update the chart here
                     });
                 }
@@ -153,6 +154,18 @@
                 console.error('Error:', error);
             });
         }
+
+        function refreshChart() {
+            fetch('/get-chart-data')
+                .then(response => response.json())
+                .then(data => {
+                    myChart.data.datasets[0].data = data.amounts; // Update chart data
+                    myChart.update(); // Redraw the chart
+                });
+        }
         </script>
+
+
+    
 </body>
 </html>

@@ -1,5 +1,5 @@
 import sys
-from flask import Flask, render_template
+from flask import Flask, jsonify, render_template, request
 
 sys.path.append('.')
 import model.operations as ops
@@ -35,6 +35,30 @@ def index():
                                         spent_amounts=category_totals,
                                         budgeted_amounts=budgeted_amounts,
                                         operation_list=user_db.operations)
+
+
+@app.route('/update-category', methods=['POST'])
+def update_category():
+    data = request.json
+    operation_id = data.get('operation_id')
+    new_category = data.get('new_category')
+    # Update the category in your OperationsDatabase
+    if operation_id in user_db.operations:
+        user_db.operations[operation_id].category = ops.Operation.SupportedCategories(new_category)
+        return jsonify({'success': True, 'message': 'Category updated successfully.'})
+    else:
+        return jsonify({'success': False, 'message': 'Operation not found.'}), 404
+
+@app.route('/get-chart-data', methods=['GET'])
+def get_chart_data():
+    amounts = {
+        "LIVING": user_db.compute_amount_per_category(ops.Operation.SupportedCategories.LIVING, fabs=True),
+        "WANTS": user_db.compute_amount_per_category(ops.Operation.SupportedCategories.WANTS, fabs=True),
+        "SAVINGS": user_db.compute_amount_per_category(ops.Operation.SupportedCategories.SAVINGS, fabs=True),
+    }
+    print(amounts)
+    return jsonify({"amounts": amounts})
+
 
 if __name__ == '__main__':
     app.run(debug=True)
