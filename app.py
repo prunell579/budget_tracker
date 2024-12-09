@@ -39,6 +39,7 @@ def index():
 
 @app.route('/update-category', methods=['POST'])
 def update_category():
+    global user_db
     data = request.json
     operation_id = data.get('operation_id')
     new_category = data.get('new_category')
@@ -51,6 +52,7 @@ def update_category():
 
 @app.route('/get-chart-data', methods=['GET'])
 def get_chart_data():
+    global user_db
     amounts = {
         "LIVING": user_db.compute_amount_per_category(ops.Operation.SupportedCategories.LIVING, fabs=True),
         "WANTS": user_db.compute_amount_per_category(ops.Operation.SupportedCategories.WANTS, fabs=True),
@@ -62,16 +64,17 @@ def get_chart_data():
 
 @app.route('/save', methods=['POST'])
 def save():
+    global user_db
     print('Saving db...')
     user_db.write_to_file()
     return redirect(url_for('index'))
 
 @app.route('/reset',  methods=['POST'])
 def reset():
-    pass
-    # print('resetting to last saved db...')
-    # user_db = ops.OperationsDatabase.load_from_json()
-    # return redirect(url_for('index'))
+    global user_db
+    print('resetting to last saved db...')
+    user_db = ops.OperationsDatabase.load_from_json()
+    return redirect(url_for('index'))
 
 if __name__ == '__main__':
     app.run(debug=True)
