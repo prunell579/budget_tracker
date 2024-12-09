@@ -77,6 +77,19 @@
         </table>
     </div>
 
+    <div style="margin-top: 20px; text-align: center;">
+        <form action="/save" method="POST" style="display: inline;">
+            <button type="submit" style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; border: none; border-radius: 5px;">
+                Save
+            </button>
+        </form>
+        <form action="/reset" method="POST" style="display: inline;">
+            <button type="submit" style="padding: 10px 20px; font-size: 16px; background-color: #f44336; color: white; border: none; border-radius: 5px;">
+                Reset
+            </button>
+        </form>
+    </div>
+
     <script>
         // Data for the chart
         const categories = {{ categories | tojson }};

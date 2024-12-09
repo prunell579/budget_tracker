@@ -1,5 +1,5 @@
 import sys
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, redirect, render_template, request, url_for
 
 sys.path.append('.')
 import model.operations as ops
@@ -59,6 +59,19 @@ def get_chart_data():
     print(amounts)
     return jsonify({"amounts": amounts})
 
+
+@app.route('/save', methods=['POST'])
+def save():
+    print('Saving db...')
+    user_db.write_to_file()
+    return redirect(url_for('index'))
+
+@app.route('/reset',  methods=['POST'])
+def reset():
+    pass
+    # print('resetting to last saved db...')
+    # user_db = ops.OperationsDatabase.load_from_json()
+    # return redirect(url_for('index'))
 
 if __name__ == '__main__':
     app.run(debug=True)
