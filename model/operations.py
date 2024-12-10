@@ -45,6 +45,11 @@ class Operation():
             f"Account Label: {self.account_label} | "
             f"Category: {self.category if self.category else 'N/A'}")
 
+    def belongs_to_month_and_year(self, year: int, month: int):
+        if self.date.year == year and self.date.month == month:
+            return True
+        return False
+
     def jsonfy(self):
         raw_dict = asdict(self)
         raw_dict['date'] = raw_dict['date'].isoformat()
@@ -89,8 +94,18 @@ class OperationsDatabase():
         self.operations[operation.id] = operation
         self.processed_operations_ids.add(operation.id)
 
-    def compute_amount_per_category(self, category: Operation.SupportedCategories, fabs=False, start_date=None, end_date=None):
-        amount = sum(op.amount for op in self.get_operations_by_category(category))
+
+    def get_operations(self, yymm: tuple[int,int]=None) -> list[Operation]:
+        if yymm:
+            return [op for op in self.operations.values() if op.belongs_to_month_and_year(yymm[0], yymm[1])]
+        # else
+        return self.operations.values()
+    
+    def get_operations_by_category(self, category: Operation.SupportedCategories, yymm: tuple[int,int]=None) -> list[Operation]:
+        return [op for op in self.get_operations(yymm) if category==op.category]
+
+    def compute_amount_per_category(self, category: Operation.SupportedCategories, yymm: tuple[int, int]=(), fabs=True):
+        amount = sum(op.amount for op in self.get_operations_by_category(category, yymm))
         if fabs:
             amount = abs(amount)
 
@@ -110,10 +125,3 @@ class OperationsDatabase():
         json_string =  json.dumps(self.jsonfy(), indent=4, ensure_ascii=False)
         with open('operations_database.json','w', encoding='utf-8') as f:
             f.write(json_string)
-
-    def get_operations(self) -> list[Operation]:
-        return self.operations.values()
-    
-    def get_operations_by_category(self, category: Operation.SupportedCategories) -> list[Operation]:
-        return [op for op in self.get_operations() if category==op.category]
-
