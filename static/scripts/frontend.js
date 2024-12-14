@@ -1,6 +1,36 @@
 
 let myChart=null;
 
+// Global variables to track the currently displayed month and year
+let currentMonth = new Date().getMonth() + 1; // Months are 0-indexed, so +1
+let currentYear = new Date().getFullYear();
+
+// Initialize the page
+document.addEventListener('DOMContentLoaded', () => {
+    updateOperations(currentYear, currentMonth); // Fetch and display operations
+
+    // Add event listeners to the navigation buttons
+    document.getElementById('prevMonth').addEventListener('click', () => {
+        changeMonth(-1); // Go to the previous month
+    });
+    document.getElementById('nextMonth').addEventListener('click', () => {
+        changeMonth(1); // Go to the next month
+    });
+});
+
+// Update the current month and fetch the operations
+function changeMonth(delta) {
+    console.log('not implemented yet');
+}
+
+function updateOperations(year, month) {
+    console.log('not implemented yet');
+
+    const monthName = new Date(year, month - 1).toLocaleString('default', { month: 'long' });
+    document.getElementById('currentMonth').innerText = `${monthName} ${year}`;
+}
+
+
 function createBarChart(spentAmounts, budgetedAmounts) {
     const ctx = document.getElementById('myChart').getContext('2d');
 
