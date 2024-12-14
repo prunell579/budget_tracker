@@ -1,5 +1,6 @@
 import sys
 from flask import Flask, jsonify, redirect, render_template, request, url_for
+import datetime
 
 sys.path.append('.')
 import model.operations as ops
@@ -8,6 +9,9 @@ app = Flask(__name__)
 
 # Global variable for the database
 user_db =  ops.OperationsDatabase.load_from_json()
+
+# backend should serve json data to front end
+# html items will take the json data and send it over to js scripts if needed
 
 @app.route('/')
 def index():
@@ -31,10 +35,10 @@ def index():
                         ops.Operation.SupportedCategories('SAVINGS').value: 750.00,
                         }
 
-    return render_template('index.html', categories=[cat.value for cat in categories],
-                                        spent_amounts=category_totals,
-                                        budgeted_amounts=budgeted_amounts,
-                                        operation_list=user_db.operations)
+    return render_template('index.html',
+                            spent_amounts=category_totals,
+                            budgeted_amounts=budgeted_amounts,
+                            operation_list=user_db.operations)
 
 
 @app.route('/update-category', methods=['POST'])

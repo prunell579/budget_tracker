@@ -1,8 +1,10 @@
 
 let myChart=null;
 
-function createBarChart(categories, spentAmounts, budgetedAmounts) {
+function createBarChart(spentAmounts, budgetedAmounts) {
     const ctx = document.getElementById('myChart').getContext('2d');
+
+    categories = Object.keys(spentAmounts)
 
     // If a chart already exists, destroy it before creating a new one
     if (myChart !== null) {

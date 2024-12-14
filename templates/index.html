@@ -95,11 +95,10 @@
 
     <script>
         // Data for the chart
-        const categories = {{ categories | tojson }};
         const spentAmounts = {{ spent_amounts | tojson }};
         const budgetedAmounts = {{ budgeted_amounts | tojson }};
 
-        createBarChart(categories, spentAmounts, budgetedAmounts);
+        createBarChart(spentAmounts, budgetedAmounts);
     </script>
 
 
