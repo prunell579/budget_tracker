@@ -1,6 +1,6 @@
 import sys
 from flask import Flask, jsonify, redirect, render_template, request, url_for
-import datetime
+from datetime import datetime
 
 sys.path.append('.')
 import model.operations as ops
@@ -28,11 +28,17 @@ def index():
                         ops.Operation.SupportedCategories('SAVINGS').value: 750.00,
                         }
 
+    now = datetime.now()
+    yymm = (now.year, now.month)
+    
+    spent_amounts = user_db.compute_amount_per_categories(list(supported_categories_in_frontend), yymm=yymm)
+    operations_list = user_db.get_operations(yymm=yymm)
+
 
     return render_template('index.html',
-                            spent_amounts=user_db.compute_amount_per_categories(list(supported_categories_in_frontend)),
+                            spent_amounts=spent_amounts,
                             budgeted_amounts=budgeted_amounts,
-                            operation_list=user_db.operations)
+                            operation_list=operations_list)
 
 
 @app.route('/update-category', methods=['POST'])
