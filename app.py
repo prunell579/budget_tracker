@@ -9,6 +9,11 @@ app = Flask(__name__)
 
 # Global variable for the database
 user_db =  ops.OperationsDatabase.load_from_json()
+supported_categories_in_frontend = (
+                                    ops.Operation.SupportedCategories('LIVING'), 
+                                    ops.Operation.SupportedCategories('WANTS'), 
+                                    ops.Operation.SupportedCategories('SAVINGS')
+                                    )
 
 # backend should serve json data to front end
 # html items will take the json data and send it over to js scripts if needed
@@ -23,15 +28,9 @@ def index():
                         ops.Operation.SupportedCategories('SAVINGS').value: 750.00,
                         }
 
-    # Calculate the total amounts per category
-    categories = [
-                    ops.Operation.SupportedCategories('LIVING'), 
-                    ops.Operation.SupportedCategories('WANTS'), 
-                    ops.Operation.SupportedCategories('SAVINGS')
-                ]
 
     return render_template('index.html',
-                            spent_amounts=user_db.compute_amount_per_categories(categories),
+                            spent_amounts=user_db.compute_amount_per_categories(list(supported_categories_in_frontend)),
                             budgeted_amounts=budgeted_amounts,
                             operation_list=user_db.operations)
 
@@ -52,12 +51,7 @@ def update_category():
 @app.route('/get-chart-data', methods=['GET'])
 def get_chart_data():
     global user_db
-    amounts = {
-        "LIVING": user_db.compute_amount_per_category(ops.Operation.SupportedCategories.LIVING, fabs=True),
-        "WANTS": user_db.compute_amount_per_category(ops.Operation.SupportedCategories.WANTS, fabs=True),
-        "SAVINGS": user_db.compute_amount_per_category(ops.Operation.SupportedCategories.SAVINGS, fabs=True),
-    }
-    print(amounts)
+    amounts = user_db.compute_amount_per_categories(list(supported_categories_in_frontend))
     return jsonify({"amounts": amounts})
 
 
