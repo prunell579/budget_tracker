@@ -1,7 +1,15 @@
 
+let myChart=null;
+
 function createBarChart(categories, spentAmounts, budgetedAmounts) {
     const ctx = document.getElementById('myChart').getContext('2d');
-    const myChart = new Chart(ctx, {
+
+    // If a chart already exists, destroy it before creating a new one
+    if (myChart !== null) {
+        myChart.destroy();
+    }
+
+    myChart = new Chart(ctx, {
         type: 'bar', // Bar chart type
         data: {
             labels: categories, // Categories on the X-axis
@@ -37,4 +45,46 @@ function createBarChart(categories, spentAmounts, budgetedAmounts) {
             }
         }
     });
+}
+
+function updateCategory(selectElement) {
+    const operationId = selectElement.getAttribute('data-operation-id');
+    const newCategory = selectElement.value;
+
+
+    // Send the updated category to the backend
+    fetch('/update-category', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            operation_id: operationId,
+            new_category: newCategory
+        })
+    })
+    .then(response => {
+        if (!response.ok) {
+            alert('Failed to update category.');
+        } else {
+            response.json().then(data => {
+                console.log('Update successful:', data);
+                refreshChart()
+                // Optionally update the chart here
+            });
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
+function refreshChart() {
+    console.log('refreshing chart')
+    fetch('/get-chart-data')
+        .then(response => response.json())
+        .then(data => {
+            myChart.data.datasets[0].data = data.amounts; // Update chart data
+            myChart.update(); // Redraw the chart
+        });
 }

@@ -102,49 +102,6 @@
         createBarChart(categories, spentAmounts, budgetedAmounts);
     </script>
 
-    <script>
-        function updateCategory(selectElement) {
-            const operationId = selectElement.getAttribute('data-operation-id');
-            const newCategory = selectElement.value;
-        
-            // Send the updated category to the backend
-            fetch('/update-category', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    operation_id: operationId,
-                    new_category: newCategory
-                })
-            })
-            .then(response => {
-                if (!response.ok) {
-                    alert('Failed to update category.');
-                } else {
-                    response.json().then(data => {
-                        console.log('Update successful:', data);
-                        refreshChart()
-                        // Optionally update the chart here
-                    });
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-        }
 
-        function refreshChart() {
-            fetch('/get-chart-data')
-                .then(response => response.json())
-                .then(data => {
-                    myChart.data.datasets[0].data = data.amounts; // Update chart data
-                    myChart.update(); // Redraw the chart
-                });
-        }
-        </script>
-
-
-    
 </body>
 </html>
