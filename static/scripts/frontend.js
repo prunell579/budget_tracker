@@ -1,5 +1,6 @@
 
 let myChart=null;
+let supportedCategories = fetchSupportedCategories();
 
 // Global variables to track the currently displayed month and year
 let currentMonth = new Date().getMonth() + 1; // Months are 0-indexed, so +1
@@ -7,7 +8,7 @@ let currentYear = new Date().getFullYear();
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', () => {
-    updateOperations(currentYear, currentMonth); // Fetch and display operations
+    loadOperations(currentYear, currentMonth); // Fetch and display operations
 
     // Add event listeners to the navigation buttons
     document.getElementById('prevMonth').addEventListener('click', () => {
@@ -23,12 +24,88 @@ function changeMonth(delta) {
     console.log('not implemented yet');
 }
 
-function updateOperations(year, month) {
-    console.log('not implemented yet');
-
-    const monthName = new Date(year, month - 1).toLocaleString('default', { month: 'long' });
-    document.getElementById('currentMonth').innerText = `${monthName} ${year}`;
+// Call the function to fetch categories
+async function fetchSupportedCategories() {
+    try {
+        const response = await fetch('/get-supported-categories');
+        if (!response.ok) {
+            throw new Error('Failed to fetch supported categories');
+        }
+        const categories = await response.json();
+        return categories;
+        // Use the categories as needed in your frontend logic
+    } catch (error) {
+        console.error('Error:', error);
+        return null;
+    }
 }
+
+
+function loadOperations(year, month) {
+    fetch(`/get-operations?year=${year}&month=${month}`)
+        .then(response => response.json())
+        .then(async data => {
+            const operations = data.operations;
+            const tbody = document.querySelector('#operations-table tbody');
+            tbody.innerHTML = ''; // Clear existing rows
+
+            for (const operation_item of Object.entries(operations)) {
+                const row = document.createElement('tr');
+
+                // this is ugly and i dont know why data has this shape
+                const operation = operation_item[1];
+    
+                // Date column
+                const dateCell = document.createElement('td');
+                dateCell.innerText = operation.date;
+                row.appendChild(dateCell);
+
+                // Amount column
+                const amountCell = document.createElement('td');
+                amountCell.innerText = parseFloat(operation.amount).toFixed(2);
+                row.appendChild(amountCell);
+
+                // Description column
+                const descCell = document.createElement('td');
+                descCell.innerText = operation.description;
+                row.appendChild(descCell);
+
+                // Account label column
+                const accountCell = document.createElement('td');
+                accountCell.innerText = operation.account_label;
+                row.appendChild(accountCell);
+
+                // Category dropdown column
+                const categoryCell = document.createElement('td');
+                const select = document.createElement('select');
+                select.className = 'category-select';
+                select.setAttribute('data-operation-id', operation.id);
+                select.onchange = () => updateCategory(select); // Attach event handler
+
+                const resolved_supported_categories = await supportedCategories;
+                for (const [key, cat_string] of Object.entries(resolved_supported_categories)) {
+                    const option = document.createElement('option');
+                    option.value = cat_string;
+                    option.innerText = cat_string;
+                    if (cat_string === operation.category) {
+                        option.selected = true;
+                    }
+                    select.appendChild(option);
+                };
+
+                categoryCell.appendChild(select);
+                row.appendChild(categoryCell);
+
+                // Add the row to the table body
+                tbody.appendChild(row);
+            }
+        })
+        .catch(error => {
+            console.error('Error loading operations:', error);
+            alert('Failed to load operations.');
+        });
+}
+
 
 
 function createBarChart(spentAmounts, budgetedAmounts) {

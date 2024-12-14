@@ -95,11 +95,15 @@ class OperationsDatabase():
         self.processed_operations_ids.add(operation.id)
 
 
-    def get_operations(self, yymm: tuple[int,int]=None) -> list[Operation]:
+    def get_operations(self, yymm: tuple[int,int]=None, ops_in_json_format=False) -> list[Operation]:
         if yymm:
-            return [op for op in self.operations.values() if op.belongs_to_month_and_year(yymm[0], yymm[1])]
-        # else
-        return self.operations.values()
+            ops =  [op for op in self.operations.values() if op.belongs_to_month_and_year(yymm[0], yymm[1])]
+        else:
+            ops = self.operations.values()
+
+        if ops_in_json_format:
+            return [op.jsonfy() for op in ops]
+        return ops
     
     def get_operations_by_category(self, category: Operation.SupportedCategories, yymm: tuple[int,int]=None) -> list[Operation]:
         return [op for op in self.get_operations(yymm) if category==op.category]

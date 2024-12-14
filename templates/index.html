@@ -61,26 +61,6 @@
                 </tr>
             </thead>
             <tbody>
-                {% for operation in operation_list %}
-                <tr>
-                    <td>{{ operation.date.strftime('%Y-%m-%d') }}</td>
-                    <td>{{ '{:.2f}'.format(operation.amount) }}</td>
-                    <td>{{ operation.description }}</td>
-                    <td>{{ operation.account_label }}</td>
-                    <td>
-                        <select 
-                            class="category-select" 
-                            data-operation-id="{{ operation.id }}" 
-                            onchange="updateCategory(this)">
-                            {% for supported_category in operation.SupportedCategories %}
-                            <option value="{{ supported_category.value }}" {% if operation.category.value == supported_category.value %}selected{% endif %}>
-                                {{ supported_category.value }}
-                            </option>
-                            {% endfor %}
-                        </select>
-                    </td>
-                </tr>
-                {% endfor %}
             </tbody>
         </table>
     </div>

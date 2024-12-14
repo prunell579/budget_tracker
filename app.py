@@ -32,13 +32,30 @@ def index():
     yymm = (now.year, now.month)
     
     spent_amounts = user_db.compute_amount_per_categories(list(supported_categories_in_frontend), yymm=yymm)
-    operations_list = user_db.get_operations(yymm=yymm)
-
 
     return render_template('index.html',
                             spent_amounts=spent_amounts,
-                            budgeted_amounts=budgeted_amounts,
-                            operation_list=operations_list)
+                            budgeted_amounts=budgeted_amounts)
+
+
+@app.route('/get-operations', methods=['GET'])
+def get_operations():
+    global user_db
+    # Retrieve operations for a specific month and year (you already implemented this)
+    month = request.args.get('month', type=int)
+    year = request.args.get('year', type=int)
+
+    # operations = ops.OperationsDatabase.get_operations(year, month)
+    yymm = (year, month)
+    return jsonify({'operations': user_db.get_operations(yymm=yymm, ops_in_json_format=True)})
+
+@app.route('/get-supported-categories', methods=['GET'])
+def get_supported_categories():
+    global user_db
+
+    categories = {category.name: category.value for category in ops.Operation.SupportedCategories}
+    print(categories)
+    return jsonify(categories)  # Send as JSON
 
 
 @app.route('/update-category', methods=['POST'])
