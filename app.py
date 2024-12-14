@@ -74,8 +74,13 @@ def update_category():
 @app.route('/get-chart-data', methods=['GET'])
 def get_chart_data():
     global user_db
-    now = datetime.now()
-    yymm = (now.year, now.month)
+
+    # add fallback if month and year are not given
+    month = request.args.get('month', type=int)
+    year = request.args.get('year', type=int)
+
+    yymm = (year, month)
+
     amounts = user_db.compute_amount_per_categories(list(supported_categories_in_frontend), yymm=yymm)
     return jsonify({"amounts": amounts})
 

@@ -21,7 +21,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Update the current month and fetch the operations
 function changeMonth(delta) {
-    console.log('not implemented yet');
+    currentMonth += delta;
+
+    if (currentMonth < 1) {
+        currentMonth = 12;
+        currentYear -= 1;
+    } else if (currentMonth > 12) {
+        currentMonth = 1;
+        currentYear += 1;
+    }
+
+    loadOperations(currentYear, currentMonth);
+    refreshChart(currentYear, currentMonth);
 }
 
 // Call the function to fetch categories
@@ -107,7 +118,6 @@ function loadOperations(year, month) {
 }
 
 
-
 function createBarChart(spentAmounts, budgetedAmounts) {
     const ctx = document.getElementById('myChart').getContext('2d');
 
@@ -178,7 +188,7 @@ function updateCategory(selectElement) {
         } else {
             response.json().then(data => {
                 console.log('Update successful:', data);
-                refreshChart()
+                refreshChart(currentYear, currentMonth)
                 // Optionally update the chart here
             });
         }
@@ -188,9 +198,9 @@ function updateCategory(selectElement) {
     });
 }
 
-function refreshChart() {
+function refreshChart(year, month) {
     console.log('refreshing chart')
-    fetch('/get-chart-data')
+    fetch(`/get-chart-data?year=${year}&month=${month}`)
         .then(response => response.json())
         .then(data => {
             myChart.data.datasets[0].data = data.amounts; // Update chart data
