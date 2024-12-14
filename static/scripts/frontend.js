@@ -60,6 +60,10 @@ function loadOperations(year, month) {
             const tbody = document.querySelector('#operations-table tbody');
             tbody.innerHTML = ''; // Clear existing rows
 
+            // Update the displayed month name
+            const monthName = new Date(year, month - 1).toLocaleString('default', { month: 'long' });
+            document.getElementById('currentMonth').innerText = `${monthName} ${year}`;
+
             for (const operation_item of Object.entries(operations)) {
                 const row = document.createElement('tr');
 
