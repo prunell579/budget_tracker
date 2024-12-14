@@ -110,6 +110,23 @@ class OperationsDatabase():
             amount = abs(amount)
 
         return amount
+    
+    def compute_amount_per_categories(self,
+                                      categories: list[Operation.SupportedCategories],
+                                      yymm: tuple[int, int]=(), 
+                                      fabs=True,
+                                      dict_keys_as_values=True) -> dict:
+        amounts = {}
+
+        for category in categories:
+            if dict_keys_as_values:
+                cat_key = category.value
+            else:
+                cat_key = category
+
+            amounts[cat_key] = self.compute_amount_per_category(category, yymm, fabs)
+
+        return amounts
 
     def jsonfy(self):
         operations_db_as_dict = dict.fromkeys(asdict(self).keys())

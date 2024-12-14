@@ -16,18 +16,6 @@ user_db =  ops.OperationsDatabase.load_from_json()
 @app.route('/')
 def index():
 
-    # Calculate the total amounts per category
-    categories = [
-                    ops.Operation.SupportedCategories('LIVING'), 
-                    ops.Operation.SupportedCategories('WANTS'), 
-                    ops.Operation.SupportedCategories('SAVINGS')
-                ]
-    
-
-    category_totals = {}
-    for category in categories:
-        category_totals[category.value] = user_db.compute_amount_per_category(category, fabs=True)
-
     # hardcoded values for budget
     budgeted_amounts = {
                         ops.Operation.SupportedCategories('LIVING').value: 900.00,
@@ -35,8 +23,15 @@ def index():
                         ops.Operation.SupportedCategories('SAVINGS').value: 750.00,
                         }
 
+    # Calculate the total amounts per category
+    categories = [
+                    ops.Operation.SupportedCategories('LIVING'), 
+                    ops.Operation.SupportedCategories('WANTS'), 
+                    ops.Operation.SupportedCategories('SAVINGS')
+                ]
+
     return render_template('index.html',
-                            spent_amounts=category_totals,
+                            spent_amounts=user_db.compute_amount_per_categories(categories),
                             budgeted_amounts=budgeted_amounts,
                             operation_list=user_db.operations)
 
