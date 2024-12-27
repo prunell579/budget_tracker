@@ -1,0 +1,1406 @@
+{
+    "transactions": {
+        "booked": [
+            {
+                "transactionId": "18033117101",
+                "bookingDate": "2024-12-27",
+                "valueDate": "2024-12-27",
+                "transactionAmount": {
+                    "amount": "3805.6",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA SIEMENS INDUSTRY SOFTWARE SAS",
+                    "SALAIRE DE DECEMBRE 2024",
+                    "Réf ZZ1HH7XKNNPI34TPIZZ1HH7XKO4KIMUQUE"
+                ],
+                "internalTransactionId": "cd0dc295445494d54bb8b289d58ec5c6"
+            },
+            {
+                "transactionId": "18022778101",
+                "bookingDate": "2024-12-24",
+                "valueDate": "2024-12-24",
+                "transactionAmount": {
+                    "amount": "-343.89",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR INST CASTILLO URIAS MARIO",
+                    "INTERNAL TRANSFER gold cc 12/24"
+                ],
+                "internalTransactionId": "22e8e8d97e51e60f370185e749d4f415"
+            },
+            {
+                "transactionId": "17987469445",
+                "bookingDate": "2024-12-23",
+                "valueDate": "2024-12-23",
+                "transactionAmount": {
+                    "amount": "115.45",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA CSE SISW",
+                    "sport et",
+                    "Mario---2024---Rbt-sport-et-",
+                    "Vers 23756 - CASTILLO Mario - 2024 - Rbt",
+                    "Réf ABSI243550000970940.0100003"
+                ],
+                "internalTransactionId": "9786c163a4f1f0cd01410658290ebbe3"
+            },
+            {
+                "transactionId": "17993317563",
+                "bookingDate": "2024-12-23",
+                "valueDate": "2024-12-23",
+                "transactionAmount": {
+                    "amount": "-2",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 19/12/24 KEOLIS LYON 69 L CB*1927"
+                ],
+                "internalTransactionId": "f200d7e4baa52b6a7814357d6bf1daac"
+            },
+            {
+                "transactionId": "17984610574",
+                "bookingDate": "2024-12-20",
+                "valueDate": "2024-12-20",
+                "transactionAmount": {
+                    "amount": "-4",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 18/12/24 KEOLIS LYON 69 L CB*1927"
+                ],
+                "internalTransactionId": "edd38d16d27c969fde63d0f271802edc"
+            },
+            {
+                "transactionId": "17942112399",
+                "bookingDate": "2024-12-17",
+                "valueDate": "2024-12-17",
+                "transactionAmount": {
+                    "amount": "-8.44",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 16/12/24 DELIVEROO CB*1927"
+                ],
+                "internalTransactionId": "bc610c183fcd769f71c517271d5de7e0"
+            },
+            {
+                "transactionId": "17914240728",
+                "bookingDate": "2024-12-16",
+                "valueDate": "2024-12-16",
+                "transactionAmount": {
+                    "amount": "-4",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 13/12/24 KEOLIS LYON 69 L CB*1927"
+                ],
+                "internalTransactionId": "f759ec532cb37f6c248f2016fca6a831"
+            },
+            {
+                "transactionId": "17862260071",
+                "bookingDate": "2024-12-10",
+                "valueDate": "2024-12-10",
+                "transactionAmount": {
+                    "amount": "-3.19",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 09/12/24 DELIVEROO CB*1927"
+                ],
+                "internalTransactionId": "fbae5af3fc5148d9e2c1f149feeed495"
+            },
+            {
+                "transactionId": "17820365118",
+                "bookingDate": "2024-12-09",
+                "valueDate": "2024-12-09",
+                "transactionAmount": {
+                    "amount": "-54.14",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "PRLV SEPA EAU DU GRAND LYON - LA REGIE",
+                    "COMD98HQ00422592MEV",
+                    "EAU DU GRAND LYON - LA REGIE",
+                    "RUM XX703397523SEPA"
+                ],
+                "internalTransactionId": "a8c1e1794a1d1117e0a0adecdd0fe9c2"
+            },
+            {
+                "transactionId": "17820365116",
+                "bookingDate": "2024-12-09",
+                "valueDate": "2024-12-09",
+                "transactionAmount": {
+                    "amount": "-19.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "PRLV SEPA FREE MOBILE",
+                    "RUM FM-44527224-2",
+                    "0924340FJIWAZSDT"
+                ],
+                "internalTransactionId": "94d1240798bf7654a95d9ee28e4960c6"
+            },
+            {
+                "transactionId": "17824523441",
+                "bookingDate": "2024-12-09",
+                "valueDate": "2024-12-09",
+                "transactionAmount": {
+                    "amount": "-0.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 08/12/24 APPLE.COM/BILL CB*1927"
+                ],
+                "internalTransactionId": "d82938de9a412e040b47a41e87dfa491"
+            },
+            {
+                "transactionId": "17846208009",
+                "bookingDate": "2024-12-09",
+                "valueDate": "2024-12-09",
+                "transactionAmount": {
+                    "amount": "-2.49",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 07/12/24 DELIVEROO CB*1927"
+                ],
+                "internalTransactionId": "94ea56244460db680a50226204a49df4"
+            },
+            {
+                "transactionId": "17816981100",
+                "bookingDate": "2024-12-06",
+                "valueDate": "2024-12-06",
+                "transactionAmount": {
+                    "amount": "-0.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "*FRAIS BOURSO PROTECT MONO"
+                ],
+                "internalTransactionId": "364f66bd0b2ad3e701f7d51cc39f1735"
+            },
+            {
+                "transactionId": "17805007064",
+                "bookingDate": "2024-12-06",
+                "valueDate": "2024-12-06",
+                "transactionAmount": {
+                    "amount": "-21.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "PRLV SEPA BASIC FIT FRANCE",
+                    "06-12-2024 / 02-01-2025",
+                    "GT025042929627880AE",
+                    "RUM A69003724"
+                ],
+                "internalTransactionId": "723d89e866c18523c33908ebfe919454"
+            },
+            {
+                "transactionId": "17747210080",
+                "bookingDate": "2024-12-03",
+                "valueDate": "2024-12-03",
+                "transactionAmount": {
+                    "amount": "-750",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA CASTILLO URIAS Mario",
+                    "PEA investment",
+                    "Réf : SCT406182024120300437273280"
+                ],
+                "internalTransactionId": "d2e07c5aac278703bfcdfe1f49326e4c"
+            },
+            {
+                "transactionId": "17712454263",
+                "bookingDate": "2024-12-02",
+                "valueDate": "2024-12-02",
+                "transactionAmount": {
+                    "amount": "-747.47",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR apport compte joint - Mario",
+                    "Réf : SCT406182024120200435792517",
+                    "M CASTILLO URIAS OU MLLE VAND"
+                ],
+                "internalTransactionId": "0886d69b7313f2c01efb19dac687ab9a"
+            },
+            {
+                "transactionId": "17730407489",
+                "bookingDate": "2024-12-02",
+                "valueDate": "2024-12-02",
+                "transactionAmount": {
+                    "amount": "-4",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 28/11/24 ÑCUMUL CB*1927"
+                ],
+                "internalTransactionId": "2f4424d64441cae38eff2f3c120c0d8d"
+            },
+            {
+                "transactionId": "17676567292",
+                "bookingDate": "2024-11-27",
+                "valueDate": "2024-11-27",
+                "transactionAmount": {
+                    "amount": "2593.48",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA SIEMENS INDUSTRY SOFTWARE SAS",
+                    "SALAIRE DE NOVEMBRE 2024",
+                    "Réf ZZ1HBZ6APPM7G96BJZZ1HBZ6AQIASMPI67"
+                ],
+                "internalTransactionId": "776048a836431f31b7864675126a546a"
+            },
+            {
+                "transactionId": "17680436397",
+                "bookingDate": "2024-11-27",
+                "valueDate": "2024-11-27",
+                "transactionAmount": {
+                    "amount": "-4",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 25/11/24 ÑCUMUL CB*1927"
+                ],
+                "internalTransactionId": "317966ee4a7588c09c9832f243060a88"
+            },
+            {
+                "transactionId": "17669915141",
+                "bookingDate": "2024-11-26",
+                "valueDate": "2024-11-26",
+                "transactionAmount": {
+                    "amount": "-3.79",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 25/11/24 LA POSTE.FR CB*1927"
+                ],
+                "internalTransactionId": "a1ed387cca6bc29e4da007069dc04391"
+            },
+            {
+                "transactionId": "17662366878",
+                "bookingDate": "2024-11-25",
+                "valueDate": "2024-11-25",
+                "transactionAmount": {
+                    "amount": "-696",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR INST CASTILLO URIAS MARIO",
+                    "SELF LOAN mexico"
+                ],
+                "internalTransactionId": "802720687ed220e288c3b35402382926"
+            },
+            {
+                "transactionId": "17662366390",
+                "bookingDate": "2024-11-25",
+                "valueDate": "2024-11-25",
+                "transactionAmount": {
+                    "amount": "696",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SELF LOAN mexico",
+                    "CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "6ed37670e36acd672230e0aa104b8ec8"
+            },
+            {
+                "transactionId": "17662364011",
+                "bookingDate": "2024-11-25",
+                "valueDate": "2024-11-25",
+                "transactionAmount": {
+                    "amount": "-91.76",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR INST CASTILLO URIAS MARIO",
+                    "INTERNAL regulariosarion cc oct"
+                ],
+                "internalTransactionId": "ad83cb526e91e4d489dfff23f741a789"
+            },
+            {
+                "transactionId": "17662363449",
+                "bookingDate": "2024-11-25",
+                "valueDate": "2024-11-25",
+                "transactionAmount": {
+                    "amount": "91.76",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR INTERNAL regularisation cc oct",
+                    "CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "38592bd948f0203b3fb37d336907f463"
+            },
+            {
+                "transactionId": "17662360482",
+                "bookingDate": "2024-11-25",
+                "valueDate": "2024-11-25",
+                "transactionAmount": {
+                    "amount": "-279.45",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR INST CASTILLO URIAS MARIO",
+                    "INTERNAL cc gold nov"
+                ],
+                "internalTransactionId": "7ee25fe32a6c538d5344b50de2832d99"
+            },
+            {
+                "transactionId": "17657489823",
+                "bookingDate": "2024-11-25",
+                "valueDate": "2024-11-25",
+                "transactionAmount": {
+                    "amount": "-20",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "RETRAIT DAB 24/11/24 LYON PERRAC CB*1927"
+                ],
+                "internalTransactionId": "a7bf364896ed0584c33b9dd6884e8377"
+            },
+            {
+                "transactionId": "17632327607",
+                "bookingDate": "2024-11-22",
+                "valueDate": "2024-11-22",
+                "transactionAmount": {
+                    "amount": "-2.07",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 21/11/24 CAREREFOUR CB*1927"
+                ],
+                "internalTransactionId": "3b8e8fc6d72633d90c235832144902f7"
+            },
+            {
+                "transactionId": "17632327584",
+                "bookingDate": "2024-11-22",
+                "valueDate": "2024-11-22",
+                "transactionAmount": {
+                    "amount": "-2",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 20/11/24 ÑCUMUL CB*1927"
+                ],
+                "internalTransactionId": "c02e81d447d226539adbbf123d7c3875"
+            },
+            {
+                "transactionId": "17614651270",
+                "bookingDate": "2024-11-20",
+                "valueDate": "2024-11-20",
+                "transactionAmount": {
+                    "amount": "-92",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR billet Mario",
+                    "Réf : SCT406182024112000432160608",
+                    "MLLE VANDEBEULQUE CHLOE"
+                ],
+                "internalTransactionId": "1f4e87a18cad3581a30e8d4a32850bea"
+            },
+            {
+                "transactionId": "17614649787",
+                "bookingDate": "2024-11-20",
+                "valueDate": "2024-11-20",
+                "transactionAmount": {
+                    "amount": "-148.2",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Dyson Mario",
+                    "MLLE VANDEBEULQUE CHLOE",
+                    "Réf : SCT406182024112000432160067"
+                ],
+                "internalTransactionId": "6b07c0ed945384c27754474f0d6c27d2"
+            },
+            {
+                "transactionId": "17614649470",
+                "bookingDate": "2024-11-20",
+                "valueDate": "2024-11-20",
+                "transactionAmount": {
+                    "amount": "148.2",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Dyson",
+                    "CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "d03075605032e48033d1b05d970001c3"
+            },
+            {
+                "transactionId": "17591783248",
+                "bookingDate": "2024-11-19",
+                "valueDate": "2024-11-19",
+                "transactionAmount": {
+                    "amount": "-3.62",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 18/11/24 CARREFOUR CITY CB*1927"
+                ],
+                "internalTransactionId": "342397ed10e6b70a10ab7e37e73ab71d"
+            },
+            {
+                "transactionId": "17563423457",
+                "bookingDate": "2024-11-18",
+                "valueDate": "2024-11-18",
+                "transactionAmount": {
+                    "amount": "-2",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 16/11/24 ÑCUMUL CB*1927"
+                ],
+                "internalTransactionId": "32cee0d259cd74ceb72c0d93e56045a3"
+            },
+            {
+                "transactionId": "17568037775",
+                "bookingDate": "2024-11-18",
+                "valueDate": "2024-11-18",
+                "transactionAmount": {
+                    "amount": "-300",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "RETRAIT DAB 15/11/24 LYON CB*1927"
+                ],
+                "internalTransactionId": "b4e0b706092016f3406ddaeaae6fdf9f"
+            },
+            {
+                "transactionId": "17568037752",
+                "bookingDate": "2024-11-18",
+                "valueDate": "2024-11-18",
+                "transactionAmount": {
+                    "amount": "-400",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "RETRAIT DAB 15/11/24 LYON CB*1927"
+                ],
+                "internalTransactionId": "99a6b7eb87b1d80b9cc1146471dbe4c7"
+            },
+            {
+                "transactionId": "17568037728",
+                "bookingDate": "2024-11-18",
+                "valueDate": "2024-11-18",
+                "transactionAmount": {
+                    "amount": "-400",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "RETRAIT DAB 15/11/24 LYON CB*1927"
+                ],
+                "internalTransactionId": "dc5ace986849583337a19816bb8b6910"
+            },
+            {
+                "transactionId": "17568037695",
+                "bookingDate": "2024-11-18",
+                "valueDate": "2024-11-18",
+                "transactionAmount": {
+                    "amount": "-10.69",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 15/11/24 DELIVEROO CB*1927"
+                ],
+                "internalTransactionId": "0c869ed33086347461e146735f947acd"
+            },
+            {
+                "transactionId": "17549143647",
+                "bookingDate": "2024-11-15",
+                "valueDate": "2024-11-15",
+                "transactionAmount": {
+                    "amount": "1100",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Bike purchase",
+                    "CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "bf3a9b571035be441c29b6fb212596ff"
+            },
+            {
+                "transactionId": "17549139476",
+                "bookingDate": "2024-11-15",
+                "valueDate": "2024-11-15",
+                "transactionAmount": {
+                    "amount": "-1778",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR ROLLOVER",
+                    "Réf : SCT406182024111500430539917",
+                    "M CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "a1e024167ac4083eefa30c9dda7a6ec6"
+            },
+            {
+                "transactionId": "17549138668",
+                "bookingDate": "2024-11-15",
+                "valueDate": "2024-11-15",
+                "transactionAmount": {
+                    "amount": "-1778.35",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR ROLLOVER UNDO",
+                    "Réf : SCT406182024111500430539701",
+                    "M CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "cbdb063a62f10cc3e87ac1de14c0eb80"
+            },
+            {
+                "transactionId": "17549137497",
+                "bookingDate": "2024-11-15",
+                "valueDate": "2024-11-15",
+                "transactionAmount": {
+                    "amount": "1778.35",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Rollover",
+                    "CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "d6c984da2782f5b9ad049aafbaea8441"
+            },
+            {
+                "transactionId": "17549132697",
+                "bookingDate": "2024-11-15",
+                "valueDate": "2024-11-15",
+                "transactionAmount": {
+                    "amount": "-305",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Remaining savings nov 24",
+                    "M CASTILLO URIAS MARIO",
+                    "Réf : SCT406182024111500430538160"
+                ],
+                "internalTransactionId": "3a6634cb670d69b339013bcc74ed6b65"
+            },
+            {
+                "transactionId": "17549107492",
+                "bookingDate": "2024-11-15",
+                "valueDate": "2024-11-15",
+                "transactionAmount": {
+                    "amount": "-22",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR INST CASTILLO URIAS MARIO",
+                    "Magnesium chloe"
+                ],
+                "internalTransactionId": "019b87536c35ae9174122c0c82950632"
+            },
+            {
+                "transactionId": "17549106876",
+                "bookingDate": "2024-11-15",
+                "valueDate": "2024-11-15",
+                "transactionAmount": {
+                    "amount": "-696",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR INST CASTILLO URIAS MARIO",
+                    "VIVA MEXICO chloe"
+                ],
+                "internalTransactionId": "0daefbba2bf0ab8cd9e991cf83098a5a"
+            },
+            {
+                "transactionId": "17546337835",
+                "bookingDate": "2024-11-14",
+                "valueDate": "2024-11-14",
+                "transactionAmount": {
+                    "amount": "22",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Virement de Chloe VANDEBEULQUE",
+                    "VANDEBEULQUE CHLOE"
+                ],
+                "internalTransactionId": "06d42786e098bf014401244bbba0a544"
+            },
+            {
+                "transactionId": "17503292611",
+                "bookingDate": "2024-11-12",
+                "valueDate": "2024-11-12",
+                "transactionAmount": {
+                    "amount": "-18.89",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 09/11/24 DELIVEROO CB*1927"
+                ],
+                "internalTransactionId": "a353cd7d8d9f96a0623abf3a14a35d19"
+            },
+            {
+                "transactionId": "17503292583",
+                "bookingDate": "2024-11-12",
+                "valueDate": "2024-11-12",
+                "transactionAmount": {
+                    "amount": "-0.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 08/11/24 APPLE.COM/BILL CB*1927"
+                ],
+                "internalTransactionId": "49ace85837918504ce27bf762ca2683c"
+            },
+            {
+                "transactionId": "17487436912",
+                "bookingDate": "2024-11-11",
+                "valueDate": "2024-11-11",
+                "transactionAmount": {
+                    "amount": "696",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR VIVA MEXICO",
+                    "VANDEBEULQUE CHLOE"
+                ],
+                "internalTransactionId": "61810ad775c531fecc224234b8f7161b"
+            },
+            {
+                "transactionId": "17471550100",
+                "bookingDate": "2024-11-08",
+                "valueDate": "2024-11-08",
+                "transactionAmount": {
+                    "amount": "-20.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "PRLV SEPA BASIC FIT FRANCE",
+                    "GT025042709506270AE",
+                    "08-11-2024 / 05-12-2024",
+                    "RUM A69003724"
+                ],
+                "internalTransactionId": "5b9925e93f7100a82fc02dd9c79549db"
+            },
+            {
+                "transactionId": "17461547577",
+                "bookingDate": "2024-11-07",
+                "valueDate": "2024-11-07",
+                "transactionAmount": {
+                    "amount": "48.1",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA TOTALENERGIES ELECTRICITE",
+                    "Réf COMC431100257782",
+                    "VIREMENT TOTALENERGIES ELECTRICITE ET GA",
+                    "Z FRANCE-REFERENCE CLIENT 109740355",
+                    "0109740355-214013549450"
+                ],
+                "internalTransactionId": "5864ce386bd67a2e8ba560c8a79dd9e4"
+            },
+            {
+                "transactionId": "17459990150",
+                "bookingDate": "2024-11-07",
+                "valueDate": "2024-11-07",
+                "transactionAmount": {
+                    "amount": "-0.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "*FRAIS BOURSO PROTECT MONO"
+                ],
+                "internalTransactionId": "d887014771ed8914d49d8167291e8834"
+            },
+            {
+                "transactionId": "17458124220",
+                "bookingDate": "2024-11-07",
+                "valueDate": "2024-11-07",
+                "transactionAmount": {
+                    "amount": "-19.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "PRLV SEPA FREE MOBILE",
+                    "RUM FM-44527224-2",
+                    "6124311A1F3M7SDT"
+                ],
+                "internalTransactionId": "76ff489847861c4eda1fba0b2d00b211"
+            },
+            {
+                "transactionId": "17449645087",
+                "bookingDate": "2024-11-06",
+                "valueDate": "2024-11-06",
+                "transactionAmount": {
+                    "amount": "-0.65",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 05/11/24 CAREREFOUR CB*1927"
+                ],
+                "internalTransactionId": "2f0c99c88ea1374cba0e51ae3618ca82"
+            },
+            {
+                "transactionId": "17383324164",
+                "bookingDate": "2024-11-04",
+                "valueDate": "2024-11-04",
+                "transactionAmount": {
+                    "amount": "-750",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA CASTILLO URIAS Mario",
+                    "PEA investment",
+                    "Réf : SCT406182024110400425633287"
+                ],
+                "internalTransactionId": "b3d9f6dbc283792ce0318491bf0ee2db"
+            },
+            {
+                "transactionId": "17383048684",
+                "bookingDate": "2024-11-04",
+                "valueDate": "2024-11-04",
+                "transactionAmount": {
+                    "amount": "-747.47",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR apport compte joint - Mario",
+                    "Réf : SCT406182024110400425503653",
+                    "M CASTILLO URIAS OU MLLE VAND"
+                ],
+                "internalTransactionId": "836afb096220b0a130fb247215b28bc4"
+            },
+            {
+                "transactionId": "17348577939",
+                "bookingDate": "2024-10-30",
+                "valueDate": "2024-10-30",
+                "transactionAmount": {
+                    "amount": "-15",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR INST SALOME FERNANDEZ",
+                    "Virement de Mario CASTILLO URIAS re"
+                ],
+                "internalTransactionId": "f9424564e78a3fc6874f14ee7755691d"
+            },
+            {
+                "transactionId": "17344646741",
+                "bookingDate": "2024-10-29",
+                "valueDate": "2024-10-29",
+                "transactionAmount": {
+                    "amount": "-50",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Virement interne depuis BoursoBank",
+                    "M CASTILLO URIAS OU MLLE VAND",
+                    "Réf : SCT406182024102900423748117"
+                ],
+                "internalTransactionId": "be2d321ae804f1b71c8d75eac4e40f12"
+            },
+            {
+                "transactionId": "17333480887",
+                "bookingDate": "2024-10-29",
+                "valueDate": "2024-10-29",
+                "transactionAmount": {
+                    "amount": "2637.47",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA SIEMENS INDUSTRY SOFTWARE SAS",
+                    "Réf ZZ1H4K54E1YXMGB92ZZ1H4K54EEUHATE5Y",
+                    "SALAIRE DE OCTOBRE 2024"
+                ],
+                "internalTransactionId": "82480f24c326e1064f8ef684fc704769"
+            },
+            {
+                "transactionId": "17322593850",
+                "bookingDate": "2024-10-28",
+                "valueDate": "2024-10-28",
+                "transactionAmount": {
+                    "amount": "-15",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 27/10/24 BIG FOOD CB*1927"
+                ],
+                "internalTransactionId": "7a7c2b579eb3c196fd0068f4b8c7745f"
+            },
+            {
+                "transactionId": "17322593823",
+                "bookingDate": "2024-10-28",
+                "valueDate": "2024-10-28",
+                "transactionAmount": {
+                    "amount": "-14",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 27/10/24 SNCF-VOYAGEURS CB*1927"
+                ],
+                "internalTransactionId": "c2af06fd5cabbec89c4f0f2f8c3d9b4e"
+            },
+            {
+                "transactionId": "17322593757",
+                "bookingDate": "2024-10-28",
+                "valueDate": "2024-10-28",
+                "transactionAmount": {
+                    "amount": "-19.49",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 27/10/24 DELIVEROO CB*1927"
+                ],
+                "internalTransactionId": "71647fc03c935de6b2a0a434934ae104"
+            },
+            {
+                "transactionId": "17322593787",
+                "bookingDate": "2024-10-28",
+                "valueDate": "2024-10-28",
+                "transactionAmount": {
+                    "amount": "-4.5",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 26/10/24 WANDERLUST LYON CB*1927"
+                ],
+                "internalTransactionId": "be69268f97b39ae604bbe4128176d0de"
+            },
+            {
+                "transactionId": "17308665437",
+                "bookingDate": "2024-10-28",
+                "valueDate": "2024-10-27",
+                "transactionAmount": {
+                    "amount": "19.5",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Popeyeeeeee",
+                    "VANDEBEULQUE CHLOE"
+                ],
+                "internalTransactionId": "ffeb3c73bffb997b582bf510b80659de"
+            },
+            {
+                "transactionId": "17305906901",
+                "bookingDate": "2024-10-25",
+                "valueDate": "2024-10-25",
+                "transactionAmount": {
+                    "amount": "-100",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR cena arnold",
+                    "Réf : SCT406182024102500422513491",
+                    "MLLE VANDEBEULQUE CHLOE"
+                ],
+                "internalTransactionId": "7ca64035285094f5332cb9153606e8ae"
+            },
+            {
+                "transactionId": "17274002384",
+                "bookingDate": "2024-10-22",
+                "valueDate": "2024-10-22",
+                "transactionAmount": {
+                    "amount": "-402",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR INST CASTILLO URIAS MARIO",
+                    "CC gold octobre"
+                ],
+                "internalTransactionId": "c5f41feb2caabc7a0fa6a6f07a152732"
+            },
+            {
+                "transactionId": "17274000825",
+                "bookingDate": "2024-10-22",
+                "valueDate": "2024-10-22",
+                "transactionAmount": {
+                    "amount": "-1457.11",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Virement interne depuis BoursoBank",
+                    "Réf : SCT406182024102200421436145",
+                    "M CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "5dd28f4bcb9af375ecb3d17205266b62"
+            },
+            {
+                "transactionId": "17266076229",
+                "bookingDate": "2024-10-22",
+                "valueDate": "2024-10-22",
+                "transactionAmount": {
+                    "amount": "1457.11",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR CLOTURE 80355/00021023344"
+                ],
+                "internalTransactionId": "7b2ebfa4fb69403e9833a792bd014710"
+            },
+            {
+                "transactionId": "17249970288",
+                "bookingDate": "2024-10-21",
+                "valueDate": "2024-10-21",
+                "transactionAmount": {
+                    "amount": "-2",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 19/10/24 ÑCUMUL CB*1927"
+                ],
+                "internalTransactionId": "a03fd88d554446b98f124c715d7edab3"
+            },
+            {
+                "transactionId": "17218945653",
+                "bookingDate": "2024-10-18",
+                "valueDate": "2024-10-18",
+                "transactionAmount": {
+                    "amount": "97.25",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA TOTALENERGIES ELECTRICITE",
+                    "0109740355-221702728082",
+                    "Z FRANCE-REFERENCE CLIENT 109740355",
+                    "VIREMENT TOTALENERGIES ELECTRICITE ET GA",
+                    "Réf COMC429100066960"
+                ],
+                "internalTransactionId": "488506ed1dbf381bc234114c89aeeedd"
+            },
+            {
+                "transactionId": "17234338878",
+                "bookingDate": "2024-10-18",
+                "valueDate": "2024-10-18",
+                "transactionAmount": {
+                    "amount": "-37.6",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 15/10/24 PHARM BARTOLI 2 CB*1927"
+                ],
+                "internalTransactionId": "600e667bf60c8960b7a518694b0fc0ca"
+            },
+            {
+                "transactionId": "17189368343",
+                "bookingDate": "2024-10-15",
+                "valueDate": "2024-10-15",
+                "transactionAmount": {
+                    "amount": "-1500",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Virement interne depuis BoursoBank",
+                    "Réf : SCT406182024101500419294924",
+                    "M CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "73cf8a6e35b1c54be7ad1e99b5a6ed6e"
+            },
+            {
+                "transactionId": "17184752648",
+                "bookingDate": "2024-10-14",
+                "valueDate": "2024-10-14",
+                "transactionAmount": {
+                    "amount": "1500",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR transfert livret a",
+                    "CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "01bea9da69fc88c7678f92f36f7b35b7"
+            },
+            {
+                "transactionId": "17184751526",
+                "bookingDate": "2024-10-14",
+                "valueDate": "2024-10-14",
+                "transactionAmount": {
+                    "amount": "-1000",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR transfer a livret A",
+                    "Réf : SCT406182024101400419045681",
+                    "M CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "19af617dfbabfac09dcaaa452c989858"
+            },
+            {
+                "transactionId": "17184751062",
+                "bookingDate": "2024-10-14",
+                "valueDate": "2024-10-14",
+                "transactionAmount": {
+                    "amount": "1000",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR transfer a livret A",
+                    "CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "651c0827f0b13fdcd55d669c26c93351"
+            },
+            {
+                "transactionId": "17183617843",
+                "bookingDate": "2024-10-14",
+                "valueDate": "2024-10-14",
+                "transactionAmount": {
+                    "amount": "-10",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR CREATION COMPTE",
+                    "Réf : SCT406182024101400419030430",
+                    "M CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "adbeccb97f6ac0b69a157e53329ddd20"
+            },
+            {
+                "transactionId": "17177127952",
+                "bookingDate": "2024-10-14",
+                "valueDate": "2024-10-14",
+                "transactionAmount": {
+                    "amount": "-40",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "RETRAIT DAB 13/10/24 STE LUCIE P CB*1927"
+                ],
+                "internalTransactionId": "7f7a1ff1d51501e610f0c4d6a83bfb25"
+            },
+            {
+                "transactionId": "17164757138",
+                "bookingDate": "2024-10-14",
+                "valueDate": "2024-10-14",
+                "transactionAmount": {
+                    "amount": "-20.78",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 12/10/24 D R S MAG SPAR CB*1927"
+                ],
+                "internalTransactionId": "fc6957ecbd192d931a2476de96684e2c"
+            },
+            {
+                "transactionId": "17177127927",
+                "bookingDate": "2024-10-14",
+                "valueDate": "2024-10-14",
+                "transactionAmount": {
+                    "amount": "-8",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 11/10/24 PHOTOMATON CB*1927"
+                ],
+                "internalTransactionId": "7754253455300142a4d87859e2c2babc"
+            },
+            {
+                "transactionId": "17164757162",
+                "bookingDate": "2024-10-14",
+                "valueDate": "2024-10-14",
+                "transactionAmount": {
+                    "amount": "-6.1",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 11/10/24 TACO TACO 2 CB*1927"
+                ],
+                "internalTransactionId": "9e2c1c2a3c4e48ceb0b2174baa3a4b6d"
+            },
+            {
+                "transactionId": "17164757107",
+                "bookingDate": "2024-10-14",
+                "valueDate": "2024-10-14",
+                "transactionAmount": {
+                    "amount": "-2.49",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 11/10/24 DELIVEROO CB*1927"
+                ],
+                "internalTransactionId": "0a383a6ceb22770cad9f90242089c9ca"
+            },
+            {
+                "transactionId": "17145559651",
+                "bookingDate": "2024-10-11",
+                "valueDate": "2024-10-11",
+                "transactionAmount": {
+                    "amount": "-19.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "PRLV SEPA FREE MOBILE",
+                    "RUM FM-44527224-2",
+                    "0224284A12N0SSDT"
+                ],
+                "internalTransactionId": "a259b119db6e66a684d4c4232e09bb0c"
+            },
+            {
+                "transactionId": "17145559649",
+                "bookingDate": "2024-10-11",
+                "valueDate": "2024-10-11",
+                "transactionAmount": {
+                    "amount": "-20.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "PRLV SEPA BASIC FIT II SA",
+                    "11-10-2024 / 07-11-2024",
+                    "RUM A69003724",
+                    "GT025042499252250AE"
+                ],
+                "internalTransactionId": "9bdfcd6606cef00e03b168a246712825"
+            },
+            {
+                "transactionId": "17133479511",
+                "bookingDate": "2024-10-10",
+                "valueDate": "2024-10-10",
+                "transactionAmount": {
+                    "amount": "591.81",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA BELLECOUR",
+                    "Réf ABSI242830000747157.0100001",
+                    "RMB DG",
+                    "VIRT. 2024-10-08/BELLECOUR"
+                ],
+                "internalTransactionId": "d969ef69df1d3acd3d3e084d470dfbd5"
+            },
+            {
+                "transactionId": "17126840420",
+                "bookingDate": "2024-10-09",
+                "valueDate": "2024-10-09",
+                "transactionAmount": {
+                    "amount": "-0.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 08/10/24 APPLE.COM/BILL CB*1927"
+                ],
+                "internalTransactionId": "e896c3b561298e0aa859de9b5fe27684"
+            },
+            {
+                "transactionId": "17074799545",
+                "bookingDate": "2024-10-07",
+                "valueDate": "2024-10-07",
+                "transactionAmount": {
+                    "amount": "-0.99",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "*FRAIS BOURSO PROTECT MONO"
+                ],
+                "internalTransactionId": "c170d546bb4e91fbc27d8ce0b3e60a65"
+            },
+            {
+                "transactionId": "17077160527",
+                "bookingDate": "2024-10-07",
+                "valueDate": "2024-10-07",
+                "transactionAmount": {
+                    "amount": "-2",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 05/10/24 ÑCUMUL CB*1927"
+                ],
+                "internalTransactionId": "8f09133f724af7c469314dbbef13c226"
+            },
+            {
+                "transactionId": "17079379940",
+                "bookingDate": "2024-10-07",
+                "valueDate": "2024-10-07",
+                "transactionAmount": {
+                    "amount": "-71.95",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 03/10/24 CAREREFOUR CB*1927"
+                ],
+                "internalTransactionId": "c65bb210716b092e2e1815ae1f348d22"
+            },
+            {
+                "transactionId": "17079379916",
+                "bookingDate": "2024-10-07",
+                "valueDate": "2024-10-07",
+                "transactionAmount": {
+                    "amount": "-4",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 02/10/24 ÑCUMUL CB*1927"
+                ],
+                "internalTransactionId": "28ddac9c36a60ecee212905c505d7dc5"
+            },
+            {
+                "transactionId": "17071618923",
+                "bookingDate": "2024-10-07",
+                "valueDate": "2024-10-05",
+                "transactionAmount": {
+                    "amount": "71.95",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR remboursement courses payes par",
+                    "mario",
+                    "CASTILLO URIAS MARIO"
+                ],
+                "internalTransactionId": "9960b05aaa1fe5e232d7d43aba0506db"
+            },
+            {
+                "transactionId": "17049314166",
+                "bookingDate": "2024-10-03",
+                "valueDate": "2024-10-03",
+                "transactionAmount": {
+                    "amount": "-750",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR SEPA CASTILLO URIAS Mario",
+                    "PEA investment",
+                    "Réf : SCT406182024100300414838004"
+                ],
+                "internalTransactionId": "6c197f223dff7bb6bc4cc5d94441152c"
+            },
+            {
+                "transactionId": "17022952476",
+                "bookingDate": "2024-10-02",
+                "valueDate": "2024-10-02",
+                "transactionAmount": {
+                    "amount": "-747.47",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR apport compte joint - Mario",
+                    "M CASTILLO URIAS OU MLLE VAND",
+                    "Réf : SCT406182024100200414303317"
+                ],
+                "internalTransactionId": "7c57fefea0f47e4009c95102fcf368e3"
+            },
+            {
+                "transactionId": "17041583796",
+                "bookingDate": "2024-10-02",
+                "valueDate": "2024-10-02",
+                "transactionAmount": {
+                    "amount": "-2.49",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 30/09/24 DELIVEROO CB*1927"
+                ],
+                "internalTransactionId": "a0002dffd09435cc2d49aecb06baf4ef"
+            },
+            {
+                "transactionId": "17041583769",
+                "bookingDate": "2024-10-02",
+                "valueDate": "2024-10-02",
+                "transactionAmount": {
+                    "amount": "-13.9",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 29/09/24 LE WAGON CB*1927"
+                ],
+                "internalTransactionId": "a46954e8d1653f97adcb2e89f1c7b936"
+            },
+            {
+                "transactionId": "17009647898",
+                "bookingDate": "2024-10-01",
+                "valueDate": "2024-10-01",
+                "transactionAmount": {
+                    "amount": "-86",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "PRLV SEPA TotalEnergies Electricite et G",
+                    "Prelevement TotalEnergies Electricite et",
+                    "Gaz France-Reference client 1",
+                    "+COMDP477025894597ME",
+                    "RUM DEMP009171081"
+                ],
+                "internalTransactionId": "5d86f849660a9e22d6192138e87f5d4d"
+            },
+            {
+                "transactionId": "16981309567",
+                "bookingDate": "2024-09-30",
+                "valueDate": "2024-09-30",
+                "transactionAmount": {
+                    "amount": "-4.52",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "VIR Cena - Mario",
+                    "MLLE CAMARGO CORREDOR Y G",
+                    "Réf : SCT406182024093000413146851"
+                ],
+                "internalTransactionId": "8c6710ce85231abf59e53cc64a82f27e"
+            },
+            {
+                "transactionId": "16996200742",
+                "bookingDate": "2024-09-30",
+                "valueDate": "2024-09-30",
+                "transactionAmount": {
+                    "amount": "-4.73",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 29/09/24 FRANKLIN MARKET CB*1927"
+                ],
+                "internalTransactionId": "5203b848c42d72456c815e0e7e4768e2"
+            },
+            {
+                "transactionId": "16982723254",
+                "bookingDate": "2024-09-30",
+                "valueDate": "2024-09-30",
+                "transactionAmount": {
+                    "amount": "-9.49",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 28/09/24 ELKAN CB*1927"
+                ],
+                "internalTransactionId": "429460a4731426d0dff2e30c1573800f"
+            },
+            {
+                "transactionId": "16982723231",
+                "bookingDate": "2024-09-30",
+                "valueDate": "2024-09-30",
+                "transactionAmount": {
+                    "amount": "-21.5",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 26/09/24 TIC &amp; TAC 2 CB*1927"
+                ],
+                "internalTransactionId": "47b024a49e4c7d6d57164a13cee0d5e4"
+            },
+            {
+                "transactionId": "16982723198",
+                "bookingDate": "2024-09-30",
+                "valueDate": "2024-09-30",
+                "transactionAmount": {
+                    "amount": "-6",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARTE 26/09/24 ÑCUMUL CB*1927"
+                ],
+                "internalTransactionId": "20ed3792443c524b4efa994ac25646c2"
+            }
+        ],
+        "pending": [
+            {
+                "transactionId": "avis-d0b80c9a5c496201fc43265d8e7a15a6",
+                "bookingDate": "2024-12-27",
+                "valueDate": "2024-12-27",
+                "transactionAmount": {
+                    "amount": "-58.93",
+                    "currency": "EUR"
+                },
+                "remittanceInformationUnstructuredArray": [
+                    "CARREFOUR\\LYON\\ FR"
+                ]
+            }
+        ]
+    }
+}
