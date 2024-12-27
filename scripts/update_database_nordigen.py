@@ -33,8 +33,7 @@ if __name__ == '__main__':
             user_db.add_operation(op)
             print('New operation detected')
             new_op_detected = True
-        else:
-            print('Operation already processed')
+
 
     if new_op_detected:
         user_db.write_to_file()
