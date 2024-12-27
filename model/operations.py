@@ -107,6 +107,11 @@ class OperationsDatabase():
     
     def get_operations_by_category(self, category: Operation.SupportedCategories, yymm: tuple[int,int]=None) -> list[Operation]:
         return [op for op in self.get_operations(yymm) if category==op.category]
+    
+    def get_operation_by_id(self, operation_id: str) -> Operation:
+        for op in self.get_operations():
+            if op.id == operation_id:
+                return op
 
     def compute_amount_per_category(self, category: Operation.SupportedCategories, yymm: tuple[int, int]=(), fabs=True):
         amount = sum(op.amount for op in self.get_operations_by_category(category, yymm))
