@@ -311,46 +311,1405 @@
             "account_label": "boursorama",
             "category": "LIVING",
             "id": "1325144eeb79856aac34c4343ba80ba3a0f7b4822085c4c3d9c8f8c926d1a5ce"
+        },
+        "2fcbd7e68245ada8330d6101cfdbb2de75ca454f0f16fef26adffc344f753d2c": {
+            "date": "2024-10-07",
+            "amount": -0.99,
+            "description": "*FRAIS BOURSO PROTECT MONO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2fcbd7e68245ada8330d6101cfdbb2de75ca454f0f16fef26adffc344f753d2c"
+        },
+        "2ff965074d1ad9025de2c74cd5a99efe6fb050692f613b707bc1848e0978f12e": {
+            "date": "2024-10-07",
+            "amount": -2.0,
+            "description": "CARTE 05/10/24 ÑCUMUL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2ff965074d1ad9025de2c74cd5a99efe6fb050692f613b707bc1848e0978f12e"
+        },
+        "4714b43ef22abdc60dc299ef1da8683a4729fddb6d86ad96b3112a0d2dc2b9ae": {
+            "date": "2024-10-07",
+            "amount": -71.95,
+            "description": "CARTE 03/10/24 CAREREFOUR CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "4714b43ef22abdc60dc299ef1da8683a4729fddb6d86ad96b3112a0d2dc2b9ae"
+        },
+        "8962396fcd3a73c017213a1a2eb6b12dfc72591cb95a6689b7ca053be709bca0": {
+            "date": "2024-10-07",
+            "amount": -4.0,
+            "description": "CARTE 02/10/24 ÑCUMUL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "8962396fcd3a73c017213a1a2eb6b12dfc72591cb95a6689b7ca053be709bca0"
+        },
+        "18f1ab043e8eed403bbb5a6e7599b1af279fdab180eab423847cb33de8317257": {
+            "date": "2024-10-07",
+            "amount": 71.95,
+            "description": "VIR remboursement courses payes par mario CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "18f1ab043e8eed403bbb5a6e7599b1af279fdab180eab423847cb33de8317257"
+        },
+        "520b03843468be6f339163aad45f5c68c399f95f7420ecfaf52231c46f7802a2": {
+            "date": "2024-10-09",
+            "amount": -0.99,
+            "description": "CARTE 08/10/24 APPLE.COM/BILL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "520b03843468be6f339163aad45f5c68c399f95f7420ecfaf52231c46f7802a2"
+        },
+        "0a3f4f9c867273f65f0bace867ca33a7b6b06c88d9004423d83fe540d8b6b368": {
+            "date": "2024-10-10",
+            "amount": 591.81,
+            "description": "VIR SEPA BELLECOUR Réf ABSI242830000747157.0100001 RMB DG VIRT. 2024-10-08/BELLECOUR",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "0a3f4f9c867273f65f0bace867ca33a7b6b06c88d9004423d83fe540d8b6b368"
+        },
+        "c5b20442a8d55cfee1e300b7089011515034109ade893b7a0912e662624f23b5": {
+            "date": "2024-10-11",
+            "amount": -19.99,
+            "description": "PRLV SEPA FREE MOBILE RUM FM-44527224-2 0224284A12N0SSDT",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c5b20442a8d55cfee1e300b7089011515034109ade893b7a0912e662624f23b5"
+        },
+        "ea1a3430cc7f0c51e0598a1caff666b25f8001f09cc3de75eb5edfcfb014b0a5": {
+            "date": "2024-10-11",
+            "amount": -20.99,
+            "description": "PRLV SEPA BASIC FIT II SA 11-10-2024 / 07-11-2024 RUM A69003724 GT025042499252250AE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "ea1a3430cc7f0c51e0598a1caff666b25f8001f09cc3de75eb5edfcfb014b0a5"
+        },
+        "a30ee7e886a28e000dd89cbc36782b053bc7808b860f544523094b984eda6b60": {
+            "date": "2024-10-14",
+            "amount": 1500.0,
+            "description": "VIR transfert livret a CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "a30ee7e886a28e000dd89cbc36782b053bc7808b860f544523094b984eda6b60"
+        },
+        "277efdabd99fad639dde9aad937d5e2f3fd0d8cf3e688364050ec4cc14ab8745": {
+            "date": "2024-10-14",
+            "amount": -1000.0,
+            "description": "VIR transfer a livret A Réf : SCT406182024101400419045681 M CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "277efdabd99fad639dde9aad937d5e2f3fd0d8cf3e688364050ec4cc14ab8745"
+        },
+        "ce81fda99b2c56b7816c92fe80a731d679aec9545a4df41cb705466460cb6a97": {
+            "date": "2024-10-14",
+            "amount": 1000.0,
+            "description": "VIR transfer a livret A CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "ce81fda99b2c56b7816c92fe80a731d679aec9545a4df41cb705466460cb6a97"
+        },
+        "469d044c8071a0d639f040a656a4f92d52c956bd87da195fbdf7240bc628c191": {
+            "date": "2024-10-14",
+            "amount": -10.0,
+            "description": "VIR CREATION COMPTE Réf : SCT406182024101400419030430 M CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "469d044c8071a0d639f040a656a4f92d52c956bd87da195fbdf7240bc628c191"
+        },
+        "708ce6dabc2f9110b0aa35e00a8782e5fab8031424a283e903c5272accb6f3f9": {
+            "date": "2024-10-14",
+            "amount": -40.0,
+            "description": "RETRAIT DAB 13/10/24 STE LUCIE P CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "708ce6dabc2f9110b0aa35e00a8782e5fab8031424a283e903c5272accb6f3f9"
+        },
+        "b777bfc2eafcc0b44f9172b5e82534c253c6487563d7c1b8fda56f4375e58293": {
+            "date": "2024-10-14",
+            "amount": -20.78,
+            "description": "CARTE 12/10/24 D R S MAG SPAR CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "b777bfc2eafcc0b44f9172b5e82534c253c6487563d7c1b8fda56f4375e58293"
+        },
+        "0fd6259543f87e514b311d453a862ad2f1809b28d0d1d33253ec6afdf86c10a2": {
+            "date": "2024-10-14",
+            "amount": -8.0,
+            "description": "CARTE 11/10/24 PHOTOMATON CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "0fd6259543f87e514b311d453a862ad2f1809b28d0d1d33253ec6afdf86c10a2"
+        },
+        "5c26464ccd3fee66146f0c189030da9ddfed6f266dfb41cd53d4c4c7b97ee409": {
+            "date": "2024-10-14",
+            "amount": -6.1,
+            "description": "CARTE 11/10/24 TACO TACO 2 CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "5c26464ccd3fee66146f0c189030da9ddfed6f266dfb41cd53d4c4c7b97ee409"
+        },
+        "77bace4d79de2f73551800281a303be88a7bb763f61fe575b8381e9875265c63": {
+            "date": "2024-10-14",
+            "amount": -2.49,
+            "description": "CARTE 11/10/24 DELIVEROO CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "77bace4d79de2f73551800281a303be88a7bb763f61fe575b8381e9875265c63"
+        },
+        "ab750426079e831f357606c162196da036d44327ecda37c27f0576aa7e62f212": {
+            "date": "2024-10-15",
+            "amount": -1500.0,
+            "description": "VIR Virement interne depuis BoursoBank Réf : SCT406182024101500419294924 M CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "ab750426079e831f357606c162196da036d44327ecda37c27f0576aa7e62f212"
+        },
+        "2258bc38aff62fdc96d5e9ed9bf91f6d933ee2548634bee6bdf074f286b58641": {
+            "date": "2024-10-18",
+            "amount": 97.25,
+            "description": "VIR SEPA TOTALENERGIES ELECTRICITE 0109740355-221702728082 Z FRANCE-REFERENCE CLIENT 109740355 VIREMENT TOTALENERGIES ELECTRICITE ET GA Réf COMC429100066960",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2258bc38aff62fdc96d5e9ed9bf91f6d933ee2548634bee6bdf074f286b58641"
+        },
+        "23b8f2d679a87e65eacbad74170ec14c5767dd3b48ca8cc1a290bc43cfdc585f": {
+            "date": "2024-10-18",
+            "amount": -37.6,
+            "description": "CARTE 15/10/24 PHARM BARTOLI 2 CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "23b8f2d679a87e65eacbad74170ec14c5767dd3b48ca8cc1a290bc43cfdc585f"
+        },
+        "eb4007abb19b962b0582a5dc122282e30d1469c3fac6c1ca9ab2367b7af263a9": {
+            "date": "2024-10-21",
+            "amount": -2.0,
+            "description": "CARTE 19/10/24 ÑCUMUL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "eb4007abb19b962b0582a5dc122282e30d1469c3fac6c1ca9ab2367b7af263a9"
+        },
+        "5dbc53015a61ee5b6148a6dcac9dfd68aa4e32817053d3f6b56972bb9ec05d26": {
+            "date": "2024-10-22",
+            "amount": -402.0,
+            "description": "VIR INST CASTILLO URIAS MARIO CC gold octobre",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "5dbc53015a61ee5b6148a6dcac9dfd68aa4e32817053d3f6b56972bb9ec05d26"
+        },
+        "b77f1a3b67e978c360fc7aafd409ef6e4e065f32508dead613af8f99bc130df2": {
+            "date": "2024-10-22",
+            "amount": -1457.11,
+            "description": "VIR Virement interne depuis BoursoBank Réf : SCT406182024102200421436145 M CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "b77f1a3b67e978c360fc7aafd409ef6e4e065f32508dead613af8f99bc130df2"
+        },
+        "035c0e27a6805df8d573ace5982dd9aa055a97931ab084a3076c02df7cb45470": {
+            "date": "2024-10-22",
+            "amount": 1457.11,
+            "description": "VIR CLOTURE 80355/00021023344",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "035c0e27a6805df8d573ace5982dd9aa055a97931ab084a3076c02df7cb45470"
+        },
+        "60f413e0650a2bfd2e4a59c411774b8ee1fc472cf2c4c4e6ae67dabf1a4f9d33": {
+            "date": "2024-10-25",
+            "amount": -100.0,
+            "description": "VIR cena arnold Réf : SCT406182024102500422513491 MLLE VANDEBEULQUE CHLOE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "60f413e0650a2bfd2e4a59c411774b8ee1fc472cf2c4c4e6ae67dabf1a4f9d33"
+        },
+        "74ec8e31181f9d1ff36ed78a19355b370a38c68fae85de19cb05eb3d2122ea20": {
+            "date": "2024-10-28",
+            "amount": -15.0,
+            "description": "CARTE 27/10/24 BIG FOOD CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "74ec8e31181f9d1ff36ed78a19355b370a38c68fae85de19cb05eb3d2122ea20"
+        },
+        "b5a75c11bc527cafe15627b8da8729c9022b1b1f617860e1a5dea910a19159da": {
+            "date": "2024-10-28",
+            "amount": -14.0,
+            "description": "CARTE 27/10/24 SNCF-VOYAGEURS CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "b5a75c11bc527cafe15627b8da8729c9022b1b1f617860e1a5dea910a19159da"
+        },
+        "2962d5b1c07a826666126997fc36369c37bcac9a22036af277b8a051e71cc55e": {
+            "date": "2024-10-28",
+            "amount": -19.49,
+            "description": "CARTE 27/10/24 DELIVEROO CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2962d5b1c07a826666126997fc36369c37bcac9a22036af277b8a051e71cc55e"
+        },
+        "c347e4224a8acec0c7dfab0cd4b7c253c94aab8f3f411adbb59aae81d4a2db3c": {
+            "date": "2024-10-28",
+            "amount": -4.5,
+            "description": "CARTE 26/10/24 WANDERLUST LYON CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c347e4224a8acec0c7dfab0cd4b7c253c94aab8f3f411adbb59aae81d4a2db3c"
+        },
+        "5f19eb45e85fc3059a4459a0e7cac35934885b095cbd9839e20afa8808bc19fb": {
+            "date": "2024-10-28",
+            "amount": 19.5,
+            "description": "VIR Popeyeeeeee VANDEBEULQUE CHLOE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "5f19eb45e85fc3059a4459a0e7cac35934885b095cbd9839e20afa8808bc19fb"
+        },
+        "2bcb92eb4ac10fd1bd9d604919fbaa053954f07ab61893f013be408ab14967dc": {
+            "date": "2024-10-29",
+            "amount": -50.0,
+            "description": "VIR Virement interne depuis BoursoBank M CASTILLO URIAS OU MLLE VAND Réf : SCT406182024102900423748117",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2bcb92eb4ac10fd1bd9d604919fbaa053954f07ab61893f013be408ab14967dc"
+        },
+        "09442c70d16bc91a8f5dacc7195d32cefe2b9ca3e114d011e036576b6a9607eb": {
+            "date": "2024-10-29",
+            "amount": 2637.47,
+            "description": "VIR SEPA SIEMENS INDUSTRY SOFTWARE SAS Réf ZZ1H4K54E1YXMGB92ZZ1H4K54EEUHATE5Y SALAIRE DE OCTOBRE 2024",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "09442c70d16bc91a8f5dacc7195d32cefe2b9ca3e114d011e036576b6a9607eb"
+        },
+        "542013667784031b62ca97d4f5d0c5fce1cda64a3c72697283ae890901124abe": {
+            "date": "2024-10-30",
+            "amount": -15.0,
+            "description": "VIR INST SALOME FERNANDEZ Virement de Mario CASTILLO URIAS re",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "542013667784031b62ca97d4f5d0c5fce1cda64a3c72697283ae890901124abe"
+        },
+        "06d339c6818e674e87baef6a2286e3e9e007d215953b6408d17986d7656d7f04": {
+            "date": "2024-11-04",
+            "amount": -750.0,
+            "description": "VIR SEPA CASTILLO URIAS Mario PEA investment Réf : SCT406182024110400425633287",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "06d339c6818e674e87baef6a2286e3e9e007d215953b6408d17986d7656d7f04"
+        },
+        "b3ec7546c01916d5af2a3567e8d960452a69496fbd60168da400a08d851cf2ac": {
+            "date": "2024-11-04",
+            "amount": -747.47,
+            "description": "VIR apport compte joint - Mario Réf : SCT406182024110400425503653 M CASTILLO URIAS OU MLLE VAND",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "b3ec7546c01916d5af2a3567e8d960452a69496fbd60168da400a08d851cf2ac"
+        },
+        "3a2107538994aa17d6b11816a41da63e182a59823481dc155e62fbc967f4b202": {
+            "date": "2024-11-06",
+            "amount": -0.65,
+            "description": "CARTE 05/11/24 CAREREFOUR CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "3a2107538994aa17d6b11816a41da63e182a59823481dc155e62fbc967f4b202"
+        },
+        "140806cc68e2a786e89d8ca245cf92f6b7a5f9b34a3b15bfa76a9c72f5696ce4": {
+            "date": "2024-11-07",
+            "amount": 48.1,
+            "description": "VIR SEPA TOTALENERGIES ELECTRICITE Réf COMC431100257782 VIREMENT TOTALENERGIES ELECTRICITE ET GA Z FRANCE-REFERENCE CLIENT 109740355 0109740355-214013549450",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "140806cc68e2a786e89d8ca245cf92f6b7a5f9b34a3b15bfa76a9c72f5696ce4"
+        },
+        "8d9616e43c2d6beb3971395fcbcd66aa90700bed3f2509ff02cd1736a4abe3a2": {
+            "date": "2024-11-07",
+            "amount": -0.99,
+            "description": "*FRAIS BOURSO PROTECT MONO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "8d9616e43c2d6beb3971395fcbcd66aa90700bed3f2509ff02cd1736a4abe3a2"
+        },
+        "d9812991e295c56809ba5e991bc712cd325b953ec8868ed20b456bd9150057f1": {
+            "date": "2024-11-07",
+            "amount": -19.99,
+            "description": "PRLV SEPA FREE MOBILE RUM FM-44527224-2 6124311A1F3M7SDT",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "d9812991e295c56809ba5e991bc712cd325b953ec8868ed20b456bd9150057f1"
+        },
+        "1f1fcb4cb7cea2023f12067f780ceda3c7a6d0350a96ce827271ec714ca0e711": {
+            "date": "2024-11-08",
+            "amount": -20.99,
+            "description": "PRLV SEPA BASIC FIT FRANCE GT025042709506270AE 08-11-2024 / 05-12-2024 RUM A69003724",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "1f1fcb4cb7cea2023f12067f780ceda3c7a6d0350a96ce827271ec714ca0e711"
+        },
+        "06cf79f2a54d87d01284700f9b95242399cb26cede9aea54aa4e4f55f18efb27": {
+            "date": "2024-11-11",
+            "amount": 696.0,
+            "description": "VIR VIVA MEXICO VANDEBEULQUE CHLOE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "06cf79f2a54d87d01284700f9b95242399cb26cede9aea54aa4e4f55f18efb27"
+        },
+        "e2313c09e7f50b758e179d2a630043f8993a02a5665ba48e98972c134664bd12": {
+            "date": "2024-11-12",
+            "amount": -18.89,
+            "description": "CARTE 09/11/24 DELIVEROO CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "e2313c09e7f50b758e179d2a630043f8993a02a5665ba48e98972c134664bd12"
+        },
+        "4908ea51723d5410a00db1d037f74eb62b82b7354734f1b16dda1333de6a66b2": {
+            "date": "2024-11-12",
+            "amount": -0.99,
+            "description": "CARTE 08/11/24 APPLE.COM/BILL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "4908ea51723d5410a00db1d037f74eb62b82b7354734f1b16dda1333de6a66b2"
+        },
+        "fd982bf48615021015a4fe8736391e7c70c4225a1adbfd1ae1ac37749319b3e7": {
+            "date": "2024-11-14",
+            "amount": 22.0,
+            "description": "VIR Virement de Chloe VANDEBEULQUE VANDEBEULQUE CHLOE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "fd982bf48615021015a4fe8736391e7c70c4225a1adbfd1ae1ac37749319b3e7"
+        },
+        "c0d193679dd49c4f3417325040e09d630eceaa75ef485a5057aaee06ba081035": {
+            "date": "2024-11-15",
+            "amount": 1100.0,
+            "description": "VIR Bike purchase CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c0d193679dd49c4f3417325040e09d630eceaa75ef485a5057aaee06ba081035"
+        },
+        "be0ee008b287be2391e42c932a7b8edaff2d7382ad942108a05d3b4d352062fd": {
+            "date": "2024-11-15",
+            "amount": -1778.0,
+            "description": "VIR ROLLOVER Réf : SCT406182024111500430539917 M CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "be0ee008b287be2391e42c932a7b8edaff2d7382ad942108a05d3b4d352062fd"
+        },
+        "837c3e609145c43ed4415c353b847ec6cfbc016814ddd8173fa848763a9cb4d2": {
+            "date": "2024-11-15",
+            "amount": -1778.35,
+            "description": "VIR ROLLOVER UNDO Réf : SCT406182024111500430539701 M CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "837c3e609145c43ed4415c353b847ec6cfbc016814ddd8173fa848763a9cb4d2"
+        },
+        "6b1a303933a9372412cc48d8b2d90ce0238ca918cfba7aa13f41124118a26502": {
+            "date": "2024-11-15",
+            "amount": 1778.35,
+            "description": "VIR Rollover CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "6b1a303933a9372412cc48d8b2d90ce0238ca918cfba7aa13f41124118a26502"
+        },
+        "65f7f4d186c55e06a919796adaf3f763daff3b59cdfb783a66fa92c179a92814": {
+            "date": "2024-11-15",
+            "amount": -305.0,
+            "description": "VIR Remaining savings nov 24 M CASTILLO URIAS MARIO Réf : SCT406182024111500430538160",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "65f7f4d186c55e06a919796adaf3f763daff3b59cdfb783a66fa92c179a92814"
+        },
+        "cd4a7d4348569343e800b46c54aecf61a56538f882a6ac8bafdd1b723c3ee9d9": {
+            "date": "2024-11-15",
+            "amount": -22.0,
+            "description": "VIR INST CASTILLO URIAS MARIO Magnesium chloe",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "cd4a7d4348569343e800b46c54aecf61a56538f882a6ac8bafdd1b723c3ee9d9"
+        },
+        "c8484e141c685913e001a44cbfb96186ae18176788093c301c8d97fc09a5d23a": {
+            "date": "2024-11-15",
+            "amount": -696.0,
+            "description": "VIR INST CASTILLO URIAS MARIO VIVA MEXICO chloe",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c8484e141c685913e001a44cbfb96186ae18176788093c301c8d97fc09a5d23a"
+        },
+        "ebc41d7a31e5b6525c5c4ce04acfaac473fa18c304efcf191165cdc40409a7e9": {
+            "date": "2024-11-18",
+            "amount": -2.0,
+            "description": "CARTE 16/11/24 ÑCUMUL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "ebc41d7a31e5b6525c5c4ce04acfaac473fa18c304efcf191165cdc40409a7e9"
+        },
+        "13c6c9822fe74e797da937c205c3be0e00640d9e7d440098f0e493ee2846d6a8": {
+            "date": "2024-11-18",
+            "amount": -300.0,
+            "description": "RETRAIT DAB 15/11/24 LYON CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "13c6c9822fe74e797da937c205c3be0e00640d9e7d440098f0e493ee2846d6a8"
+        },
+        "00cded8143e3d6e752309ce7a7b55fb6db6f1370ec27bb9871d19ac83f8e6e8c": {
+            "date": "2024-11-18",
+            "amount": -400.0,
+            "description": "RETRAIT DAB 15/11/24 LYON CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "00cded8143e3d6e752309ce7a7b55fb6db6f1370ec27bb9871d19ac83f8e6e8c"
+        },
+        "6e99277ebfc85d15aab38baac839f9ec9adc895332ec87e9e6e002b94fdc1ee4": {
+            "date": "2024-11-18",
+            "amount": -10.69,
+            "description": "CARTE 15/11/24 DELIVEROO CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "6e99277ebfc85d15aab38baac839f9ec9adc895332ec87e9e6e002b94fdc1ee4"
+        },
+        "3cbbdf3151843fbfa24df64d6dc1194690d595be46068edb714c79e4323de46f": {
+            "date": "2024-11-19",
+            "amount": -3.62,
+            "description": "CARTE 18/11/24 CARREFOUR CITY CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "3cbbdf3151843fbfa24df64d6dc1194690d595be46068edb714c79e4323de46f"
+        },
+        "024be2ec28bad1bab1fd8e9b68918f0a5e3fd8e2a40d7a8adc15cc81524994da": {
+            "date": "2024-11-20",
+            "amount": -92.0,
+            "description": "VIR billet Mario Réf : SCT406182024112000432160608 MLLE VANDEBEULQUE CHLOE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "024be2ec28bad1bab1fd8e9b68918f0a5e3fd8e2a40d7a8adc15cc81524994da"
+        },
+        "d46c8a1f53998d9649db03d5126f578a3fbd9c3334617825037d7f5762c1e061": {
+            "date": "2024-11-20",
+            "amount": -148.2,
+            "description": "VIR Dyson Mario MLLE VANDEBEULQUE CHLOE Réf : SCT406182024112000432160067",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "d46c8a1f53998d9649db03d5126f578a3fbd9c3334617825037d7f5762c1e061"
+        },
+        "dce91d6d0dafa9df53008fa620c5b3ee216ce9eeaeed9ac0d9fb9d30be1951e5": {
+            "date": "2024-11-20",
+            "amount": 148.2,
+            "description": "VIR Dyson CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "dce91d6d0dafa9df53008fa620c5b3ee216ce9eeaeed9ac0d9fb9d30be1951e5"
+        },
+        "5e4a3ad4c570647d1fb8360e09cb7db10555021a7d267513417fda841731bd10": {
+            "date": "2024-11-22",
+            "amount": -2.07,
+            "description": "CARTE 21/11/24 CAREREFOUR CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "5e4a3ad4c570647d1fb8360e09cb7db10555021a7d267513417fda841731bd10"
+        },
+        "92434ea186f7e2cc546013a1b73cb19fb2ac2012c54953ec55e2e90760b58b25": {
+            "date": "2024-11-22",
+            "amount": -2.0,
+            "description": "CARTE 20/11/24 ÑCUMUL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "92434ea186f7e2cc546013a1b73cb19fb2ac2012c54953ec55e2e90760b58b25"
+        },
+        "adc9e764c5ed2d170407fe5ab6d737a1a20787de37dd65c3492f75418c5ec214": {
+            "date": "2024-11-25",
+            "amount": -696.0,
+            "description": "VIR INST CASTILLO URIAS MARIO SELF LOAN mexico",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "adc9e764c5ed2d170407fe5ab6d737a1a20787de37dd65c3492f75418c5ec214"
+        },
+        "2b6182c17526c769a6d6296d833ec5b7ee95ac188f7981f08dced3893ea2619e": {
+            "date": "2024-11-25",
+            "amount": 696.0,
+            "description": "VIR SELF LOAN mexico CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2b6182c17526c769a6d6296d833ec5b7ee95ac188f7981f08dced3893ea2619e"
+        },
+        "37e3cf4fe425d55bef094fec307afdd2c4ca9145f725e79135c03250d0098fea": {
+            "date": "2024-11-25",
+            "amount": -91.76,
+            "description": "VIR INST CASTILLO URIAS MARIO INTERNAL regulariosarion cc oct",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "37e3cf4fe425d55bef094fec307afdd2c4ca9145f725e79135c03250d0098fea"
+        },
+        "553b28fbb65206fdd64f8c718bd70937d8700e596b9f9c31348429c58209ab1b": {
+            "date": "2024-11-25",
+            "amount": 91.76,
+            "description": "VIR INTERNAL regularisation cc oct CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "553b28fbb65206fdd64f8c718bd70937d8700e596b9f9c31348429c58209ab1b"
+        },
+        "d010131c5752cb2c3e63448bc756d717f636f8ee9261e85ace03a9d4fe088ac0": {
+            "date": "2024-11-25",
+            "amount": -279.45,
+            "description": "VIR INST CASTILLO URIAS MARIO INTERNAL cc gold nov",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "d010131c5752cb2c3e63448bc756d717f636f8ee9261e85ace03a9d4fe088ac0"
+        },
+        "76cdf5dbf840061141a327831fae8c9c99d20bd53801c6858854982baf2dceeb": {
+            "date": "2024-11-25",
+            "amount": -20.0,
+            "description": "RETRAIT DAB 24/11/24 LYON PERRAC CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "76cdf5dbf840061141a327831fae8c9c99d20bd53801c6858854982baf2dceeb"
+        },
+        "c802356e897ac53b18a3a52e391504aa4793f68962b757b1c0bb6ef56dc19b11": {
+            "date": "2024-11-26",
+            "amount": -3.79,
+            "description": "CARTE 25/11/24 LA POSTE.FR CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c802356e897ac53b18a3a52e391504aa4793f68962b757b1c0bb6ef56dc19b11"
+        },
+        "65f60603d7fe6ff4a80f33b8398908c53d72157578e5a6ed7f281d71d7f33a82": {
+            "date": "2024-11-27",
+            "amount": 2593.48,
+            "description": "VIR SEPA SIEMENS INDUSTRY SOFTWARE SAS SALAIRE DE NOVEMBRE 2024 Réf ZZ1HBZ6APPM7G96BJZZ1HBZ6AQIASMPI67",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "65f60603d7fe6ff4a80f33b8398908c53d72157578e5a6ed7f281d71d7f33a82"
+        },
+        "f5ef5510e29c6b6c6512a160b853bb5e2c404b50f0066771493dfd30d64cf2bf": {
+            "date": "2024-11-27",
+            "amount": -4.0,
+            "description": "CARTE 25/11/24 ÑCUMUL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "f5ef5510e29c6b6c6512a160b853bb5e2c404b50f0066771493dfd30d64cf2bf"
+        },
+        "d652fae2cc0bf969ba8a595131f40935187a2f00c6e549606381978ee798d69a": {
+            "date": "2024-12-02",
+            "amount": -747.47,
+            "description": "VIR apport compte joint - Mario Réf : SCT406182024120200435792517 M CASTILLO URIAS OU MLLE VAND",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "d652fae2cc0bf969ba8a595131f40935187a2f00c6e549606381978ee798d69a"
+        },
+        "5986d7a2b9fbb45ec0ceb77d5505b850c1c1ab830b9bcbab88e0fda65306d955": {
+            "date": "2024-12-02",
+            "amount": -4.0,
+            "description": "CARTE 28/11/24 ÑCUMUL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "5986d7a2b9fbb45ec0ceb77d5505b850c1c1ab830b9bcbab88e0fda65306d955"
+        },
+        "c5e008a70a68e231ee8a60e51838529399ab8d0b9753963048092d1464c773d6": {
+            "date": "2024-12-03",
+            "amount": -750.0,
+            "description": "VIR SEPA CASTILLO URIAS Mario PEA investment Réf : SCT406182024120300437273280",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c5e008a70a68e231ee8a60e51838529399ab8d0b9753963048092d1464c773d6"
+        },
+        "f2164144b061c1139d3ff6891be11e8857d5257c74130f7c8099382992cfd6c3": {
+            "date": "2024-12-06",
+            "amount": -0.99,
+            "description": "*FRAIS BOURSO PROTECT MONO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "f2164144b061c1139d3ff6891be11e8857d5257c74130f7c8099382992cfd6c3"
+        },
+        "8b32794fbc12021a4f29779d0c49c99224964c57f82e6de7fdf5def4dc91586a": {
+            "date": "2024-12-06",
+            "amount": -21.99,
+            "description": "PRLV SEPA BASIC FIT FRANCE 06-12-2024 / 02-01-2025 GT025042929627880AE RUM A69003724",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "8b32794fbc12021a4f29779d0c49c99224964c57f82e6de7fdf5def4dc91586a"
+        },
+        "2a27bcc7a6e389e2e22bd77ce00db5a1e3d2d7401ff6101cd59cd12880105fa6": {
+            "date": "2024-12-09",
+            "amount": -54.14,
+            "description": "PRLV SEPA EAU DU GRAND LYON - LA REGIE COMD98HQ00422592MEV EAU DU GRAND LYON - LA REGIE RUM XX703397523SEPA",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2a27bcc7a6e389e2e22bd77ce00db5a1e3d2d7401ff6101cd59cd12880105fa6"
+        },
+        "47a315b513f052392b9e727501e2a18a17ad396fe69be6ec7f8daae2aa29b85f": {
+            "date": "2024-12-09",
+            "amount": -19.99,
+            "description": "PRLV SEPA FREE MOBILE RUM FM-44527224-2 0924340FJIWAZSDT",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "47a315b513f052392b9e727501e2a18a17ad396fe69be6ec7f8daae2aa29b85f"
+        },
+        "24a1358cf64468ac6c54faa29d6c935b1996ed28b2c854b01515d329dcdb0a35": {
+            "date": "2024-12-09",
+            "amount": -0.99,
+            "description": "CARTE 08/12/24 APPLE.COM/BILL CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "24a1358cf64468ac6c54faa29d6c935b1996ed28b2c854b01515d329dcdb0a35"
+        },
+        "b44940f989bc4d4078f53e035c7f43aa5ed68129fe81a8c01db4ee5bf767d678": {
+            "date": "2024-12-09",
+            "amount": -2.49,
+            "description": "CARTE 07/12/24 DELIVEROO CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "b44940f989bc4d4078f53e035c7f43aa5ed68129fe81a8c01db4ee5bf767d678"
+        },
+        "7c35388712d43dc86f3d0df028c659cb4ba819d05967ac8a316fb431b796c093": {
+            "date": "2024-12-10",
+            "amount": -3.19,
+            "description": "CARTE 09/12/24 DELIVEROO CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "7c35388712d43dc86f3d0df028c659cb4ba819d05967ac8a316fb431b796c093"
+        },
+        "eafa338fbd78d37ed54b2662f03a66b2341e62e67b616f1f022d0cc239bf948c": {
+            "date": "2024-12-16",
+            "amount": -4.0,
+            "description": "CARTE 13/12/24 KEOLIS LYON 69 L CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "eafa338fbd78d37ed54b2662f03a66b2341e62e67b616f1f022d0cc239bf948c"
+        },
+        "4ad4ea74fa9b67f8fc043d521efa55078dc609abd1637fa25f52c70ce4ea6cff": {
+            "date": "2024-12-17",
+            "amount": -8.44,
+            "description": "CARTE 16/12/24 DELIVEROO CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "4ad4ea74fa9b67f8fc043d521efa55078dc609abd1637fa25f52c70ce4ea6cff"
+        },
+        "9b9c6e67355038ed9dbee07ed77901ac7c01853c2b91ff3497b5ed17c463c573": {
+            "date": "2024-12-20",
+            "amount": -4.0,
+            "description": "CARTE 18/12/24 KEOLIS LYON 69 L CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "9b9c6e67355038ed9dbee07ed77901ac7c01853c2b91ff3497b5ed17c463c573"
+        },
+        "3d318066f6cf4cab25865ad3d9a205d1348e8e97181bd3f14501813799296202": {
+            "date": "2024-12-23",
+            "amount": 115.45,
+            "description": "VIR SEPA CSE SISW sport et Mario---2024---Rbt-sport-et- Vers 23756 - CASTILLO Mario - 2024 - Rbt Réf ABSI243550000970940.0100003",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "3d318066f6cf4cab25865ad3d9a205d1348e8e97181bd3f14501813799296202"
+        },
+        "9817aad0e0a53fdc50313424cc0c2ad85f0952c541326a313066be4679b41acf": {
+            "date": "2024-12-23",
+            "amount": -2.0,
+            "description": "CARTE 19/12/24 KEOLIS LYON 69 L CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "9817aad0e0a53fdc50313424cc0c2ad85f0952c541326a313066be4679b41acf"
+        },
+        "72b7a5001ddc13e6c48c42e014ced7bb37fd814fa652fc8d400415460891da50": {
+            "date": "2024-12-24",
+            "amount": -343.89,
+            "description": "VIR INST CASTILLO URIAS MARIO INTERNAL TRANSFER gold cc 12/24",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "72b7a5001ddc13e6c48c42e014ced7bb37fd814fa652fc8d400415460891da50"
+        },
+        "36d52825fdbf56c3874de8fbd08a0999aab82d6bf7030df1469deb6ed52ac51a": {
+            "date": "2024-12-27",
+            "amount": 3805.6,
+            "description": "VIR SEPA SIEMENS INDUSTRY SOFTWARE SAS SALAIRE DE DECEMBRE 2024 Réf ZZ1HH7XKNNPI34TPIZZ1HH7XKO4KIMUQUE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "36d52825fdbf56c3874de8fbd08a0999aab82d6bf7030df1469deb6ed52ac51a"
+        },
+        "0abb48420cc018c342135b47a2b7f2f26492bf68307ebe92eac388fc767b6b29": {
+            "date": "2024-12-30",
+            "amount": -58.93,
+            "description": "CARTE 27/12/24 CAREREFOUR CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "0abb48420cc018c342135b47a2b7f2f26492bf68307ebe92eac388fc767b6b29"
+        },
+        "0a83d3f2004186725be89d1a60c44c5891a7aa5de3b5bfe8c48b5a77c32b0edc": {
+            "date": "2024-12-31",
+            "amount": -2.0,
+            "description": "CARTE 29/12/24 KEOLIS LYON 69 L CB*1927",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "0a83d3f2004186725be89d1a60c44c5891a7aa5de3b5bfe8c48b5a77c32b0edc"
+        },
+        "2dfdfe62c7e39ef93d168fb4f54f778dfc804855796f1b25a688571e9154f824": {
+            "date": "2024-10-04",
+            "amount": 402.5,
+            "description": "VIR Virement frais appartement VANDEBEULQUE CHLOE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2dfdfe62c7e39ef93d168fb4f54f778dfc804855796f1b25a688571e9154f824"
+        },
+        "3198ced718a1788282ad3be19f1c177c8e795166a62d7e27d08a65d00918c102": {
+            "date": "2024-10-07",
+            "amount": -48.0,
+            "description": "VIR remboursement courses payees par ch Réf : SCT406182024100700416011664 MLLE VANDEBEULQUE CHLOE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "3198ced718a1788282ad3be19f1c177c8e795166a62d7e27d08a65d00918c102"
+        },
+        "96268ec758bf6a59ce95211d8bac033b21d0eb7374c84c4fab299e12489af0e6": {
+            "date": "2024-10-07",
+            "amount": -71.95,
+            "description": "VIR remboursement courses payes par mar Réf : SCT406182024100700416008419 M CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "96268ec758bf6a59ce95211d8bac033b21d0eb7374c84c4fab299e12489af0e6"
+        },
+        "5ca0c867e366e557861b082b73c89c2f25b8001e13516a21662dc1d97304791f": {
+            "date": "2024-10-07",
+            "amount": -76.0,
+            "description": "PRLV SEPA TotalEnergies Electricite et G --488157--2427618341502202000032587 Gaz France-Reference client 1 Prelevement TotalEnergies Electricite et RUM DEMP016417219",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "5ca0c867e366e557861b082b73c89c2f25b8001e13516a21662dc1d97304791f"
+        },
+        "ee9f6bb0dc68090b70d0e7e70ba42bdb36352adcbb44c094eefd379ed5da4acf": {
+            "date": "2024-10-07",
+            "amount": -25.0,
+            "description": "CARTE 06/10/24 SASU JD EXPLOIT CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "ee9f6bb0dc68090b70d0e7e70ba42bdb36352adcbb44c094eefd379ed5da4acf"
+        },
+        "c8eac224eb889b431608140de3cf6b28e403fe605ab44b31146d9973d3b15718": {
+            "date": "2024-10-07",
+            "amount": -9.83,
+            "description": "CARTE 04/10/24 PICARD SURGELES CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c8eac224eb889b431608140de3cf6b28e403fe605ab44b31146d9973d3b15718"
+        },
+        "11d3d80e2af0af3c3d6907af6bd2bae5d730de338706ca4c89ebda51c8673620": {
+            "date": "2024-10-10",
+            "amount": -729.04,
+            "description": "PRLV SEPA IMMO DE FRANCE RHONE ALPES Prelevement Avis d'echeance OCTOBRE 2024 2428388676860400 RUM 4759811484C346CDBAB9729A8F394CEC",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "11d3d80e2af0af3c3d6907af6bd2bae5d730de338706ca4c89ebda51c8673620"
+        },
+        "199b0d15e4b04b81f1af121a7e38b78ebbbf796c5ae3132472c5b30a81d693bd": {
+            "date": "2024-10-11",
+            "amount": -2.38,
+            "description": "CARTE 10/10/24 PETIT CASINO CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "199b0d15e4b04b81f1af121a7e38b78ebbbf796c5ae3132472c5b30a81d693bd"
+        },
+        "9105f8f82a1b0e9eea87e691ee40606332ed9c83d8d65a98bed1ae90d80e7b1a": {
+            "date": "2024-10-14",
+            "amount": -11.09,
+            "description": "CARTE 14/10/24 LEMONADE INSURANC CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "9105f8f82a1b0e9eea87e691ee40606332ed9c83d8d65a98bed1ae90d80e7b1a"
+        },
+        "2e31ff4e13320ce0716dc8c484e593e4867141bf38bd6e8f40de0e20d7f81669": {
+            "date": "2024-10-15",
+            "amount": -28.99,
+            "description": "PRLV SEPA BOUYGUES TELECOM 09xxxxx308 03764N2202478540421659 RUM BT1150SW5HQ80",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2e31ff4e13320ce0716dc8c484e593e4867141bf38bd6e8f40de0e20d7f81669"
+        },
+        "d9c13bc0a48a794e36f055a4ffbb509b6b985724dd010ad8165a9f0fdc128d33": {
+            "date": "2024-10-16",
+            "amount": -56.0,
+            "description": "CARTE 15/10/24 A TYROLIANA PARC CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "d9c13bc0a48a794e36f055a4ffbb509b6b985724dd010ad8165a9f0fdc128d33"
+        },
+        "e84300b56796622deaa04d1e3e020c2b9d3f49309cbca6b42275fe4046b60a03": {
+            "date": "2024-10-18",
+            "amount": 38.26,
+            "description": "VIR SEPA TOTALENERGIES ELECTRICITE 0115312917-214013417388 Z FRANCE-REFERENCE CLIENT 115312917 VIREMENT TOTALENERGIES ELECTRICITE ET GA Réf COMC429100055996",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "e84300b56796622deaa04d1e3e020c2b9d3f49309cbca6b42275fe4046b60a03"
+        },
+        "4fb785f3524dd0458ec0bc548d65826ed5f9750c007a8f94fec520f237beeb89": {
+            "date": "2024-10-21",
+            "amount": -35.79,
+            "description": "CARTE 20/10/24 U EXPRESS 9 CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "4fb785f3524dd0458ec0bc548d65826ed5f9750c007a8f94fec520f237beeb89"
+        },
+        "16ff8013692be180b6922a6df0c0d53625dea3d171c6649009b0e292e2d289cf": {
+            "date": "2024-10-21",
+            "amount": -27.0,
+            "description": "CARTE 19/10/24 TRANSDEV RAILRH 4 CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "16ff8013692be180b6922a6df0c0d53625dea3d171c6649009b0e292e2d289cf"
+        },
+        "3c230d40d93955fac4ca4ab9e124c7b4bccdcd14f359ca464a1b6156511722a1": {
+            "date": "2024-10-28",
+            "amount": -69.73,
+            "description": "CARTE 25/10/24 GENS BONS VIVANT CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "3c230d40d93955fac4ca4ab9e124c7b4bccdcd14f359ca464a1b6156511722a1"
+        },
+        "9aba303ad8996906f86d4160d6574987db71713c331187c3f642b985a1788ba2": {
+            "date": "2024-10-29",
+            "amount": 50.0,
+            "description": "VIR Virement interne depuis BoursoBa CASTILLO URIAS MARIO nk",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "9aba303ad8996906f86d4160d6574987db71713c331187c3f642b985a1788ba2"
+        },
+        "6b9a62c7697a3e91f34264de530daba19c6f778e5a9485d447e3479b0f429f83": {
+            "date": "2024-10-29",
+            "amount": -17.58,
+            "description": "CARTE 28/10/24 CAREREFOUR CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "6b9a62c7697a3e91f34264de530daba19c6f778e5a9485d447e3479b0f429f83"
+        },
+        "6c83fb5b1fd1a8ab7c9cf1be12ab47df6b43a8517a715652d162ab7194c1aba0": {
+            "date": "2024-11-04",
+            "amount": 747.47,
+            "description": "VIR apport compte joint - Mario CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "6c83fb5b1fd1a8ab7c9cf1be12ab47df6b43a8517a715652d162ab7194c1aba0"
+        },
+        "f08d48bb8dd1e8cd0641f81be1306adcc1a11693d96125290d5f4d5e5ed58974": {
+            "date": "2024-11-04",
+            "amount": 402.5,
+            "description": "VIR Virement frais appartement VANDEBEULQUE CHLOE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "f08d48bb8dd1e8cd0641f81be1306adcc1a11693d96125290d5f4d5e5ed58974"
+        },
+        "1833ecfeee41657f0d581835bee1f4167d7ab8d3bbe92d296c86339f536e3ec5": {
+            "date": "2024-11-04",
+            "amount": -37.81,
+            "description": "CARTE 03/11/24 FRANPRIX 6064 CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "1833ecfeee41657f0d581835bee1f4167d7ab8d3bbe92d296c86339f536e3ec5"
+        },
+        "150ced977ebfb57000f0afd795647b80326fab81db181e5b17792cdb7541bbac": {
+            "date": "2024-11-04",
+            "amount": -35.64,
+            "description": "CARTE 01/11/24 DELIVEROO CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "150ced977ebfb57000f0afd795647b80326fab81db181e5b17792cdb7541bbac"
+        },
+        "b492eb6c1ffb4225bd0c92152a52603c3fe0d76b5381c240e79b4c00545b8d6f": {
+            "date": "2024-11-04",
+            "amount": -22.96,
+            "description": "CARTE 31/10/24 CAREREFOUR CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "b492eb6c1ffb4225bd0c92152a52603c3fe0d76b5381c240e79b4c00545b8d6f"
+        },
+        "d815f60b7c49a12012aa4fbd6e66a2c95b0f16c1f0c6fb096b133f3e614e7e4e": {
+            "date": "2024-11-05",
+            "amount": -76.0,
+            "description": "PRLV SEPA TotalEnergies Electricite et G RUM DEMP016417219 Prelevement TotalEnergies Electricite et Gaz France-Reference client 1 --488157--2430416215109202000229449",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "d815f60b7c49a12012aa4fbd6e66a2c95b0f16c1f0c6fb096b133f3e614e7e4e"
+        },
+        "81bd5140a70bad707f10a8a8bd2829a7f01f3ea747cec695b14a25bcbbd5d156": {
+            "date": "2024-11-07",
+            "amount": -35.63,
+            "description": "CARTE 06/11/24 CAREREFOUR CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "81bd5140a70bad707f10a8a8bd2829a7f01f3ea747cec695b14a25bcbbd5d156"
+        },
+        "901546f60453faf4898d1e0ec769f7d0e0fa14fe0a8f96dafe603bb45ec023dd": {
+            "date": "2024-11-13",
+            "amount": -729.04,
+            "description": "PRLV SEPA IMMO DE FRANCE RHONE ALPES Prelevement Avis d'echeance NOVEMBRE 202 4 2431794011600168 RUM 4759811484C346CDBAB9729A8F394CEC",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "901546f60453faf4898d1e0ec769f7d0e0fa14fe0a8f96dafe603bb45ec023dd"
+        },
+        "7940511c11b708d1fc5b3cdb77fea49a148cee89eb8b8926132a5554dd0261c6": {
+            "date": "2024-11-13",
+            "amount": -30.34,
+            "description": "CARTE 12/11/24 CAREREFOUR CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "7940511c11b708d1fc5b3cdb77fea49a148cee89eb8b8926132a5554dd0261c6"
+        },
+        "311052c76aaba871969f15df926188d72f0703892b21989858c830223bb59356": {
+            "date": "2024-11-14",
+            "amount": -11.09,
+            "description": "CARTE 14/11/24 LEMONADE INSURANC CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "311052c76aaba871969f15df926188d72f0703892b21989858c830223bb59356"
+        },
+        "96b764af4a625173bf49432925ad15fc68e8f1afc156e9c6d69b62213a534a1c": {
+            "date": "2024-11-14",
+            "amount": -15.48,
+            "description": "CARTE 13/11/24 CAREREFOUR CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "96b764af4a625173bf49432925ad15fc68e8f1afc156e9c6d69b62213a534a1c"
+        },
+        "4d51703c8eabe28ce5c87a116b6cd5ed5b96dc1349253109d0bd3af94156a0de": {
+            "date": "2024-11-15",
+            "amount": -28.99,
+            "description": "PRLV SEPA BOUYGUES TELECOM 09xxxxx308 03764N2202481812685673 RUM BT1150SW5HQ80",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "4d51703c8eabe28ce5c87a116b6cd5ed5b96dc1349253109d0bd3af94156a0de"
+        },
+        "aca6b41a13f131cf6400fae75e5159a0d1b2b789c0a37e99fd2011dec4e3e834": {
+            "date": "2024-11-18",
+            "amount": -10.0,
+            "description": "VIR Raclette mario y chloe MLLE CAMARGO CORREDOR Y G Réf : SCT406182024111800431253605",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "aca6b41a13f131cf6400fae75e5159a0d1b2b789c0a37e99fd2011dec4e3e834"
+        },
+        "edf281ebd76ce9aec2043d9f186985df0d637f78439ea65348295bb3426fb4fa": {
+            "date": "2024-11-18",
+            "amount": -20.05,
+            "description": "CARTE 15/11/24 SABTI 3 CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "edf281ebd76ce9aec2043d9f186985df0d637f78439ea65348295bb3426fb4fa"
+        },
+        "b110f7c2c6cf27363713edf8747ce478e0e1506e8bfd607f6c7fb15a186df555": {
+            "date": "2024-11-25",
+            "amount": -6.44,
+            "description": "CARTE 24/11/24 U EXPRESS 9 CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "b110f7c2c6cf27363713edf8747ce478e0e1506e8bfd607f6c7fb15a186df555"
+        },
+        "20622a6243154973bfc7c70bdcc80bb1f891be8c6a076e06e048cc660817760d": {
+            "date": "2024-11-25",
+            "amount": -30.0,
+            "description": "VIR INST AXEL BOUZIN sapin Mario",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "20622a6243154973bfc7c70bdcc80bb1f891be8c6a076e06e048cc660817760d"
+        },
+        "1c47b26c2e902b058c4ba34c91aecafe2a64d9716bf4e5ef7616b160fd72d4be": {
+            "date": "2024-11-28",
+            "amount": -23.71,
+            "description": "CARTE 27/11/24 CAREREFOUR CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "1c47b26c2e902b058c4ba34c91aecafe2a64d9716bf4e5ef7616b160fd72d4be"
+        },
+        "ad22a8effb433be99f58ad7cabb876846991601fc87aa95b34e482415946b1fc": {
+            "date": "2024-11-28",
+            "amount": -40.0,
+            "description": "CARTE 27/11/24 CALICEO STE FOY CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "ad22a8effb433be99f58ad7cabb876846991601fc87aa95b34e482415946b1fc"
+        },
+        "2b36b0062b81de019dc1255ef8dfb00e8bf1f8db91471181f3510fd54e56784a": {
+            "date": "2024-12-02",
+            "amount": 747.47,
+            "description": "VIR apport compte joint - Mario CASTILLO URIAS MARIO",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "2b36b0062b81de019dc1255ef8dfb00e8bf1f8db91471181f3510fd54e56784a"
+        },
+        "96544c15612404fc757314e765c5fb4d96a15cd28646a99c351387a0ec500f4c": {
+            "date": "2024-12-02",
+            "amount": 402.5,
+            "description": "VIR Virement frais appartement VANDEBEULQUE CHLOE",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "96544c15612404fc757314e765c5fb4d96a15cd28646a99c351387a0ec500f4c"
+        },
+        "5caa191a9fff29adedf92e0dae8a8fd86dd5e5b238ecc2470342d53c46f38e7b": {
+            "date": "2024-12-02",
+            "amount": -9.2,
+            "description": "CARTE 30/11/24 LE PETIT CASINO CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "5caa191a9fff29adedf92e0dae8a8fd86dd5e5b238ecc2470342d53c46f38e7b"
+        },
+        "a7ede767650189d21da4e3f94c746b568bdefb3059bb8662fbcea2e2c83ccf0a": {
+            "date": "2024-12-02",
+            "amount": -14.1,
+            "description": "CARTE 30/11/24 SARL TOME CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "a7ede767650189d21da4e3f94c746b568bdefb3059bb8662fbcea2e2c83ccf0a"
+        },
+        "a68e45aee103dcdbdc6061d6fad33ae5df2f12ea28a929f839132eb16ae6050f": {
+            "date": "2024-12-02",
+            "amount": -10.0,
+            "description": "CARTE 29/11/24 MONOP 4 CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "a68e45aee103dcdbdc6061d6fad33ae5df2f12ea28a929f839132eb16ae6050f"
+        },
+        "483182381c350d706065c8aa1b2d854bcfca46954d27d42bdf8d28b62828f041": {
+            "date": "2024-12-04",
+            "amount": -17.0,
+            "description": "CARTE 03/12/24 CAILLAU DOUGLAS CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "483182381c350d706065c8aa1b2d854bcfca46954d27d42bdf8d28b62828f041"
+        },
+        "c6f3f70797dacbf42e7024ef8aa86c3c27c4bc76a5b25dad937fa5b6dec344c8": {
+            "date": "2024-12-04",
+            "amount": -15.0,
+            "description": "CARTE 03/12/24 SARL GAUTHIER CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c6f3f70797dacbf42e7024ef8aa86c3c27c4bc76a5b25dad937fa5b6dec344c8"
+        },
+        "6124e34ab1769b7ede508fe9ee2a963369ea639d41818bf1363332cacd4224ec": {
+            "date": "2024-12-05",
+            "amount": -76.0,
+            "description": "PRLV SEPA TotalEnergies Electricite et G Prelevement TotalEnergies Electricite et Gaz France-Reference client 1 --488157--2433714243533202000229595 RUM DEMP016417219",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "6124e34ab1769b7ede508fe9ee2a963369ea639d41818bf1363332cacd4224ec"
+        },
+        "c5029651de960a3c2f0a24cf19b11997ef802d17535b4b3697058b1a12f3d236": {
+            "date": "2024-12-05",
+            "amount": -15.09,
+            "description": "CARTE 04/12/24 CAREREFOUR CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c5029651de960a3c2f0a24cf19b11997ef802d17535b4b3697058b1a12f3d236"
+        },
+        "c2845bbd14925cf310e9fe07cfa44d0c5542e931e14ed5d3dbaebbb6e221b5fc": {
+            "date": "2024-12-06",
+            "amount": -5.0,
+            "description": "CARTE 05/12/24 SATHONAY MARKET CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c2845bbd14925cf310e9fe07cfa44d0c5542e931e14ed5d3dbaebbb6e221b5fc"
+        },
+        "c8927c121a33b80172d78a405e4c7ac5d9ea25ff51024232f6a9c9a1240816b8": {
+            "date": "2024-12-09",
+            "amount": -8.0,
+            "description": "CARTE 08/12/24 DU BOIS DE LA FEU CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "c8927c121a33b80172d78a405e4c7ac5d9ea25ff51024232f6a9c9a1240816b8"
+        },
+        "7d9623750d35321769ab23a17c629d05705f2b279633760cdbffc0dc3340325e": {
+            "date": "2024-12-10",
+            "amount": -765.38,
+            "description": "PRLV SEPA IMMO DE FRANCE RHONE ALPES RUM 4759811484C346CDBAB9729A8F394CEC 2434497874330200 4 Prelevement Avis d'echeance DECEMBRE 202",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "7d9623750d35321769ab23a17c629d05705f2b279633760cdbffc0dc3340325e"
+        },
+        "7b3b168d27585b38c58562cac41c97cb89ce0319007000ddb80fe70d52046673": {
+            "date": "2024-12-10",
+            "amount": -20.0,
+            "description": "RETRAIT DAB 08/12/24 LYON CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "7b3b168d27585b38c58562cac41c97cb89ce0319007000ddb80fe70d52046673"
+        },
+        "36553236e63ab0aaae0ddd50783f8504e3c903beabfec0a3760046fd6f35fe45": {
+            "date": "2024-12-11",
+            "amount": -42.9,
+            "description": "CARTE 10/12/24 CAREREFOUR CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "36553236e63ab0aaae0ddd50783f8504e3c903beabfec0a3760046fd6f35fe45"
+        },
+        "3a33ccafaa1dbd91505298825d8e1437aec9e747e05890382a634253bfc5e59f": {
+            "date": "2024-12-12",
+            "amount": -15.48,
+            "description": "CARTE 11/12/24 LA POSTE 691110 CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "3a33ccafaa1dbd91505298825d8e1437aec9e747e05890382a634253bfc5e59f"
+        },
+        "ca1f70ed35238a5dd9b9457df3ec45bb6999afd1a7c43d3ad46370d5c53ed0a4": {
+            "date": "2024-12-16",
+            "amount": -28.99,
+            "description": "PRLV SEPA BOUYGUES TELECOM 09xxxxx308 03764N2202484725071022 RUM BT1150SW5HQ80",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "ca1f70ed35238a5dd9b9457df3ec45bb6999afd1a7c43d3ad46370d5c53ed0a4"
+        },
+        "161491e967b962e49ef2e38967ed87d52fcc334dd17b531871894f2031850787": {
+            "date": "2024-12-16",
+            "amount": -15.0,
+            "description": "CARTE 15/12/24 SASU JD EXPLOIT CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "161491e967b962e49ef2e38967ed87d52fcc334dd17b531871894f2031850787"
+        },
+        "08c531737a8a7faabd67327ab95e7a5bddeea87867ad0f85d0d486d2d331d8c6": {
+            "date": "2024-12-16",
+            "amount": -23.7,
+            "description": "CARTE 14/12/24 LE DOUZE CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "08c531737a8a7faabd67327ab95e7a5bddeea87867ad0f85d0d486d2d331d8c6"
+        },
+        "474119feb446f148d57ed56f6e736d4058925c947949cf1c2de503b369dd16e8": {
+            "date": "2024-12-16",
+            "amount": -11.09,
+            "description": "CARTE 14/12/24 LEMONADE INSURANC CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "474119feb446f148d57ed56f6e736d4058925c947949cf1c2de503b369dd16e8"
+        },
+        "b11530249b269ca7ab32a41cb8d18617fa6735f23ea38fb115d92c18520b9a3d": {
+            "date": "2024-12-17",
+            "amount": -20.0,
+            "description": "RETRAIT DAB 15/12/24 LYON CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "b11530249b269ca7ab32a41cb8d18617fa6735f23ea38fb115d92c18520b9a3d"
+        },
+        "967e0b6bacc03edab66b999ca42c87cb24d90c646572859e5509db09051f6b30": {
+            "date": "2024-12-23",
+            "amount": -4.0,
+            "description": "CARTE 21/12/24 DELFORGE LOISIRS CB*0695",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "967e0b6bacc03edab66b999ca42c87cb24d90c646572859e5509db09051f6b30"
+        },
+        "6cd6e1bf928ffeaf396265926ecf3063a748c8f0a40ddd7233d39ba15b39e40a": {
+            "date": "2024-12-23",
+            "amount": -29.0,
+            "description": "CARTE 21/12/24 AUTOUR MONDE SC CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "6cd6e1bf928ffeaf396265926ecf3063a748c8f0a40ddd7233d39ba15b39e40a"
+        },
+        "d94aed9c163df564710f9ceffbdb8d5c07b2b8bd170e36a1b5b3df9279290d1b": {
+            "date": "2024-12-23",
+            "amount": -10.0,
+            "description": "CARTE 21/12/24 WAIKIKI CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "d94aed9c163df564710f9ceffbdb8d5c07b2b8bd170e36a1b5b3df9279290d1b"
+        },
+        "1081328cc605828c6f50cb13903babbc69bffb573cc842bcbc05c9a2721cce7b": {
+            "date": "2024-12-23",
+            "amount": -10.0,
+            "description": "CARTE 21/12/24 LE MONDE DE DJIMI CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "1081328cc605828c6f50cb13903babbc69bffb573cc842bcbc05c9a2721cce7b"
+        },
+        "bb2809a5872eeae4284f1a8725f8cb63c6dbc1319791e9819719219070834949": {
+            "date": "2024-12-27",
+            "amount": -14.5,
+            "description": "CARTE 26/12/24 TARTELLE CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "bb2809a5872eeae4284f1a8725f8cb63c6dbc1319791e9819719219070834949"
+        },
+        "42731df9dd2770b9798afc5eec90bc2ed802179937777c47aba920051a36c21a": {
+            "date": "2024-12-31",
+            "amount": -38.26,
+            "description": "CARTE 30/12/24 CAREREFOUR CB*5127",
+            "account_label": "boursorama",
+            "category": null,
+            "id": "42731df9dd2770b9798afc5eec90bc2ed802179937777c47aba920051a36c21a"
         }
     },
     "processed_operations_ids": [
+        "00cded8143e3d6e752309ce7a7b55fb6db6f1370ec27bb9871d19ac83f8e6e8c",
+        "024be2ec28bad1bab1fd8e9b68918f0a5e3fd8e2a40d7a8adc15cc81524994da",
+        "035c0e27a6805df8d573ace5982dd9aa055a97931ab084a3076c02df7cb45470",
+        "06cf79f2a54d87d01284700f9b95242399cb26cede9aea54aa4e4f55f18efb27",
+        "06d339c6818e674e87baef6a2286e3e9e007d215953b6408d17986d7656d7f04",
+        "08c531737a8a7faabd67327ab95e7a5bddeea87867ad0f85d0d486d2d331d8c6",
+        "09442c70d16bc91a8f5dacc7195d32cefe2b9ca3e114d011e036576b6a9607eb",
+        "0a3f4f9c867273f65f0bace867ca33a7b6b06c88d9004423d83fe540d8b6b368",
+        "0a83d3f2004186725be89d1a60c44c5891a7aa5de3b5bfe8c48b5a77c32b0edc",
+        "0abb48420cc018c342135b47a2b7f2f26492bf68307ebe92eac388fc767b6b29",
+        "0fd6259543f87e514b311d453a862ad2f1809b28d0d1d33253ec6afdf86c10a2",
         "107bf3a8af1e4b09a1628c881cc78a78cc7b350878454e057e6bd993c7c64c0d",
+        "1081328cc605828c6f50cb13903babbc69bffb573cc842bcbc05c9a2721cce7b",
         "10de6a7d942b9151785df9cdeba5b615ef4f4ec6d6f43355ce74a590d0c02878",
+        "11d3d80e2af0af3c3d6907af6bd2bae5d730de338706ca4c89ebda51c8673620",
         "1325144eeb79856aac34c4343ba80ba3a0f7b4822085c4c3d9c8f8c926d1a5ce",
+        "13c6c9822fe74e797da937c205c3be0e00640d9e7d440098f0e493ee2846d6a8",
+        "140806cc68e2a786e89d8ca245cf92f6b7a5f9b34a3b15bfa76a9c72f5696ce4",
+        "150ced977ebfb57000f0afd795647b80326fab81db181e5b17792cdb7541bbac",
+        "161491e967b962e49ef2e38967ed87d52fcc334dd17b531871894f2031850787",
+        "16ff8013692be180b6922a6df0c0d53625dea3d171c6649009b0e292e2d289cf",
+        "1833ecfeee41657f0d581835bee1f4167d7ab8d3bbe92d296c86339f536e3ec5",
+        "18f1ab043e8eed403bbb5a6e7599b1af279fdab180eab423847cb33de8317257",
         "19910ccf88c409fc0016832a6d7d25af79fa8d089059cb3bd42951295c93e356",
+        "199b0d15e4b04b81f1af121a7e38b78ebbbf796c5ae3132472c5b30a81d693bd",
+        "1c47b26c2e902b058c4ba34c91aecafe2a64d9716bf4e5ef7616b160fd72d4be",
+        "1f1fcb4cb7cea2023f12067f780ceda3c7a6d0350a96ce827271ec714ca0e711",
+        "20622a6243154973bfc7c70bdcc80bb1f891be8c6a076e06e048cc660817760d",
+        "2258bc38aff62fdc96d5e9ed9bf91f6d933ee2548634bee6bdf074f286b58641",
         "239430f4dfa301052f0059730650db1ec8881503c5c795f2fcc641711d63753f",
+        "23b8f2d679a87e65eacbad74170ec14c5767dd3b48ca8cc1a290bc43cfdc585f",
+        "24a1358cf64468ac6c54faa29d6c935b1996ed28b2c854b01515d329dcdb0a35",
         "24d8169482bd52855efce2440fcf1154374b5c5b70cbea30310f0ed75af7fdb5",
         "26bce6454570d95796f17f77bf3f7f5add2af3aa5f466216b6f7ef35d59c931a",
+        "277efdabd99fad639dde9aad937d5e2f3fd0d8cf3e688364050ec4cc14ab8745",
         "28418d4f589037e65a84a1d7092cad24e12627e04e19383ddef893fce81ac07d",
+        "2962d5b1c07a826666126997fc36369c37bcac9a22036af277b8a051e71cc55e",
+        "2a27bcc7a6e389e2e22bd77ce00db5a1e3d2d7401ff6101cd59cd12880105fa6",
+        "2b36b0062b81de019dc1255ef8dfb00e8bf1f8db91471181f3510fd54e56784a",
+        "2b6182c17526c769a6d6296d833ec5b7ee95ac188f7981f08dced3893ea2619e",
+        "2bcb92eb4ac10fd1bd9d604919fbaa053954f07ab61893f013be408ab14967dc",
+        "2dfdfe62c7e39ef93d168fb4f54f778dfc804855796f1b25a688571e9154f824",
+        "2e31ff4e13320ce0716dc8c484e593e4867141bf38bd6e8f40de0e20d7f81669",
+        "2fcbd7e68245ada8330d6101cfdbb2de75ca454f0f16fef26adffc344f753d2c",
+        "2ff965074d1ad9025de2c74cd5a99efe6fb050692f613b707bc1848e0978f12e",
+        "311052c76aaba871969f15df926188d72f0703892b21989858c830223bb59356",
         "31420fe9e79f75ee553ec536205bf56fb50800fbd9db1c713283d2dfe77f09da",
+        "3198ced718a1788282ad3be19f1c177c8e795166a62d7e27d08a65d00918c102",
+        "36553236e63ab0aaae0ddd50783f8504e3c903beabfec0a3760046fd6f35fe45",
         "36d02ed9b4b6885dffeeed2f455b1bc387461e27cb7de23df147ff808c6dd927",
+        "36d52825fdbf56c3874de8fbd08a0999aab82d6bf7030df1469deb6ed52ac51a",
+        "37e3cf4fe425d55bef094fec307afdd2c4ca9145f725e79135c03250d0098fea",
         "38100af5048085e7f0e920e0f12d129770762d175cca4ad3d19d57044588e4d1",
+        "3a2107538994aa17d6b11816a41da63e182a59823481dc155e62fbc967f4b202",
+        "3a33ccafaa1dbd91505298825d8e1437aec9e747e05890382a634253bfc5e59f",
         "3a860afba503a5ca77924971b1155adb65d56245755b02bfe3c7e3a41fe8e1a5",
         "3b05bd29801e6e803c0d0f3692b4b860d10ac4c69db4b53bcf22171c7e2fa94d",
+        "3c230d40d93955fac4ca4ab9e124c7b4bccdcd14f359ca464a1b6156511722a1",
         "3ca40c349b287650112340f36d14f35f92d2743d2d9839004e55f9eade61b2ea",
+        "3cbbdf3151843fbfa24df64d6dc1194690d595be46068edb714c79e4323de46f",
+        "3d318066f6cf4cab25865ad3d9a205d1348e8e97181bd3f14501813799296202",
         "402ebd3f6a77408363c6ca90603035fa2519d1b7455afafb6d5edfc254bd81a0",
+        "42731df9dd2770b9798afc5eec90bc2ed802179937777c47aba920051a36c21a",
+        "469d044c8071a0d639f040a656a4f92d52c956bd87da195fbdf7240bc628c191",
+        "4714b43ef22abdc60dc299ef1da8683a4729fddb6d86ad96b3112a0d2dc2b9ae",
+        "474119feb446f148d57ed56f6e736d4058925c947949cf1c2de503b369dd16e8",
+        "47a315b513f052392b9e727501e2a18a17ad396fe69be6ec7f8daae2aa29b85f",
         "4820f58bca8d68325b4a5d2f401b8a7ba40a50042ab01183ef3b8389977d5787",
+        "483182381c350d706065c8aa1b2d854bcfca46954d27d42bdf8d28b62828f041",
+        "4908ea51723d5410a00db1d037f74eb62b82b7354734f1b16dda1333de6a66b2",
+        "4ad4ea74fa9b67f8fc043d521efa55078dc609abd1637fa25f52c70ce4ea6cff",
+        "4d51703c8eabe28ce5c87a116b6cd5ed5b96dc1349253109d0bd3af94156a0de",
+        "4fb785f3524dd0458ec0bc548d65826ed5f9750c007a8f94fec520f237beeb89",
         "50d285f682a9a5601c96c00f7d1fc9f80f90dbcb73cbbb0e78e1b9274dc1dbb2",
+        "520b03843468be6f339163aad45f5c68c399f95f7420ecfaf52231c46f7802a2",
         "5379405d12fd7f80b3a7cd33c3949931518acadad05a557c5ce4bec11819fe28",
+        "542013667784031b62ca97d4f5d0c5fce1cda64a3c72697283ae890901124abe",
+        "553b28fbb65206fdd64f8c718bd70937d8700e596b9f9c31348429c58209ab1b",
+        "5986d7a2b9fbb45ec0ceb77d5505b850c1c1ab830b9bcbab88e0fda65306d955",
+        "5c26464ccd3fee66146f0c189030da9ddfed6f266dfb41cd53d4c4c7b97ee409",
+        "5ca0c867e366e557861b082b73c89c2f25b8001e13516a21662dc1d97304791f",
+        "5caa191a9fff29adedf92e0dae8a8fd86dd5e5b238ecc2470342d53c46f38e7b",
+        "5dbc53015a61ee5b6148a6dcac9dfd68aa4e32817053d3f6b56972bb9ec05d26",
+        "5e4a3ad4c570647d1fb8360e09cb7db10555021a7d267513417fda841731bd10",
+        "5f19eb45e85fc3059a4459a0e7cac35934885b095cbd9839e20afa8808bc19fb",
+        "60f413e0650a2bfd2e4a59c411774b8ee1fc472cf2c4c4e6ae67dabf1a4f9d33",
+        "6124e34ab1769b7ede508fe9ee2a963369ea639d41818bf1363332cacd4224ec",
+        "65f60603d7fe6ff4a80f33b8398908c53d72157578e5a6ed7f281d71d7f33a82",
+        "65f7f4d186c55e06a919796adaf3f763daff3b59cdfb783a66fa92c179a92814",
+        "6b1a303933a9372412cc48d8b2d90ce0238ca918cfba7aa13f41124118a26502",
+        "6b9a62c7697a3e91f34264de530daba19c6f778e5a9485d447e3479b0f429f83",
         "6bf9b2c901753cf967eaf72e30d3d7531ae2a06de3688cdbdccd076abb3ff217",
+        "6c83fb5b1fd1a8ab7c9cf1be12ab47df6b43a8517a715652d162ab7194c1aba0",
+        "6cd6e1bf928ffeaf396265926ecf3063a748c8f0a40ddd7233d39ba15b39e40a",
+        "6e99277ebfc85d15aab38baac839f9ec9adc895332ec87e9e6e002b94fdc1ee4",
         "703f3ff95999f610f807e91aed64c1f2ebc4ac9a283accd8cf4ecf4d24491991",
+        "708ce6dabc2f9110b0aa35e00a8782e5fab8031424a283e903c5272accb6f3f9",
+        "72b7a5001ddc13e6c48c42e014ced7bb37fd814fa652fc8d400415460891da50",
         "74d45c65eb5a4ef4974c2b0d68ee114c44608f77bfe612423450fdfd043bd097",
+        "74ec8e31181f9d1ff36ed78a19355b370a38c68fae85de19cb05eb3d2122ea20",
+        "76cdf5dbf840061141a327831fae8c9c99d20bd53801c6858854982baf2dceeb",
+        "77bace4d79de2f73551800281a303be88a7bb763f61fe575b8381e9875265c63",
+        "7940511c11b708d1fc5b3cdb77fea49a148cee89eb8b8926132a5554dd0261c6",
+        "7b3b168d27585b38c58562cac41c97cb89ce0319007000ddb80fe70d52046673",
+        "7c35388712d43dc86f3d0df028c659cb4ba819d05967ac8a316fb431b796c093",
+        "7d9623750d35321769ab23a17c629d05705f2b279633760cdbffc0dc3340325e",
+        "81bd5140a70bad707f10a8a8bd2829a7f01f3ea747cec695b14a25bcbbd5d156",
+        "837c3e609145c43ed4415c353b847ec6cfbc016814ddd8173fa848763a9cb4d2",
         "87b878d688bd52320fdb4897efd4a846808fc61018fd7f191579981595c41cce",
+        "8962396fcd3a73c017213a1a2eb6b12dfc72591cb95a6689b7ca053be709bca0",
+        "8b32794fbc12021a4f29779d0c49c99224964c57f82e6de7fdf5def4dc91586a",
+        "8d9616e43c2d6beb3971395fcbcd66aa90700bed3f2509ff02cd1736a4abe3a2",
+        "901546f60453faf4898d1e0ec769f7d0e0fa14fe0a8f96dafe603bb45ec023dd",
+        "9105f8f82a1b0e9eea87e691ee40606332ed9c83d8d65a98bed1ae90d80e7b1a",
+        "92434ea186f7e2cc546013a1b73cb19fb2ac2012c54953ec55e2e90760b58b25",
         "93104a18348ba0625dfd85d9304af95d71b238c24f2cc984b0b8d49a51f4c0e3",
+        "96268ec758bf6a59ce95211d8bac033b21d0eb7374c84c4fab299e12489af0e6",
+        "96544c15612404fc757314e765c5fb4d96a15cd28646a99c351387a0ec500f4c",
         "967dd31f57d1910da77c6483f0aa0e71dd4ad707a53c5fc88fe51879ff4147b6",
+        "967e0b6bacc03edab66b999ca42c87cb24d90c646572859e5509db09051f6b30",
+        "96b764af4a625173bf49432925ad15fc68e8f1afc156e9c6d69b62213a534a1c",
+        "9817aad0e0a53fdc50313424cc0c2ad85f0952c541326a313066be4679b41acf",
+        "9aba303ad8996906f86d4160d6574987db71713c331187c3f642b985a1788ba2",
+        "9b9c6e67355038ed9dbee07ed77901ac7c01853c2b91ff3497b5ed17c463c573",
+        "a30ee7e886a28e000dd89cbc36782b053bc7808b860f544523094b984eda6b60",
+        "a68e45aee103dcdbdc6061d6fad33ae5df2f12ea28a929f839132eb16ae6050f",
+        "a7ede767650189d21da4e3f94c746b568bdefb3059bb8662fbcea2e2c83ccf0a",
+        "ab750426079e831f357606c162196da036d44327ecda37c27f0576aa7e62f212",
+        "aca6b41a13f131cf6400fae75e5159a0d1b2b789c0a37e99fd2011dec4e3e834",
+        "ad22a8effb433be99f58ad7cabb876846991601fc87aa95b34e482415946b1fc",
+        "adc9e764c5ed2d170407fe5ab6d737a1a20787de37dd65c3492f75418c5ec214",
         "af5e6a326cfe1a4945dda13e9ba7690afe9b3443a268b06cda62a388e24df1c3",
+        "b110f7c2c6cf27363713edf8747ce478e0e1506e8bfd607f6c7fb15a186df555",
+        "b11530249b269ca7ab32a41cb8d18617fa6735f23ea38fb115d92c18520b9a3d",
+        "b3ec7546c01916d5af2a3567e8d960452a69496fbd60168da400a08d851cf2ac",
+        "b44940f989bc4d4078f53e035c7f43aa5ed68129fe81a8c01db4ee5bf767d678",
+        "b492eb6c1ffb4225bd0c92152a52603c3fe0d76b5381c240e79b4c00545b8d6f",
+        "b5a75c11bc527cafe15627b8da8729c9022b1b1f617860e1a5dea910a19159da",
+        "b777bfc2eafcc0b44f9172b5e82534c253c6487563d7c1b8fda56f4375e58293",
+        "b77f1a3b67e978c360fc7aafd409ef6e4e065f32508dead613af8f99bc130df2",
         "ba0d8291e419abf714c9e3b36336ee30c24ed46c0023e4b7d2d9bd6fe8c1197f",
         "bafe671d4c3a78e2467d8b5b719d5ce472236bf981f8ecffa159d826f6fa4f20",
+        "bb2809a5872eeae4284f1a8725f8cb63c6dbc1319791e9819719219070834949",
+        "be0ee008b287be2391e42c932a7b8edaff2d7382ad942108a05d3b4d352062fd",
         "c025c8b547f3fb9e208f775b027efe9cb7981ef2585878bf76e9c34e3a469628",
+        "c0d193679dd49c4f3417325040e09d630eceaa75ef485a5057aaee06ba081035",
+        "c2845bbd14925cf310e9fe07cfa44d0c5542e931e14ed5d3dbaebbb6e221b5fc",
+        "c347e4224a8acec0c7dfab0cd4b7c253c94aab8f3f411adbb59aae81d4a2db3c",
+        "c5029651de960a3c2f0a24cf19b11997ef802d17535b4b3697058b1a12f3d236",
+        "c5b20442a8d55cfee1e300b7089011515034109ade893b7a0912e662624f23b5",
+        "c5e008a70a68e231ee8a60e51838529399ab8d0b9753963048092d1464c773d6",
         "c67a7d12449b1153f6b7d13dfe5906afe6904beee44eaf1e7a954a2356cbebd9",
+        "c6f3f70797dacbf42e7024ef8aa86c3c27c4bc76a5b25dad937fa5b6dec344c8",
+        "c802356e897ac53b18a3a52e391504aa4793f68962b757b1c0bb6ef56dc19b11",
+        "c8484e141c685913e001a44cbfb96186ae18176788093c301c8d97fc09a5d23a",
+        "c8927c121a33b80172d78a405e4c7ac5d9ea25ff51024232f6a9c9a1240816b8",
+        "c8eac224eb889b431608140de3cf6b28e403fe605ab44b31146d9973d3b15718",
+        "ca1f70ed35238a5dd9b9457df3ec45bb6999afd1a7c43d3ad46370d5c53ed0a4",
         "cd185d0e2db63a98e30ad6fc099902ec01bfbcecced48bfdd4c27bd048fd371d",
         "cd1d11026c54e2afb8f155f5ce7b830653275c5224fd4ed1e9fe3ca25e84d88e",
+        "cd4a7d4348569343e800b46c54aecf61a56538f882a6ac8bafdd1b723c3ee9d9",
+        "ce81fda99b2c56b7816c92fe80a731d679aec9545a4df41cb705466460cb6a97",
+        "d010131c5752cb2c3e63448bc756d717f636f8ee9261e85ace03a9d4fe088ac0",
+        "d46c8a1f53998d9649db03d5126f578a3fbd9c3334617825037d7f5762c1e061",
         "d6432b9a8d8d4d41ad70067f0f3b406231e6b648cd3880477f3cc3e987704588",
+        "d652fae2cc0bf969ba8a595131f40935187a2f00c6e549606381978ee798d69a",
+        "d815f60b7c49a12012aa4fbd6e66a2c95b0f16c1f0c6fb096b133f3e614e7e4e",
+        "d94aed9c163df564710f9ceffbdb8d5c07b2b8bd170e36a1b5b3df9279290d1b",
+        "d9812991e295c56809ba5e991bc712cd325b953ec8868ed20b456bd9150057f1",
+        "d9c13bc0a48a794e36f055a4ffbb509b6b985724dd010ad8165a9f0fdc128d33",
+        "dce91d6d0dafa9df53008fa620c5b3ee216ce9eeaeed9ac0d9fb9d30be1951e5",
+        "e2313c09e7f50b758e179d2a630043f8993a02a5665ba48e98972c134664bd12",
         "e3f1848e497b98de51f9d107ea5e194b99b8ddee563f8d5969d70d8f1650efae",
         "e731f67aca2807da2a11ccca7d5d36e243689c852a7b1aa66f9de532d041ffc5",
+        "e84300b56796622deaa04d1e3e020c2b9d3f49309cbca6b42275fe4046b60a03",
+        "ea1a3430cc7f0c51e0598a1caff666b25f8001f09cc3de75eb5edfcfb014b0a5",
         "eaf97edc69122b0b2b1e0fec9fef811510296e83ad376a5b2a7a5fbcc54ad96f",
+        "eafa338fbd78d37ed54b2662f03a66b2341e62e67b616f1f022d0cc239bf948c",
+        "eb4007abb19b962b0582a5dc122282e30d1469c3fac6c1ca9ab2367b7af263a9",
+        "ebc41d7a31e5b6525c5c4ce04acfaac473fa18c304efcf191165cdc40409a7e9",
+        "edf281ebd76ce9aec2043d9f186985df0d637f78439ea65348295bb3426fb4fa",
+        "ee9f6bb0dc68090b70d0e7e70ba42bdb36352adcbb44c094eefd379ed5da4acf",
+        "f08d48bb8dd1e8cd0641f81be1306adcc1a11693d96125290d5f4d5e5ed58974",
+        "f2164144b061c1139d3ff6891be11e8857d5257c74130f7c8099382992cfd6c3",
         "f4034d0e78b31e648de271d8960bfbb4b38a7f6a7f68a17bfcdef67bb42e621c",
+        "f5ef5510e29c6b6c6512a160b853bb5e2c404b50f0066771493dfd30d64cf2bf",
         "f8284a02543e66ada194f8220c460c8da6c3c0ace287bf214e535fae913aa495",
+        "fd982bf48615021015a4fe8736391e7c70c4225a1adbfd1ae1ac37749319b3e7",
         "feaecb910fda129a8c861ee4ae0f3ff0ffa4c8ea5ffb7730e8aa35f938045797",
         "fee2dbc0baf3421bb60f6d0f8ab85868fe09a7037610b6c1870ec6bdaccbe820"
     ]
