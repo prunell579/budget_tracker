@@ -65,6 +65,7 @@ class OperationsDatabase():
     operations: dict[int, Operation]
     processed_operations_ids: set
 
+
     @classmethod
     def from_normal_dicts(cls, normal_dicts: list[dict]) -> "OperationsDatabase":
         db = cls({}, set())
@@ -72,11 +73,13 @@ class OperationsDatabase():
             db.add_operation(Operation.from_normal_dict(normal_dict))
 
         return db
-    
+
     @classmethod
     def load_from_json(cls, json_filepath='operations_database.json'):
         with open(json_filepath, 'r', encoding='utf-8') as f:
             loaded_dict = json.load(f)
+
+        cls.check_database_json_file(loaded_dict)
 
         # only thing missing from the dict to be normal: type of the date attribute
         db = cls({}, set())
@@ -89,6 +92,25 @@ class OperationsDatabase():
             db.add_operation(Operation.from_normal_dict(operation_dict))
 
         return db
+    
+    @staticmethod
+    def check_database_json_file(loaded_dict: dict):
+        # check if the operation id coincides with its key
+        for sha_id_key, operation_obj in loaded_dict['operations'].items():
+            if sha_id_key != operation_obj['id']:
+                raise ValueError(f"Error with json file: Operation id {operation_obj['id']} does not coincide with its key {sha_id_key}")
+
+        # check if the processed_operations_ids set is a set of unique elements
+        processed_ids_set = set(loaded_dict['processed_operations_ids'])
+        if len(loaded_dict['processed_operations_ids']) != len(processed_ids_set):
+            raise ValueError("Error with json file: processed_operations_ids set is not a set of unique elements")
+        
+        # check if the processed_operations_ids set is identical to the operations keys
+        operation_keys_set = set(loaded_dict['operations'].keys())
+        if processed_ids_set != operation_keys_set:
+            missing_in_set = processed_ids_set - operation_keys_set
+            error_msg = "The following operation key ids were not found in the processed ids set {}".format(missing_in_set)
+            raise ValueError("Error with json file: processed_operations_ids set is not identical to the operations keys\n" + error_msg)
 
     def add_operation(self, operation: Operation):
         self.operations[operation.id] = operation
